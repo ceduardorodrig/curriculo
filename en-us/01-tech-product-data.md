@@ -17,9 +17,11 @@ Data and product architect who bridges open-source technology and qualitative re
 ## Experience
 
 ### Sumaenima — Founder & Product Owner
-*2024 — present · Brasília-DF / Remote*
+*2016 — present · Brasília-DF / Remote*
 
-Founder and PO of StênioBOT, an AI-assisted ethnography platform running 100% local inference. Four integrated modules:
+Sumaenima is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. What keeps me going is the dream of one day raising resources to build a team and create a **Data Bureau** with an anthropological soul — more projects like Tô no Mapa and data visualizations that unite science, territory, and technology.
+
+**StênioBOT** (2024–present): an AI-assisted ethnography platform running 100% local inference. Four integrated modules:
 
 - **StênioREC**: real-time transcription (Whisper large-v3-turbo) with voice activity detection, Gemma 3 purification pipeline, and Google Docs export
 - **StênioPANEL**: physical workshop scanner with computer vision (GroundingDINO + SAM 2 + PaddleOCR), generating Obsidian-compatible `.canvas` schemas
@@ -84,7 +86,8 @@ Personal 4-server infrastructure orchestrated via Docker Swarm, proving distribu
 
 **University of Brasília (UnB)** — Bachelor's Degree in Social Sciences / Anthropology (2016–2023)
 
-Ethnographic research on neo-ruralists and traditional communities. Directed the ethnographic documentary "RUA PARA QUE(M)?" (85min) about Brasília's neo-fanfarre movement, produced in collaboration with the Anthropology Department, NEAz-UnB, and HONK! BSB.
+- **Thesis:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Advisor: Prof. Henyo Trindade Barretto Filho. Ethnography on land subdivision, memory, and life projects in Chapada dos Veadeiros.
+- Directed the ethnographic documentary "RUA PARA QUE(M)?" (85min) about Brasília's neo-fanfarre movement, produced in collaboration with the Anthropology Department, NEAz-UnB, and HONK! BSB.
 
 ---
 

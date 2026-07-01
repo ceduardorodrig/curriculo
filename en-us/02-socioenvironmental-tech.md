@@ -17,9 +17,13 @@ Hybrid professional who combines local open-source technology, data, and anthrop
 ## Experience
 
 ### Sumaenima — Founder & Product Owner
-*2024 — present · Brasília-DF / Remote*
+*2016 — present · Brasília-DF / Remote*
 
-Founder of StênioBOT, the first ethnography platform with 100% local, private AI. The premise: sensitive data from traditional, Indigenous, and riverine communities should never depend on big tech infrastructure. The platform runs fully offline, with no data sent to the cloud, ensuring privacy and data sovereignty.
+Sumaenima is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. What keeps me going is the dream of one day raising resources to build a team and create a **Data Bureau** with an anthropological soul.
+
+**StênioBOT** (2024–present): the first ethnography platform with 100% local, private AI. The premise: sensitive data from traditional, Indigenous, and riverine communities should never depend on big tech infrastructure. The platform runs fully offline, with no data sent to the cloud, ensuring privacy and data sovereignty.
+
+Other deliveries: ethnographic documentary "RUA PARA QUE(M)?" (2020) and independent design, video, and data projects under the Sumaenima brand.
 
 Four integrated modules for qualitative research: real-time transcription (Whisper), workshop scanning with computer vision, semantic mining, and data visualization. Stack: FastAPI + React + PostgreSQL + Docker Swarm on a home-built multi-node cluster.
 
@@ -75,7 +79,8 @@ Initial data management and communications support during the COVID-19 emergency
 
 **University of Brasília (UnB)** — Bachelor's Degree in Social Sciences / Anthropology (2016–2023)
 
-Ethnographic research on neo-ruralists and traditional communities. Directed "RUA PARA QUE(M)?" (85min), a visual ethnography of Brasília's neo-fanfarre movement. Collaboration with the Anthropology Department, Center for Amazonian Studies (NEAz-UnB), and HONK! BSB.
+- **Thesis:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Advisor: Prof. Henyo Trindade Barretto Filho. Ethnography on land subdivision, memory, and life projects in Chapada dos Veadeiros.
+- Directed "RUA PARA QUE(M)?" (85min), a visual ethnography of Brasília's neo-fanfarre movement. Collaboration with the Anthropology Department, Center for Amazonian Studies (NEAz-UnB), and HONK! BSB.
 
 ---
 

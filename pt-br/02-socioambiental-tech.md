@@ -17,9 +17,13 @@ Profissional híbrido que une tecnologia open-source local, dados e antropologia
 ## Experiência
 
 ### Sumaenima — Founder & Product Owner
-*2024 — presente · Brasília-DF / Remoto*
+*2016 — presente · Brasília-DF / Remoto*
 
-Fundador da StênioBOT, a primeira plataforma de etnografia com IA 100% local e privada. A premissa: dados sensíveis de comunidades tradicionais, indígenas e ribeirinhas não podem depender de infraestrutura de big tech. A plataforma roda offline, sem envio de dados para cloud, garantindo privacidade e soberania sobre a informação.
+Sumaenima é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. O que me mantém é o sonho de um dia captar recursos para ter equipe e construir um Bureau de Dados com alma antropológica.
+
+**StênioBOT** (2024–presente): a primeira plataforma de etnografia com IA 100% local e privada. A premissa: dados sensíveis de comunidades tradicionais, indígenas e ribeirinhas não podem depender de infraestrutura de big tech. A plataforma roda offline, sem envio de dados para cloud, garantindo privacidade e soberania sobre a informação.
+
+Outras entregas: documentário etnográfico "RUA PARA QUE(M)?" (2020) e projetos independentes de design, vídeo e dados sob a marca Sumaenima.
 
 Quatro módulos integrados para pesquisa qualitativa: transcrição em tempo real (Whisper), scanner de workshops com visão computacional, mineração semântica e visualização de dados. Stack: FastAPI + React + PostgreSQL + Docker Swarm em cluster multi-nó caseiro.
 
@@ -75,7 +79,8 @@ Suporte inicial à gestão de dados e comunicação durante a emergência COVID-
 
 **Universidade de Brasília (UnB)** — Bacharelado em Ciências Sociais / Antropologia (2016–2023)
 
-Pesquisa etnográfica sobre neorruralistas e comunidades tradicionais. Direção do documentário "RUA PARA QUE(M)?" (85min), etnografia visual do movimento neo-fanfarrista de Brasília. Colaboração com Departamento de Antropologia, Núcleo de Estudos Amazônicos (NEAz-UnB) e HONK! BSB.
+- **Monografia:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Orientação: Prof. Henyo Trindade Barretto Filho. Etnografia sobre o fracionamento de terras, memória e projetos de vida na Chapada dos Veadeiros.
+- Direção do documentário "RUA PARA QUE(M)?" (85min), etnografia visual do movimento neo-fanfarrista de Brasília. Colaboração com Departamento de Antropologia, Núcleo de Estudos Amazônicos (NEAz-UnB) e HONK! BSB.
 
 ---
 

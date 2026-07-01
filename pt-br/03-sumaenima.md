@@ -10,9 +10,11 @@
 
 **Founder & Product Owner:** Carlos Eduardo Rodrigues
 
-A Sumaenima nasceu de uma convicção: pesquisa qualitativa — especialmente com comunidades tradicionais, indígenas e grupos vulneráveis — não deveria depender de infraestrutura de big tech para processar dados sensíveis.
+Sumaenima é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. Nasceu de uma convicção: pesquisa qualitativa — especialmente com comunidades tradicionais, indígenas e grupos vulneráveis — não deveria depender de infraestrutura de big tech para processar dados sensíveis. Mas por falta de recursos, seguiu como projeto paralelo durante anos — até que em 2024 comecei a construir a **StênioBOT**.
 
-StênioBOT é uma plataforma de **etnografia assistida por IA** que roda 100% offline, em hardware local, sem enviar dados para nuvem. São quatro módulos integrados que cobrem o ciclo completo da pesquisa qualitativa: da coleta em campo à análise e visualização.
+O sonho é captar recursos para ter equipe e construir um **Bureau de Dados** com alma antropológica: uma estrutura que produza projetos como o Tô no Mapa, visualizações de dados e pesquisa etnográfica em escala — unindo ciência, território e tecnologia de forma soberana.
+
+**StênioBOT** é uma plataforma de etnografia assistida por IA que roda 100% offline, em hardware local, sem enviar dados para nuvem. Quatro módulos integrados que cobrem o ciclo completo da pesquisa qualitativa: da coleta em campo à análise e visualização.
 
 ---
 
@@ -143,7 +145,9 @@ Prova de conceito rodando em hardware real, sem dependência de cloud comercial:
 
 **Carlos Eduardo Rodrigues** · Antropólogo (UnB), founder e PO.
 
-Quase uma década combinando pesquisa etnográfica, tecnologia e dados. Construiu a Plataforma Tô no Mapa (integrada ao MPF). Coautor em Land Use Policy (Elsevier, 2026). Prêmio Mercosul de Jornalismo Científico. Documentarista. Arquiteto do homelab Mnemocine.
+Há quase 10 anos combinando pesquisa etnográfica, tecnologia e dados — com a Sumaenima como fio condutor de tudo que faz. Construiu a Plataforma Tô no Mapa (integrada ao MPF) enquanto estava no ISPN. Viveu na pele o potencial transformador da tecnologia no socioambiental, e também o burnout de usar comunicação a serviço de terceiros.
+
+Monografia: *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (UnB, 2023). Coautor em Land Use Policy (Elsevier, 2026). Prêmio Mercosul de Jornalismo Científico. Documentarista ("RUA PARA QUE(M)?"). Arquiteto do homelab Mnemocine.
 
 Híbrido por natureza — capaz de traduzir necessidades de pesquisa qualitativa em requisitos de sistema, e arquitetura técnica em impacto socioambiental.
 

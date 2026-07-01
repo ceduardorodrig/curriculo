@@ -10,9 +10,11 @@
 
 **Founder & Product Owner:** Carlos Eduardo Rodrigues
 
-Sumaenima was born from a conviction: qualitative research — especially with traditional communities, Indigenous peoples, and vulnerable groups — should never depend on big tech infrastructure to process sensitive data.
+Sumaenima is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. It was born from a conviction: qualitative research — especially with traditional communities, Indigenous peoples, and vulnerable groups — should never depend on big tech infrastructure to process sensitive data. But due to lack of funding, it remained a side project for years — until 2024, when I started building **StênioBOT**.
 
-StênioBOT is an **AI-assisted ethnography platform** running 100% offline on local hardware, with zero data sent to the cloud. Four integrated modules cover the complete qualitative research cycle: from field collection to analysis and visualization.
+The dream is to raise resources to build a team and create a **Data Bureau** with an anthropological soul: a structure that produces projects like Tô no Mapa, data visualizations, and ethnographic research at scale — uniting science, territory, and technology in a sovereign way.
+
+**StênioBOT** is an AI-assisted ethnography platform running 100% offline on local hardware, with zero data sent to the cloud. Four integrated modules cover the complete qualitative research cycle: from field collection to analysis and visualization.
 
 ---
 
@@ -143,7 +145,9 @@ Proof of concept running on real hardware with zero commercial cloud dependency:
 
 **Carlos Eduardo Rodrigues** · Anthropologist (UnB), founder and PO.
 
-Nearly a decade combining ethnographic research, technology, and data. Built the Tô no Mapa Platform (integrated with Brazil's Federal Public Ministry). Co-author in Land Use Policy (Elsevier, 2026). Mercosur Scientific Journalism Award winner. Documentary filmmaker. Architect of the Mnemocine homelab.
+Nearly a decade combining ethnographic research, technology, and data — with Sumaenima as the thread running through everything he builds. Built the Tô no Mapa Platform (integrated with Brazil's Federal Public Ministry) while at ISPN. Experienced firsthand the transformative potential of technology in the socio-environmental space — and also the burnout of using communication in service of others.
+
+Thesis: *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (UnB, 2023). Co-author in Land Use Policy (Elsevier, 2026). Mercosur Scientific Journalism Award winner. Documentary filmmaker ("RUA PARA QUE(M)?"). Architect of the Mnemocine homelab.
 
 A hybrid by nature — able to translate qualitative research needs into system requirements, and technical architecture into socio-environmental impact.
 

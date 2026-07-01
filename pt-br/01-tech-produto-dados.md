@@ -17,9 +17,11 @@ Arquiteto de dados e produto que constrói pontes entre tecnologia open-source e
 ## Experiência
 
 ### Sumaenima — Founder & Product Owner
-*2024 — presente · Brasília-DF / Remoto*
+*2016 — presente · Brasília-DF / Remoto*
 
-Fundador e PO da StênioBOT, plataforma de etnografia assistida por IA com inferência 100% local. Quatro módulos integrados:
+Sumaenima é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. O que me mantém é o sonho de um dia captar recursos para ter equipe e construir um Bureau de Dados com alma antropológica — fazendo mais projetos como o Tô no Mapa e visualizações que unem ciência, território e tecnologia.
+
+**StênioBOT** (2024–presente): plataforma de etnografia assistida por IA com inferência 100% local. Quatro módulos integrados:
 
 - **StênioREC**: transcrição em tempo real (Whisper large-v3-turbo) com detecção de atividade de voz, purificação via Gemma 3 e exportação para Google Docs
 - **StênioPANEL**: scanner de workshops físicos com visão computacional (GroundingDINO + SAM 2 + PaddleOCR), gerando esquemas compatíveis com Obsidian
@@ -84,7 +86,8 @@ Infraestrutura pessoal de 4 servidores orquestrados via Docker Swarm, provando c
 
 **Universidade de Brasília (UnB)** — Bacharelado em Ciências Sociais / Antropologia (2016–2023)
 
-Pesquisa etnográfica sobre neorruralistas e comunidades tradicionais. Direção do documentário etnográfico "RUA PARA QUE(M)?" (85min) sobre o movimento neo-fanfarrista de Brasília, produzido em colaboração com o Departamento de Antropologia, NEAz-UnB e HONK! BSB.
+- **Monografia:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Orientação: Prof. Henyo Trindade Barretto Filho. Etnografia sobre o fracionamento de terras, memória e projetos de vida na Chapada dos Veadeiros.
+- Direção do documentário etnográfico "RUA PARA QUE(M)?" (85min) sobre o movimento neo-fanfarrista de Brasília, produzido em colaboração com o Departamento de Antropologia, NEAz-UnB e HONK! BSB.
 
 ---
 
