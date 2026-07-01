@@ -33,5 +33,9 @@ class CheckResult:
         return cls(name=name, status=CheckStatus.WARN, summary=summary, details=details or [])
 
     @classmethod
+    def skip(cls, name: str, reason: str = "") -> CheckResult:
+        return cls(name=name, status=CheckStatus.SKIP, summary=reason or "Check desabilitado")
+
+    @classmethod
     def error(cls, name: str, exception: str) -> CheckResult:
         return cls(name=name, status=CheckStatus.ERROR, summary=f"Exception: {exception}", details=[exception])

@@ -10,7 +10,7 @@
 
 ## 👤 Profile
 
-Hybrid professional who combines local open-source technology, data, and anthropology to amplify socio-environmental causes. Nearly a decade building bridges between ethnographic research, strategic communication, and AI systems architecture — with results ranging from 2+ million people reached to national self-mapping platforms integrated with the Federal Public Ministry and academic papers submitted to international journals. I believe useful, accessible, and sovereign technology is a tool for social and environmental justice.
+Hybrid professional who combines local open-source technology, data, and anthropology to amplify socio-environmental causes. Nearly a decade building bridges between ethnographic research, strategic communication, and AI systems architecture — with results ranging from 2+ million people reached to national self-mapping platforms integrated with the Federal Public Ministry and academic papers submitted to international journals. Built the StênioKernel, a proprietary AI Agent Governance Kernel that ensures AI operates within strict ethical and security boundaries — critical for protecting vulnerable communities' data. I believe useful, accessible, and sovereign technology is a tool for social and environmental justice.
 
 ---
 
@@ -22,6 +22,8 @@ Hybrid professional who combines local open-source technology, data, and anthrop
 Sumaenima is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. Born from the conviction that sensitive data from traditional communities should never depend on big tech. The dream is to build a **Data Bureau** with an anthropological soul: projects like Tô no Mapa, data visualizations, and ethnographic research at scale.
 
 **StênioBOT** (2024–present): ethnography platform with 100% local, private AI. Four modules — real-time transcription (Whisper), workshop scanning with computer vision, semantic mining, and data visualization. Stack: FastAPI + React + PostgreSQL + Docker Swarm. Fully offline, no data sent to cloud.
+
+**StênioKernel — Agent Governance Kernel:** built a proprietary governance kernel (21.435 lines, 132 drivers, 22 kernel modules) that ensures AI agents handling sensitive community data follow strict, cryptographically-enforced rules. 10-layer anti-bypass architecture prevents data leaks; self-healing ensures continuous compliance; universal file jurisdiction ("A Teia") means no configuration or asset escapes audit. Designed to make AI sovereign, auditable, and accountable — not just powerful.
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - **3rd National Youth Meeting of Extractive and Traditional Populations** — Sociobiodiversity Week 2025 (IEB/CNS/MCM/CONFREM). Systematization of formulations from dozens of youth leaders from traditional communities across Brazil.
@@ -117,6 +119,7 @@ The **Mnemocine Homelab** IS the **Sumaenima** infrastructure: 4 servers running
 | **Strategy** | Strategic communication, workshop facilitation, multi-stakeholder engagement, project management |
 | **Reporting** | Qualitative data systematization, policy briefs, event documentation |
 | **Technology** | Docker/Podman, Linux, Tailscale, Git, QGIS, Google Earth Engine |
+| **Agent Governance** | StênioKernel, anti-bypass architecture, data sovereignty enforcement, agent workflow governance |
 | **Data** | Google Analytics, Meta Business Suite, Google Ad Grants, data visualization, audience metrics |
 | **Production** | Adobe Creative Suite (Premiere, After Effects, Audition, Illustrator, InDesign, Photoshop, Lightroom) |
 | **Methods** | Agile/Scrum (Scrum Master), OKRs, editorial design, documentary photography |

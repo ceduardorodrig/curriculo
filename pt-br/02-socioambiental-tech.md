@@ -10,7 +10,7 @@
 
 ## 👤 Perfil
 
-Profissional híbrido que une tecnologia open-source local, dados e antropologia para amplificar causas socioambientais. Quase uma década construindo pontes entre pesquisa etnográfica, comunicação estratégica e arquitetura de sistemas de IA — com resultados que vão de 2+ milhões de pessoas alcançadas a plataformas nacionais de automapecimento integradas ao Ministério Público Federal e artigos científicos submetidos a periódicos internacionais. Acredito que tecnologia útil, acessível e soberana é ferramenta de justiça social e ambiental.
+Profissional híbrido que une tecnologia open-source local, dados e antropologia para amplificar causas socioambientais. Quase uma década construindo pontes entre pesquisa etnográfica, comunicação estratégica e arquitetura de sistemas de IA — com resultados que vão de 2+ milhões de pessoas alcançadas a plataformas nacionais de automapecimento integradas ao Ministério Público Federal e artigos científicos submetidos a periódicos internacionais. Construiu o StênioKernel, um Kernel proprietário de Governança para Agentes de IA que garante que a IA opere dentro de limites éticos e de segurança rigorosos — essencial para proteger dados de comunidades vulneráveis. Acredito que tecnologia útil, acessível e soberana é ferramenta de justiça social e ambiental.
 
 ---
 
@@ -22,6 +22,8 @@ Profissional híbrido que une tecnologia open-source local, dados e antropologia
 Sumaenima é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. Nasceu da convicção de que dados sensíveis de comunidades tradicionais não podem depender de big tech. O sonho é construir um **Bureau de Dados** com alma antropológica: projetos como o Tô no Mapa, visualizações de dados e pesquisa etnográfica em escala.
 
 **StênioBOT** (2024–presente): plataforma de etnografia com IA 100% local e privada. Quatro módulos — transcrição em tempo real (Whisper), scanner de workshops com visão computacional, mineração semântica e visualização de dados. Stack: FastAPI + React + PostgreSQL + Docker Swarm. Tudo offline, sem envio de dados para cloud.
+
+**StênioKernel — Kernel de Governança para Agentes de IA:** construiu um kernel proprietário de governança (21.435 linhas, 132 drivers, 22 módulos kernel) que garante que agentes de IA lidando com dados sensíveis de comunidades sigam regras estritas e com aplicação criptográfica. Arquitetura anti-bypass em 10 camadas previne vazamentos; auto-healing garante conformidade contínua; jurisdição universal ("A Teia") significa que nenhuma configuração ou ativo escapa da auditoria. Projetado para tornar a IA soberana, auditável e responsável — não apenas poderosa.
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - **3º Encontro Nacional da Juventude das Populações Extrativistas e Tradicionais** — Semana da Sociobiodiversidade 2025 (IEB/CNS/MCM/CONFREM). Sistematização das formulações de dezenas de jovens de povos e comunidades tradicionais de todo o Brasil, resultando em diagnóstico estratégico para organizações do setor.
@@ -117,6 +119,7 @@ O **Homelab Mnemocine** É a infraestrutura da **Sumaenima**: 4 servidores rodan
 | **Estratégia** | Comunicação estratégica, facilitação de workshops, articulação multi-stakeholder, gestão de projetos |
 | **Relatoria** | Sistematização de dados qualitativos, relatórios de incidência política, documentação de eventos |
 | **Tecnologia** | Docker/Podman, Linux, Tailscale, Git, QGIS, Google Earth Engine |
+| **Governança de Agentes** | StênioKernel, arquitetura anti-bypass, soberania de dados, governança de workflow de agentes |
 | **Dados** | Google Analytics, Meta Business Suite, Google Ad Grants, visualização de dados, métricas de audiência |
 | **Produção** | Adobe Creative Suite (Premiere, After Effects, Audition, Illustrator, InDesign, Photoshop, Lightroom) |
 | **Métodos** | Agile/Scrum (Scrum Master), OKRs, design editorial, fotografia documental |

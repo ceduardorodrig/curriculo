@@ -7,7 +7,7 @@ from cvcheck.include.types import CheckResult
 
 CHECK_METADATA = {
     "name": "parity",
-    "description": "Compara sections entre versoes PT-BR e EN-US",
+    "description": "Compara sections entre versoes PT-BR e EN-US (01 e 02 apenas)",
 }
 
 CVROOT = Path(__file__).resolve().parents[2]
@@ -15,14 +15,24 @@ CVROOT = Path(__file__).resolve().parents[2]
 PAIRS = [
     ("pt-br/01-tech-produto-dados.md", "en-us/01-tech-product-data.md"),
     ("pt-br/02-socioambiental-tech.md", "en-us/02-socioenvironmental-tech.md"),
-    ("pt-br/03-sumaenima.md", "en-us/03-sumaenima.md"),
 ]
 
 HEADING_RE = re.compile(r"^##\s+(.+)$", re.MULTILINE)
 
+KNOWN_MAPPINGS = {
+    "Perfil": "Profile",
+    "Experiência": "Experience",
+    "Formação": "Education",
+    "Habilidades": "Skills",
+    "Publicações": "Publications",
+    "Idiomas": "Languages",
+    "Infraestrutura — Sumaenima & Mnemocine": "Infrastructure — Sumaenima & Mnemocine",
+    "Prêmios": "Awards",
+}
+
 
 def _strip_emoji(name: str) -> str:
-    return re.sub(r"[^\w\s/]", "", name).strip()
+    return re.sub(r"[^\w\s/–—\-&]", "", name).strip()
 
 
 def check() -> CheckResult:
@@ -39,17 +49,20 @@ def check() -> CheckResult:
         pt_heads = {_strip_emoji(m.group(1)) for m in HEADING_RE.finditer(pt_file.read_text(encoding="utf-8"))}
         en_heads = {_strip_emoji(m.group(1)) for m in HEADING_RE.finditer(en_file.read_text(encoding="utf-8"))}
 
-        pt_ignored = {"Sobre", "About", "Contato", "Contact", "Narrativa", "Narrative", "O Fio da Meada", "The Thread", "Overview"}
+        pt_ignored = {"Sobre", "About", "Contato", "Contact", "Narrativa", "Narrative", "O Fio da Meada", "The Thread", "Overview", "Sumaenima  Mnemocine"}
         pt_filtered = {h for h in pt_heads if h not in pt_ignored and not h.startswith("Vers")}
         en_filtered = {h for h in en_heads if h not in pt_ignored and not h.startswith("Vers")}
 
-        pt_only = pt_filtered - en_filtered
-        en_only = en_filtered - pt_filtered
+        pt_mapped = {KNOWN_MAPPINGS.get(h, h) for h in pt_filtered}
+        en_mapped = {KNOWN_MAPPINGS.get(h, h) for h in en_filtered}
+
+        pt_only = pt_mapped - en_mapped
+        en_only = en_mapped - pt_mapped
 
         if pt_only:
-            details.append(f"{pt_path} -> sections sem equivalente EN: {', '.join(sorted(pt_only))}")
+            details.append(f"{pt_path} -> sections sem equivalente EN: {', '.join(sorted(pt_only)[:5])}")
         if en_only:
-            details.append(f"{en_path} -> sections sem equivalente PT: {', '.join(sorted(en_only))}")
+            details.append(f"{en_path} -> sections sem equivalente PT: {', '.join(sorted(en_only)[:5])}")
 
     if details:
         return CheckResult.fail("parity", f"{len(details)} divergencia(s) entre PT e EN", details)

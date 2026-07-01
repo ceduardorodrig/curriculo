@@ -10,7 +10,7 @@
 
 ## 👤 Perfil
 
-Arquiteto de dados e produto que constrói pontes entre tecnologia open-source e pesquisa qualitativa. Experiência comprovada em projetar pipelines de IA local (Whisper, LLMs), orquestrar clusters Docker Swarm multi-nó e gerenciar produtos de dados do zero. Uso engenhoso de hardware reaproveitado e software livre para entregar soluções de IA privadas, offline e economicamente viáveis — sem depender de infraestrutura de big tech. Formação em Antropologia pela UnB como base para design de produto centrado em humanos.
+Arquiteto de dados e produto que constrói pontes entre tecnologia open-source e pesquisa qualitativa. Experiência comprovada em projetar pipelines de IA local (Whisper, LLMs), orquestrar clusters Docker Swarm multi-nó e gerenciar produtos de dados do zero. Uso engenhoso de hardware reaproveitado e software livre para entregar soluções de IA privadas, offline e economicamente viáveis — sem depender de infraestrutura de big tech. Projetou o StênioKernel — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 132 drivers, 10 camadas anti-bypass) que aplica comportamento de agentes através de integridade criptográfica, auto-healing e governança preditiva. Formação em Antropologia pela UnB como base para design de produto centrado em humanos.
 
 ---
 
@@ -30,13 +30,14 @@ Sumaenima é meu projeto de vida. Existe há quase 10 anos como entidade criativ
 
 Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nós). SaaS com Mercado Pago, Google OAuth, Grafana/Loki. 100% offline, privado, LGPD.
 
-**Maturidade de Engenharia:**
-- 185 arquivos de documentação, 28 Architecture Decision Records (ADRs), 17 imperativos de engenharia
-- **Steniokernel**: 66 drivers de QA automatizados (frontend, backend, segurança, infra, GPU, docs), 103 checagens por push
-- **FMEA vivo**: 54 nós de falha documentados com logging em tempo real e auditoria via LLM
-- **Neural Flow**: pipeline dual-stage Whisper + Gemma com feedback sub-500ms
-- **Audio WAL**: write-ahead log com criptografia AES-GCM 256 e resiliência silenciosa
-- **Circuit breaker adaptativo** via Valkey para APIs externas
+**StênioKernel — Kernel de Governança para Agentes de IA:**
+- Kernel proprietário (21.435 linhas, 22 módulos kernel, 132 drivers) governando todos os agentes de IA do projeto
+- Arquitetura anti-bypass em 10 camadas: pre-commit gates, bypass guard, scope guard, imutabilidade do kernel, leis de agentes com assinatura criptográfica (13 Leis Absolutas), protocolo de conhecimento (ADR-032), repetição→regra (ADR-034), jurisdição universal ("A Teia"), promoção WARN→FAIL, bloqueio de re-assinatura automatizado
+- Auto-healing com negative registry, Knowledge Graph, auto-commit em correções bem-sucedidas
+- Governança preditiva: detecção de tendências via regressão linear, auto-suppress, detecção de flakyness, promoção de canary
+- Memória e aprendizado: persistência de histórico, aprendizado contínuo (`--learn`), 40+ padrões de bug com auto-fix commands, sugestões proativas
+- Ecossistema de documentação: 185 arquivos, 28 ADRs, 17 imperativos, 29 invariantes, DocBot
+- FMEA vivo (54 nós), Audio WAL (AES-GCM 256), Neural Flow, circuit breaker adaptativo
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - Consultor independente em relatoria, sistematização de dados e planejamento estratégico
@@ -124,7 +125,8 @@ O **Homelab Mnemocine** É a infraestrutura da **Sumaenima**. São indistinguív
 | **Banco de Dados** | PostgreSQL, Alembic, SQL, modelagem de dados |
 | **Infraestrutura** | Docker Swarm, Nginx, Tailscale, Linux (Arch), GPU passthrough |
 | **AI/ML** | Whisper (transcrição), LLMs (Gemma), GroundingDINO, SAM 2, embeddings |
-| **QA & Governança** | Steniokernel (66 drivers), FMEA, ADRs, docs-first CI/CD |
+| **QA & Governança** | StênioKernel (21K linhas, 132 drivers, 22 módulos kernel), FMEA, ADRs, docs-first CI/CD |
+| **Governança de Agentes** | StênioKernel arquitetura anti-bypass (10 camadas), design de workflow para agentes, aplicação criptográfica de leis, auto-healing |
 | **Observabilidade** | Grafana, Loki, Promtail, health endpoints |
 | **Métodos** | Agile/Scrum (Scrum Master), pesquisa etnográfica, UX Research, OKRs |
 | **Ferramentas** | Git, Adobe Creative Suite, QGIS, Google Earth Engine |

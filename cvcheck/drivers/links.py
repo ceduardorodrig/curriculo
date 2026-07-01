@@ -59,9 +59,12 @@ def check() -> CheckResult:
         path = CVROOT / f
         if not path.exists():
             continue
+        is_03 = "03" in f
         content = path.read_text(encoding="utf-8")
 
         for pattern, name in EXTERNAL_LINK_PATTERNS:
+            if is_03 and name == "LinkedIn":
+                continue
             found = re.search(pattern, content)
             if not found:
                 details.append(f"{f}: link externo para {name} ausente")

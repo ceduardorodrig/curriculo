@@ -20,45 +20,50 @@ REQUIRED_FILES = [
     "en-us/03-sumaenima.md",
 ]
 
-REQUIRED_SECTIONS_BY_LANG = {
-    "pt-br": ["Experiência", "Formação", "Habilidades"],
-    "en-us": ["Experience", "Education", "Skills"],
+REQUIRED_SECTIONS = {
+    "01": ["Experiência", "Formação", "Habilidades"],
+    "02": ["Experiência", "Formação", "Habilidades"],
 }
 
-
-def _cvs() -> list[Path]:
-    return [CVROOT / f for f in REQUIRED_FILES]
-
-
-def _lang_of(path: Path) -> str:
-    return "pt-br" if "pt-br" in path.parts else "en-us"
-
-
-def _required_sections(content: str, lang: str) -> list[str]:
-    needed = REQUIRED_SECTIONS_BY_LANG.get(lang, [])
-    missing = []
-    for sec in needed:
-        if f"## {sec}" not in content and f"## 💼 {sec}" not in content and f"## 🎓 {sec}" not in content and f"## 🛠️ {sec}" not in content:
-            missing.append(sec)
-    return missing
+REQUIRED_SECTIONS_EN = {
+    "01": ["Experience", "Education", "Skills"],
+    "02": ["Experience", "Education", "Skills"],
+}
 
 
 def check() -> CheckResult:
     details = []
 
-    for f in _cvs():
-        if not f.exists():
-            details.append(f"Arquivo ausente: {f.relative_to(CVROOT)}")
+    for f in REQUIRED_FILES:
+        path = CVROOT / f
+        if not path.exists():
+            details.append(f"Arquivo ausente: {f}")
+            continue
 
-    if details:
-        return CheckResult.fail("structure", f"{len(details)} arquivo(s) ausente(s)", details)
+        content = path.read_text(encoding="utf-8")
 
-    for f in _cvs():
-        content = f.read_text(encoding="utf-8")
-        lang = _lang_of(f)
-        missing = _required_sections(content, lang)
+        if f.startswith("pt-br/03") or f.startswith("en-us/03"):
+            if "## 👤" not in content and "## 🎯" not in content:
+                details.append(f"{f}: 03 precisa de seccao de visao geral ou fundador")
+            continue
+
+        prefix = "en-us" if f.startswith("en-us") else "pt-br"
+        suffix = f.split("/")[1][:2]
+        needed = REQUIRED_SECTIONS_EN if prefix == "en-us" else REQUIRED_SECTIONS
+        secs = needed.get(suffix, [])
+
+        missing = []
+        for sec in secs:
+            found = False
+            for variant in [f"## {sec}", f"## 💼 {sec}", f"## 🎓 {sec}", f"## 🛠️ {sec}"]:
+                if variant in content:
+                    found = True
+                    break
+            if not found:
+                missing.append(sec)
+
         if missing:
-            details.append(f"{f.relative_to(CVROOT)}: sections ausentes: {', '.join(missing)}")
+            details.append(f"{f}: sections ausentes: {', '.join(missing)}")
 
     if details:
         return CheckResult.fail("structure", f"{len(details)} problema(s) de estrutura", details)

@@ -10,7 +10,7 @@
 
 ## 👤 Profile
 
-Data and product architect who bridges open-source technology and qualitative research. Proven track record designing local AI pipelines (Whisper, LLMs), orchestrating multi-node Docker Swarm clusters, and building data products from scratch. Ingenious use of repurposed hardware and free software to deliver private, offline, cost-effective AI solutions — with zero dependency on big tech infrastructure. Anthropology degree from UnB as the foundation for human-centered product design.
+Data and product architect who bridges open-source technology and qualitative research. Proven track record designing local AI pipelines (Whisper, LLMs), orchestrating multi-node Docker Swarm clusters, and building data products from scratch. Ingenious use of repurposed hardware and free software to deliver private, offline, cost-effective AI solutions — with zero dependency on big tech infrastructure. Designed the StênioKernel — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that enforces agent behavior through cryptographic integrity, self-healing, and predictive governance. Anthropology degree from UnB as the foundation for human-centered product design.
 
 ---
 
@@ -30,13 +30,14 @@ Sumaenima is my life project. It has existed for nearly 10 years as an independe
 
 Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nodes). SaaS with Mercado Pago billing, Google OAuth, Grafana/Loki observability. Fully offline, private, LGPD-compliant.
 
-**Engineering Maturity:**
-- 185 documentation files, 28 Architecture Decision Records (ADRs), 17 engineering imperatives
-- **Steniokernel**: 66 automated QA drivers across 12 domains, 103 static checks per push
-- **Living FMEA**: 54 failure nodes with real-time logging and LLM auditing
-- **Neural Flow**: dual-stage Whisper + Gemma pipeline with sub-500ms feedback
-- **Audio WAL**: Write-Ahead Log with AES-GCM 256 encryption and silent resilience
-- **Adaptive circuit breaker** via Valkey for external APIs
+**StênioKernel — Agent Governance Kernel:**
+- Proprietary kernel (21.435 lines, 22 kernel modules, 132 check drivers) governing every AI agent on the project
+- 10-layer anti-bypass architecture: pre-commit gates, bypass guard, scope guard, kernel immutability, cryptographically-signed agent laws (13 Absolute Laws), knowledge protocol (ADR-032), repetition→rule (ADR-034), universal file jurisdiction ("A Teia"), WARN→FAIL promotion, automated re-signing blockade
+- Self-healing with negative registry, Knowledge Graph, auto-commit on fix
+- Predictive governance: trend detection via linear regression, auto-suppress, flakiness detection, canary promotion
+- Memory & learning: history persistence, continuous learning (`--learn`), 40+ curated bug patterns with auto-fix commands, proactive suggestions
+- Full documentation ecosystem: 185 files, 28 ADRs, 17 engineering imperatives, 29 invariants, DocBot
+- Living FMEA (54 nodes), Audio WAL (AES-GCM 256), Neural Flow, adaptive circuit breaker
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - Independent consultant for reporting, data systematization, and strategic planning
@@ -124,7 +125,8 @@ The **Mnemocine Homelab** IS the **Sumaenima** infrastructure. They are indistin
 | **Database** | PostgreSQL, Alembic, SQL, data modeling |
 | **Infrastructure** | Docker Swarm, Nginx, Tailscale, Linux (Arch), GPU passthrough |
 | **AI/ML** | Whisper (transcription), LLMs (Gemma), GroundingDINO, SAM 2, embeddings |
-| **QA & Governance** | Steniokernel (66 drivers), FMEA, ADRs, docs-first CI/CD |
+| **QA & Governance** | StênioKernel (21K lines, 132 drivers, 22 kernel modules), FMEA, ADRs, docs-first CI/CD |
+| **Agent Governance** | StênioKernel anti-bypass architecture (10 layers), agent workflow design, cryptographic agent law enforcement, self-healing governance |
 | **Observability** | Grafana, Loki, Promtail, health endpoints |
 | **Methods** | Agile/Scrum (Scrum Master), ethnographic research, UX Research, OKRs |
 | **Tools** | Git, Adobe Creative Suite, QGIS, Google Earth Engine |

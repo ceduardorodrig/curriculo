@@ -14,6 +14,8 @@ Sumaenima is my life project. It has existed for nearly 10 years as an independe
 
 The dream is to raise resources to build a team and create a **Data Bureau** with an anthropological soul: a structure that produces projects like Tô no Mapa, data visualizations, and ethnographic research at scale — uniting science, territory, and technology in a sovereign way.
 
+But the deepest and most valuable layer of Sumaenima is invisible: the **StênioKernel** — a proprietary AI Agent Governance Kernel (21.435 lines, 22 kernel modules, 132 automated check drivers, 10 anti-bypass layers) that governs every AI agent working on the project. It cryptographically enforces 13 absolute laws, self-heals violations, detects bypass attempts, and ensures no agent can escape governance. It is the operating system that makes AI reliable, auditable, and accountable.
+
 **StênioBOT** is an AI-assisted ethnography platform running 100% offline on local hardware, with zero data sent to the cloud. Four integrated modules cover the complete qualitative research cycle: from field collection to analysis and visualization.
 
 ---
@@ -61,34 +63,87 @@ There is no integrated, local, private, and accessible platform for AI-assisted 
 | **Network** | Tailscale Funnel · Nginx reverse proxy |
 | **Payments** | Mercado Pago SDK |
 | **Analytics** | Umami (self-hosted, privacy-first) |
+| **Governance** | StênioKernel (21.435 lines, 132 drivers, 22 kernel modules) |
 | **Monitoring** | Grafana · Loki · Promtail |
 
 ---
 
-## 🏗️ Engineering & Governance
+## 🏗️ StênioKernel — AI Agent Governance Kernel
 
-### Documentation as a Product
+This is Sumaenima's deepest and most valuable asset. The StênioKernel is not a QA framework — it is a **proprietary AI Agent Governance Kernel** (purpose-built, not forked from any open-source project) designed to govern AI agents across the entire software lifecycle: code, documentation, infrastructure, and agent behavior itself.
+
+- **22 kernel modules** (scheduler, guardian, healer, docbot, learner, registry, self-test, history, flakiness, classifier, impact, more)
+- **132 check drivers** across 12 domains (governance, security, frontend, infrastructure, documentation, code quality, deprecation, backend, data, GPU, API, CMS)
+- **21.435 lines** of Python, zero external QA framework dependencies
+- **Plugin architecture**: auto-discovery via `CHECK_METADATA` in each driver, ThreadPoolExecutor + asyncio scheduler
+
+### 🛡️ Anti-Bypass Architecture (10 Layers)
+
+| Layer | Mechanism | What It Prevents |
+|-------|-----------|------------------|
+| 1. **Pre-Commit Hooks** | `pre-commit-config.yaml` — gates P0+sec+doc | Commit without static checks |
+| 2. **Bypass Guard** | `sec_ai_bypass_guard` — P0 driver | `--no-verify`, `\|\| true`, `2>/dev/null`, CI `continue-on-error` |
+| 3. **No-Bypass Ops** | `sec_no_bypass` — P0 driver | Manual `rsync+ssh`, `docker compose`, `npm run build`, `pg_dump` |
+| 4. **Scope Guard** | `sec_scope_guard` — P0 driver | Partial runs that hide failures (`--only`, `--tag`, `--scope`) |
+| 5. **Kernel Immutability** | SHA256 hashes of critical files | Agents modifying the kernel itself |
+| 6. **Agent Laws Integrity** | SHA256 hash of AGENTS.md 13 Laws | Agents altering or removing rules |
+| 7. **Knowledge Protocol** | ADR-032 — mandatory handoff inheritance | Agents ignoring context from previous sessions |
+| 8. **Repetition → Rule** | ADR-034 — promotes repeated instructions | Recurring instructions staying ad-hoc |
+| 9. **A Teia (The Web)** | `pm_omniscience` — universal jurisdiction | Any file escaping governance |
+| 10. **Warning Promotion** | `__main__.py` promotes P0/sec WARN→FAIL | Agents dismissing critical warnings |
+| + **Re-Signing Blockade** | TTY+API-key detection | Automated agents re-signing security baselines |
+
+### 🔧 Self-Healing
+
+The Healer doesn't just report violations — it autonomously fixes them:
+1. Extracts `filepath:line` from violation strings
+2. Queries the **Knowledge Graph** (docs/external + registry + git log) for candidate fixes
+3. Checks the **Negative Registry** (`.steniocheck-negative-registry.json`) to skip previously failed attempts
+4. Applies the fix with line-level precision
+5. Re-executes the check in real context to verify
+6. On pass: `git add + git commit` automatically, adds to permanent registry
+7. On fail: reverts, records failure in negative registry, tries next candidate
+
+### 📊 Predictive Governance
+
+The kernel doesn't just report current failures — it predicts future ones:
+- **Trend detection**: linear regression on violation counts over the last 10 runs
+- **Auto-suppress**: suppresses warnings persisting for N consecutive runs (adaptive threshold)
+- **Baseline comparison**: `.steniocheck-baseline.json` for noise reduction
+- **Flakiness detection**: identifies checks that oscillate between pass/fail
+- **Canary promotion**: auto-promotes drivers with >80% pass rate over 5+ runs
+
+### 🧠 Memory & Learning
+
+- **History persistence** (`.steniocheck-history.json`): caches results, tracks file hashes, records durations
+- **Continuous learning**: `--learn`, `--learn --interactive`, `--learn-auto` (auto-detects corrections from `git diff`)
+- **Registry**: 40+ curated bug patterns with `id`, `title`, `pattern`, `fix`, `auto_fix_commands`
+- **Proactive suggestions**: `--suggest <fingerprint>` queries registry for known solutions
+- **Knowledge Graph**: indexes `docs/external/` (MD3, Tailwind, MWC, FastAPI), registry patterns, and git history for similarity-based correction
+
+### 📚 Documentation as a Product
 
 - **185 documentation files**, **~74,000 lines**
 - **28 Architecture Decision Records (ADRs)** documenting every architectural decision
 - **17 engineering imperatives** (I1-I17) with automated CI enforcement
 - **29 business invariants** formally specified
+- **DocBot**: auto-downloads READMEs from GitHub/GitLab, archives unused docs, reindexes Knowledge Graph
 
-### Steniokernel — QA Framework
-
-- **66 automated check drivers** covering 12 domains (frontend, backend, security, infrastructure, GPU, documentation, dependencies, governance, data, CMS, performance, scenarios)
-- **103 static checks** per git push
-- Plugin architecture: drivers with auto-discovery via `CHECK_METADATA`
-- Auto-healing, continuous learning (`--learn`), flaky test detection
-- Pre-commit and GitHub Actions integration
-
-### Resilience
+### 🔄 Resilience
 
 - **Living FMEA**: 54 failure nodes (A-BB) with real-time logging (`fmea_events.jsonl`) and LLM auditing (`gemma_audit.jsonl`)
 - **Audio WAL**: Write-Ahead Log with AES-GCM 256 encryption + IndexedDB, 3-layer failure detection, silent network resilience
 - **Adaptive circuit breaker** via Valkey for Google Docs, Mercado Pago, OAuth, and Umami
 - **Neural Flow**: dual-stage Whisper (sub-500ms draft) + Gemma (refinement) with zero-tolerance hallucination policy
 - **Cross-worker handoff**: session state persisted in Valkey with 8h TTL, any worker can restore context
+
+### 🔍 Self-Diagnosis
+
+The kernel audits itself:
+- `--blame`: traces every violation to the specific commit, author, and date via `git blame`
+- `--self-test`: 19 self-tests validating GC1-GC12, driver imports, registry format, Knowledge Graph, blame types, healer, history cycle
+- `--guardian`: auto-auditoria that detects hash drift, registry gaps, suspicious violation drops, canary candidates, performance degradation, timeout anomalies
+- `.steniocheck-driver-hashes.json`: cryptographically seals every driver file against unauthorized modification
 
 ---
 
@@ -116,17 +171,17 @@ The **Mnemocine Homelab** IS the **Sumaenima** infrastructure. They are indistin
 
 ## 👤 Founder
 
-**Carlos Eduardo Rodrigues** · Anthropologist (UnB), founder and PO.
+**Carlos Eduardo Rodrigues** · Anthropologist (UnB), founder, PO, and StênioKernel architect.
 
-Nearly a decade combining ethnographic research, technology, and data — with Sumaenima as the thread running through everything he builds. Built the **Tô no Mapa Platform** (integrated with Brazil's Federal Public Ministry) while at ISPN. Experienced firsthand the transformative potential of technology in the socio-environmental space — and also the burnout of using communication in service of others.
+Nearly a decade combining ethnographic research, technology, and data — with Sumaenima as the thread running through everything he builds. Built the **Tô no Mapa Platform** (integrated with Brazil's Federal Public Ministry) while at ISPN. Designed the **StênioKernel** — a proprietary AI Agent Governance Kernel that governs every AI agent on the project through 10 security layers, self-healing, cryptographic integrity, and predictive governance. Experienced firsthand the transformative potential of technology in the socio-environmental space — and also the burnout of using communication in service of others.
 
 His fieldwork at **Fazenda Canadá** (Cavalcante-GO) connected him with **André Aquino** (Lead Environmental Specialist, World Bank) and **Daniel** (Itamaraty diplomat), owners of the **Reserva Natural Veredas dos Buritis** — inside the thesis area. He worked with them on the **Participatory Fauna Monitoring Network**. This experience defined his hybrid perspective.
 
-**Thesis:** *"Uma Assemblage de Projetos de Vida"* (UnB, 2023). **Co-author** in Land Use Policy (Elsevier, 2026). **Mercosur Scientific Journalism Award** winner. Documentary filmmaker ("RUA PARA QUE(M)?"). Architect of the **Mnemocine Homelab**.
+**Thesis:** *"Uma Assemblage de Projetos de Vida"* (UnB, 2023). **Co-author** in Land Use Policy (Elsevier, 2026). **Mercosur Scientific Journalism Award** winner. Documentary filmmaker ("RUA PARA QUE(M)?"). Architect of the **Mnemocine Homelab** and the **StênioKernel**.
 
 **Master's in Anthropology (interrupted):** left to pursue data, product design, and systems architecture.
 
-A hybrid by nature — able to translate qualitative research needs into system requirements, and technical architecture into socio-environmental impact.
+A hybrid by nature — able to translate qualitative research needs into system requirements, and technical architecture into socio-environmental impact. One who builds the governance systems that make AI agents reliable, auditable, and accountable.
 
 ---
 
