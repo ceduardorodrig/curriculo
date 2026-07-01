@@ -42,11 +42,11 @@ Comecei como estagiário no **ISPN** (2017), onde fiz pesquisa etnográfica com 
 
 No **IPAM** (2022–2025), passei de estagiário a analista, implementei Agile/Scrum como Scrum Master, gerenciei dados de audiência que alcançaram **2+ milhões de pessoas**, codirigi um documentário sobre mudanças climáticas e ganhei um prêmio Mercosul de jornalismo científico. Mas também descobri o que **não** queria: comunicação institucional para terceiros. O burnout veio junto com a clareza.
 
-A virada veio em 2024, quando comecei a construir a **StênioBOT** — a plataforma de etnografia com IA local da **Sumaenima**, meu projeto de vida que já existia como entidade criativa independente desde 2016. Juntei tudo que aprendi: antropologia, dados, tecnologia. Dados sensíveis de comunidades não deveriam depender de big tech. Essa é a tese.
+A virada veio em 2024, quando comecei a construir o **StênioBOT** — a plataforma de etnografia com IA local da **Sumaenima**, meu projeto de vida que já existia como entidade criativa independente desde 2016. Juntei tudo que aprendi: antropologia, dados, tecnologia. Dados sensíveis de comunidades não deveriam depender de big tech. Essa é a tese.
 
 Em paralelo, construí o **Homelab Mnemocine**: 4 servidores (incluindo um Dell Frankenstein com Arch Linux e RTX 5050 e um notebook velho reaproveitado), orquestrados em Docker Swarm com Tailscale, porque acredito que tecnologia útil não se descarta — e que é possível fazer IA de ponta sem depender de nuvem.
 
-Hoje sou um **híbrido**: arquiteto de dados e produto com alma de antropólogo. Sei traduzir necessidades de pesquisa em requisitos de sistema, e arquitetura técnica em impacto socioambiental.
+Hoje sou um **híbrido**: arquiteto de dados e produtos com alma de antropólogo. Sei traduzir necessidades de pesquisa em requisitos de sistema, e arquitetura técnica em impacto socioambiental.
 
 ---
 
