@@ -175,7 +175,7 @@ Central platform administration dashboard: metrics, users, contacts, images, and
 
 ## 🏗️ StênioKernel — AI Agent Governance Kernel
 
-This is Sumænimá's deepest and most valuable asset. The StênioKernel is not a QA framework — it is a **proprietary AI Agent Governance Kernel** (purpose-built, not forked from any open-source project) designed to govern AI agents across the entire software lifecycle: code, documentation, infrastructure, and agent behavior itself.
+This is Sumænimá's deepest and most valuable asset. The StênioKernel is not a QA framework — it is a **proprietary AI Agent Governance Kernel** (built on open-source foundations — Python, FastAPI, Pydantic, Typer — with original architecture and proprietary code) designed to govern AI agents across the entire software lifecycle: code, documentation, infrastructure, and agent behavior itself.
 
 - **22 kernel modules** (scheduler, guardian, healer, docbot, learner, registry, self-test, history, flakiness, classifier, impact, more)
 - **132 check drivers** (governance, security, frontend, infrastructure, documentation, backend, data, GPU, API, CMS)

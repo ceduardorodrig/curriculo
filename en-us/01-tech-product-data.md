@@ -10,7 +10,7 @@
 
 ## 👤 Profile
 
-Data and product architect who bridges open-source technology and qualitative research. Proven track record designing local AI pipelines (Whisper, LLMs), orchestrating multi-node Docker Swarm clusters, and building data products from scratch. Ingenious use of repurposed hardware and free software to deliver private, offline, cost-effective AI solutions — with zero dependency on big tech infrastructure. Designed the StênioKernel — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that enforces agent behavior through cryptographic integrity, self-healing, and predictive governance. Anthropology degree from UnB as the foundation for human-centered product design.
+Data and product architect who bridges open-source technology and qualitative research. Proven track record designing local AI pipelines (Whisper, LLMs), orchestrating multi-node Docker Swarm clusters, and building end-to-end data products. Ingenious use of repurposed hardware and free software to deliver private, offline, cost-effective AI solutions — with zero dependency on big tech infrastructure. Designed the StênioKernel — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that enforces agent behavior through cryptographic integrity, self-healing, and predictive governance. Anthropology degree from UnB as the foundation for human-centered product design.
 
 ---
 

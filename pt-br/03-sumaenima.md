@@ -175,7 +175,7 @@ Painel central de administração da plataforma: métricas, usuários, contatos,
 
 ## 🏗️ StênioKernel — Kernel de Governança para Agentes de IA
 
-Este é o ativo mais profundo e valioso da Sumænimá. O StênioKernel não é um framework de QA — é um **Kernel proprietário de Governança para Agentes de IA** (construído do zero, sem fork de nenhum projeto open-source) projetado para governar agentes de IA em todo o ciclo de vida do software: código, documentação, infraestrutura e o próprio comportamento dos agentes.
+Este é o ativo mais profundo e valioso da Sumænimá. O StênioKernel não é um framework de QA — é um **Kernel proprietário de Governança para Agentes de IA** (construído sobre ecossistema open-source — Python, FastAPI, Pydantic, Typer — com arquitetura original e código proprietário) projetado para governar agentes de IA em todo o ciclo de vida do software: código, documentação, infraestrutura e o próprio comportamento dos agentes.
 
 - **22 módulos de kernel** (scheduler, guardian, healer, docbot, learner, registry, self-test, history, flakiness, classifier, impact, entre outros)
 - **132 drivers de verificação** (governança, segurança, frontend, infraestrutura, documentação, backend, dados, GPU, API, CMS)
