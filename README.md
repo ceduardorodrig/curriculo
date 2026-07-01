@@ -56,6 +56,7 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ---
 
 ### 🎙️ StênioREC — Cockpit de Transcrição em Tempo Real
+**Status:** 🟢 Em produção — funcional, validado em relatoria de campo
 
 <p align="center">
   <img src="assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
@@ -76,6 +77,7 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ---
 
 ### 🗂️ StênioPANEL — Scanner de Workshops
+**Status:** 🔴 Concepção — arquitetura definida, código implementado, aguardando recursos
 
 <p align="center">
   <img src="assets/hub-panel.png" width="600" alt="StênioPANEL — Scanner de Post-Its" />
@@ -97,6 +99,7 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ---
 
 ### 🔍 StênioDIVE — Mineração Semântica
+**Status:** 🔴 Concepção — arquitetura definida, motor de busca implementado, aguardando recursos
 
 <p align="center">
   <img src="assets/hub-dive.png" width="600" alt="StênioDIVE — Grafo de Conhecimento" />
@@ -117,6 +120,7 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ---
 
 ### 🌡️ DataVis — Visualizações Climáticas
+**Status:** 🔴 Concepção — visualização PM2.5 instável; demais módulos em estágio inicial
 
 <p align="center">
   <img src="assets/hub-datavis.png" width="600" alt="DataVis — Partículas PM2.5" />
@@ -138,6 +142,7 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ---
 
 ### ⚙️ Admin — Gestão da Plataforma
+**Status:** 🟡 Parcial — dashboard, auth e contatos OK; ERP básico; image library e CMS em desenvolvimento
 
 <p align="center">
   <img src="assets/hub-admin.png" width="600" alt="Admin — Painel Administrativo" />

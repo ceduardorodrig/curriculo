@@ -21,7 +21,14 @@ Profissional híbrido que une tecnologia open-source local, dados e antropologia
 
 Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criativa independente, atravessando toda minha carreira em paralelo aos empregos formais. Nasceu da convicção de que dados sensíveis de comunidades tradicionais não podem depender de big tech. O sonho é construir um **Bureau de Dados** com alma antropológica: projetos como o Tô no Mapa, visualizações de dados e pesquisa etnográfica em escala.
 
-**StênioBOT** (2024–presente): plataforma de captura de dados com IA 100% local e privada. Quatro módulos — transcrição em tempo real (Whisper), scanner de workshops com visão computacional, mineração semântica e visualização de dados. Stack: FastAPI + React + PostgreSQL + Docker Swarm. Tudo offline, sem envio de dados para cloud.
+**StênioBOT** (2024–presente): plataforma de captura de dados com IA 100% local e privada. Quatro módulos:
+
+- **StênioREC** 🟢: transcrição em tempo real (Whisper) — **em produção**, funcional e testado em campo
+- **StênioPANEL** 🔴: scanner de workshops com visão computacional — **concepção**, aguardando recursos
+- **StênioDIVE** 🔴: mineração semântica — **concepção**, aguardando recursos
+- **DataVis** 🔴: visualizações climáticas — **concepção**, em estágio inicial
+
+Stack: FastAPI + React + PostgreSQL + Docker Swarm. Tudo offline, sem envio de dados para cloud.
 
 **StênioKernel — Kernel de Governança para Agentes de IA:** construiu um kernel proprietário de governança (21.435 linhas, 132 drivers, 22 módulos kernel) que garante que agentes de IA lidando com dados sensíveis de comunidades sigam regras estritas e com aplicação criptográfica. Ecossistema total: **~8M+ linhas e crescendo**, 1.227+ arquivos, 10 anos. Arquitetura anti-bypass em 10 camadas previne vazamentos; auto-healing garante conformidade contínua; jurisdição universal ("A Teia") significa que nenhuma configuração ou ativo escapa da auditoria. Projetado para tornar a IA soberana, auditável e responsável — não apenas poderosa.
 

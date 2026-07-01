@@ -21,7 +21,14 @@ Hybrid professional who combines local open-source technology, data, and anthrop
 
 Sumænimá is my life project. It has existed for nearly 10 years as an independent creative entity, running alongside formal employment throughout my entire career. Born from the conviction that sensitive data from traditional communities should never depend on big tech. The dream is to build a **Data Bureau** with an anthropological soul: projects like Tô no Mapa, data visualizations, and ethnographic research at scale.
 
-**StênioBOT** (2024–present): data capture platform with 100% local, private AI. Four modules — real-time transcription (Whisper), workshop scanning with computer vision, semantic mining, and data visualization. Stack: FastAPI + React + PostgreSQL + Docker Swarm. Fully offline, no data sent to cloud.
+**StênioBOT** (2024–present): data capture platform with 100% local, private AI. Four modules:
+
+- **StênioREC** 🟢: real-time transcription (Whisper) — **in production**, functional and field-tested
+- **StênioPANEL** 🔴: workshop scanning with computer vision — **concept**, awaiting resources
+- **StênioDIVE** 🔴: semantic mining — **concept**, awaiting resources
+- **DataVis** 🔴: climate visualizations — **concept**, early stage
+
+Stack: FastAPI + React + PostgreSQL + Docker Swarm. Fully offline, no data sent to cloud.
 
 **StênioKernel — Agent Governance Kernel:** built a proprietary governance kernel (21.435 lines, 132 drivers, 22 kernel modules) that ensures AI agents handling sensitive community data follow strict, cryptographically-enforced rules. Total ecosystem: **~8M+ lines and growing**, 1,227+ files, 10 years. 10-layer anti-bypass architecture prevents data leaks; self-healing ensures continuous compliance; universal file jurisdiction ("A Teia") means no configuration or asset escapes audit. Designed to make AI sovereign, auditable, and accountable — not just powerful.
 

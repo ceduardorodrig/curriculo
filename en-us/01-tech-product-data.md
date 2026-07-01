@@ -23,10 +23,10 @@ Sumænimá is my life project. It has existed for nearly 10 years as an independ
 
 **StênioBOT** (2024–present): an AI-assisted data capture platform running 100% local inference. Four modules:
 
-- **StênioREC**: real-time transcription (Whisper large-v3-turbo) with VAD, Gemma 3 purification pipeline, Google Docs export
-- **StênioPANEL**: physical workshop scanner with computer vision (GroundingDINO + SAM 2 + PaddleOCR)
-- **StênioDIVE**: cross-semantic mining of wikilinks, tags, and notes in an interactive graph
-- **DataVis**: interactive climate visualizations with particle physics and real-time data
+- **StênioREC** 🟢: real-time transcription (Whisper large-v3-turbo) with VAD, Gemma 3 purification pipeline, Google Docs export — **in production**, validated in field reporting
+- **StênioPANEL** 🔴: physical workshop scanner with computer vision (GroundingDINO + SAM 2 + PaddleOCR) — **concept**, awaiting resources
+- **StênioDIVE** 🔴: cross-semantic mining of wikilinks, tags, and notes in an interactive graph — **concept**, awaiting resources
+- **DataVis** 🔴: interactive climate visualizations with particle physics and real-time data — **concept**, early stage
 
 Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nodes). SaaS with Mercado Pago billing, Google OAuth, Grafana/Loki observability. Fully offline, private, LGPD-compliant.
 

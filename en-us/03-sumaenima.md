@@ -46,6 +46,7 @@ There is no integrated, local, private, and accessible platform for AI-assisted 
 ## 💡 The Solution — StênioBOT
 
 ### 🎙️ StênioREC — Real-Time Transcription
+**Status:** 🟢 In production — functional, validated in field reporting
 
 <p align="center">
   <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Transcription Cockpit" />
@@ -64,6 +65,7 @@ Real-time transcription cockpit with 100% local AI. Captures audio via AudioWork
 **🎯 For:** Ethnographic reporting, qualitative interviews, public hearings, corporate minutes.
 
 ### 🗂️ StênioPANEL — Workshop Scanner
+**Status:** 🔴 Concept — architecture defined, code implemented, awaiting resources
 
 <p align="center">
   <img src="../assets/hub-panel.png" width="600" alt="StênioPANEL — Post-It Scanner" />
@@ -83,6 +85,7 @@ Transforms photos of physical panels (post-its, whiteboards, flip charts) into n
 **🎯 For:** Workshop facilitators, design thinking practitioners, Agile coaches, ethnographers.
 
 ### 🔍 StênioDIVE — Semantic Mining
+**Status:** 🔴 Concept — architecture defined, search engine implemented, awaiting resources
 
 <p align="center">
   <img src="../assets/hub-dive.png" width="600" alt="StênioDIVE — Knowledge Graph" />
@@ -101,6 +104,7 @@ Unified semantic search engine mining REC transcripts, PANEL boards, Obsidian no
 **🎯 For:** Researchers, analysts, knowledge managers — anyone needing cross-dataset search across ethnographic data.
 
 ### 🌡️ DataVis — Climate Visualizations
+**Status:** 🔴 Concept — PM2.5 visualization unstable; remaining modules in early stage
 
 <p align="center">
   <img src="../assets/hub-datavis.png" width="600" alt="DataVis — PM2.5 Particles" />
@@ -120,6 +124,7 @@ Generative climate visualizations in real time. Particles react to real air qual
 **🎯 For:** Environmental researchers, climate activists, data journalists, general public.
 
 ### ⚙️ Admin — Platform Management
+**Status:** 🟡 Partial — dashboard, auth, and contacts OK; basic ERP; image library and CMS in development
 
 <p align="center">
   <img src="../assets/hub-admin.png" width="600" alt="Admin — Dashboard" />

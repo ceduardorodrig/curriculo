@@ -46,6 +46,7 @@ Não existe uma plataforma integrada, local, privada e acessível para pesquisa 
 ## 💡 A Solução — StênioBOT
 
 ### 🎙️ StênioREC — Transcrição em Tempo Real
+**Status:** 🟢 Em produção — funcional, validado em relatoria de campo
 
 <p align="center">
   <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
@@ -64,6 +65,7 @@ Cockpit de transcrição em tempo real com IA 100% local. Captura áudio via Aud
 **🎯 Para:** Relatoria etnográfica, entrevistas qualitativas, audiências públicas, atas corporativas.
 
 ### 🗂️ StênioPANEL — Scanner de Workshops
+**Status:** 🔴 Concepção — arquitetura definida, código implementado, aguardando recursos
 
 <p align="center">
   <img src="../assets/hub-panel.png" width="600" alt="StênioPANEL — Scanner de Post-Its" />
@@ -83,6 +85,7 @@ Transforma fotos de painéis físicos (post-its, whiteboards, cartolinas) em arq
 **🎯 Para:** Facilitadores de workshops, design thinking, agile coaches, etnógrafos.
 
 ### 🔍 StênioDIVE — Mineração Semântica
+**Status:** 🔴 Concepção — arquitetura definida, motor de busca implementado, aguardando recursos
 
 <p align="center">
   <img src="../assets/hub-dive.png" width="600" alt="StênioDIVE — Grafo de Conhecimento" />
@@ -101,6 +104,7 @@ Mecanismo de busca semântica unificada que minera transcrições do REC, boards
 **🎯 Para:** Pesquisadores, analistas, gestores de conhecimento.
 
 ### 🌡️ DataVis — Visualizações Climáticas
+**Status:** 🔴 Concepção — visualização PM2.5 instável; demais módulos em estágio inicial
 
 <p align="center">
   <img src="../assets/hub-datavis.png" width="600" alt="DataVis — Partículas PM2.5" />
@@ -120,6 +124,7 @@ Visualizações climáticas generativas em tempo real. Partículas reagem a dado
 **🎯 Para:** Pesquisadores ambientais, ativistas climáticos, data journalists, público geral.
 
 ### ⚙️ Admin — Gestão da Plataforma
+**Status:** 🟡 Parcial — dashboard, auth e contatos OK; ERP básico; image library e CMS em desenvolvimento
 
 <p align="center">
   <img src="../assets/hub-admin.png" width="600" alt="Admin — Painel Administrativo" />
@@ -138,8 +143,6 @@ Painel central de administração da plataforma: métricas, usuários, contatos,
 - 🛡️ Rota protegida — apenas o owner configurado por env var acessa o admin
 
 **🎯 Para:** Administrador da plataforma, operador do sistema, gestor de negócio.
-
-### Funcionalidades Transversais
 
 ### Funcionalidades Transversais
 
