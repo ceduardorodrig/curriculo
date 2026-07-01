@@ -12,13 +12,6 @@ This repository contains my resume in **3 versions** for different audiences, ea
 
 The projects described here total **~8M+ lines and growing** — across 1,227+ files, built over 10 years as a life project.
 
-<p align="center">
-  <em>📱 Responsive design — iPhone SE · iPad Pro · Desktop</em><br/>
-  <img src="assets/hub-mobile.png" width="220" alt="Mobile - iPhone SE" />
-  <img src="assets/hub-tablet.png" width="280" alt="Tablet - iPad Pro" />
-  <img src="assets/hub-desktop.png" width="400" alt="Desktop" />
-</p>
-
 ---
 
 ## 📑 Versões / Versions
@@ -38,6 +31,21 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 | 1 | **🖥️ Tech / Product / Data** | Startups, tech companies, data/product/AI roles | [`en-us/01-tech-product-data.md`](en-us/01-tech-product-data.md) |
 | 2 | **🌳 Socioenvironmental-Tech** | NGOs, research institutes, international organizations, impact projects | [`en-us/02-socioenvironmental-tech.md`](en-us/02-socioenvironmental-tech.md) |
 | 3 | **🚀 Sumænimá** | Accelerators, investors, grants, partners | [`en-us/03-sumaenima.md`](en-us/03-sumaenima.md) |
+
+---
+
+## 🚀 Sumænimá — StênioBOT
+
+**Plataforma de Captura de Dados com IA Local, Privada e Open-Source**
+**~8M+ lines · 1.227+ files · 10 years · 22 kernel modules · 132 check drivers · 30+ containers · 4 nodes**
+
+📱 **Responsive design** — iPhone SE · iPad Pro · Desktop
+
+<p align="center">
+  <img src="assets/hub-mobile.png" width="220" alt="Mobile - iPhone SE" />
+  <img src="assets/hub-tablet.png" width="280" alt="Tablet - iPad Pro" />
+  <img src="assets/hub-desktop.png" width="400" alt="Desktop" />
+</p>
 
 ---
 
