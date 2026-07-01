@@ -45,42 +45,101 @@ Não existe uma plataforma integrada, local, privada e acessível para pesquisa 
 
 ## 💡 A Solução — StênioBOT
 
-### Módulos
+### 🎙️ StênioREC — Transcrição em Tempo Real
 
-#### StênioREC — Transcrição em Tempo Real
 <p align="center">
-  <img src="../assets/hub-rec.png" width="600" alt="StênioREC" />
+  <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
 </p>
 
-Transcrição em tempo real via Whisper large-v3-turbo com VAD, purificação via Gemma 3 (Neural Flow paralelo), exportação Google Docs em modo colaborativo.
+Cockpit de transcrição em tempo real com IA 100% local. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — tudo offline, sem enviar dados para nuvem. Escreve diretamente em Google Docs com autenticação OAuth por usuário, em modo colaborativo.
 
-#### StênioPANEL — Scanner de Workshops
+**✨ Destaques:**
+- 🧠 Pipeline Neural Flow dual-stage: Whisper draft sub-500ms + Gemma 3 purificação paralela
+- 🔒 Buffer offline de ~2h (57MB RAM + 171MB IndexedDB), zero perda de áudio sem rede
+- 📝 Criação automática de Google Doc por usuário com credenciais próprias
+- 🎛️ Cockpit em tempo real: GPU temp, VRAM, drift, entropia, status da rede
+- 📱 Wake Lock API — gravação não suspende no celular
+- ⚡ Descarrega VRAM automaticamente ao destravar contexto
+
+**🎯 Para:** Relatoria etnográfica, entrevistas qualitativas, audiências públicas, atas corporativas.
+
+### 🗂️ StênioPANEL — Scanner de Workshops
+
 <p align="center">
-  <img src="../assets/hub-panel.png" width="600" alt="StênioPANEL" />
+  <img src="../assets/hub-panel.png" width="600" alt="StênioPANEL — Scanner de Post-Its" />
 </p>
 
-Scanner de workshops físicos com GroundingDINO + SAM 2 + PaddleOCR, gerando esquemas `.canvas` compatíveis com Obsidian.
+Transforma fotos de painéis físicos (post-its, whiteboards, cartolinas) em arquivos `.canvas` nativos do Obsidian — com visão computacional 100% local. Pipeline de 4 estágios: detecção zero-shot (GroundingDINO + SAM 2), OCR duplo com fallback automático (PaddleOCR 93.5% / EasyOCR 89.2%), organizador por DBSCAN + arestas, e validador do spec oficial do Obsidian Canvas.
 
-#### StênioDIVE — Mineração Semântica
+**✨ Destaques:**
+- 🎯 Detecção zero-shot: não precisa de fine-tuning para nenhum evento
+- 🔍 OCR duplo com fallback automático entre PaddleOCR e EasyOCR
+- 🧩 Gera arquivos `.canvas` 100% compatíveis com Obsidian
+- 📸 Processa fotos de até 50MP com algoritmo de tiling
+- 🧠 Revisão semântica opcional com Gemma 3
+- 🔄 VRAM Mutex: prioriza GPU com StênioREC; fila inteligente no Valkey se GPU ocupada
+- 🗑️ Imagens destruídas após processamento — só metadados persistem
+
+**🎯 Para:** Facilitadores de workshops, design thinking, agile coaches, etnógrafos.
+
+### 🔍 StênioDIVE — Mineração Semântica
+
 <p align="center">
-  <img src="../assets/hub-dive.png" width="600" alt="StênioDIVE" />
+  <img src="../assets/hub-dive.png" width="600" alt="StênioDIVE — Grafo de Conhecimento" />
 </p>
 
-Mineração semântica cruzada de wikilinks, tags e notas em grafo interativo; embeddings e busca semântica local.
+Mecanismo de busca semântica unificada que minera transcrições do REC, boards do PANEL, notas do Obsidian e imagens públicas em um único grafo interativo. Combina busca lexical BM25 com similaridade vetorial via embeddings ONNX 384-d (CPU, sem GPU necessária), fusionados por Reciprocal Rank Fusion (RRF).
 
-#### DataVis — Visualizações Climáticas
+**✨ Destaques:**
+- 🔎 Busca híbrida BM25 + cosseno vetorial com fusão RRF
+- 📄 Indexa 4 fontes simultâneas: Google Docs, Canvas Boards, Obsidian, imagens
+- 🧠 Embeddings ONNX 384-d 100% CPU, sem dependência de GPU
+- ⚙️ Pipeline assíncrono com cache SHA-256 e cache OCR
+- 🎛️ Filtros por fonte: transcrições, painéis, notas
+- 🔗 Grafo interativo de wikilinks, tags e conexões semânticas
+
+**🎯 Para:** Pesquisadores, analistas, gestores de conhecimento.
+
+### 🌡️ DataVis — Visualizações Climáticas
+
 <p align="center">
-  <img src="../assets/hub-datavis.png" width="600" alt="DataVis" />
+  <img src="../assets/hub-datavis.png" width="600" alt="DataVis — Partículas PM2.5" />
 </p>
 
-Visualizações climáticas em tempo real (PM2.5, matriz energética, enchentes) com física de partículas.
+Visualizações climáticas generativas em tempo real. Partículas reagem a dados reais de qualidade do ar (PM2.5), vento e direção — transformando números em arte interativa. Partículas mudam de cor conforme severidade (âmbar → vermelho fuligem), turbulência acompanha vento real, e o mouse cria campos de força no canvas.
 
-#### Admin — Gestão da Plataforma
+**✨ Destaques:**
+- 🎨 Canvas generativo com até 300 partículas reagindo a dados reais
+- 🌬️ Vento e direção reais integrados: turbulência proporcional à velocidade
+- 🖱️ Partículas interagem com o mouse (campo de força 120px)
+- 🏥 Classificação OMS em 5 níveis com gauge dinâmico
+- 🔄 Duas fontes de dados: WAQI e OpenAQ (alternável)
+- ⚡ Cache adaptativo: 30s a 15min conforme popularidade
+- 🧊 Arquitetura de microsserviço — roda no nó edge ybyra (Oracle, 1GB RAM)
+
+**🎯 Para:** Pesquisadores ambientais, ativistas climáticos, data journalists, público geral.
+
+### ⚙️ Admin — Gestão da Plataforma
+
 <p align="center">
-  <img src="../assets/hub-admin.png" width="600" alt="Admin" />
+  <img src="../assets/hub-admin.png" width="600" alt="Admin — Painel Administrativo" />
 </p>
 
-Painel administrativo com gestão de organizações, membros, contratos e billing. SaaS com Mercado Pago, OAuth e CMS integrado.
+Painel central de administração da plataforma: métricas, usuários, contatos, imagens e ERP completo (organizações, leads, contratos, faturas, projetos). Navegação em 5 abas com Material Design 3, glassmorfismo e compliance LGPD.
+
+**✨ Destaques:**
+- 📊 Dashboard com 7 métricas ao vivo: usuários, sessões WS, projetos, receita, caracteres, áudio, tokens
+- 🗂️ ERP completo: organizações, Kanban de leads, contratos, faturas, projetos com board de tarefas
+- 👤 Gestão de usuários com badge de admin protegido por env var (único owner)
+- 🔒 Compliance LGPD: masking de email, IP em audit logs, banner de consentimento, versão de termos
+- 📈 Umami Analytics embutido com CSP dinâmico
+- 🖼️ Biblioteca de imagens e CMS com editor TipTap WYSIWYG
+- 📬 CRUD de contatos com 3 estados: não lido, lido, arquivado
+- 🛡️ Rota protegida — apenas o owner configurado por env var acessa o admin
+
+**🎯 Para:** Administrador da plataforma, operador do sistema, gestor de negócio.
+
+### Funcionalidades Transversais
 
 ### Funcionalidades Transversais
 

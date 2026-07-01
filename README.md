@@ -4,7 +4,7 @@
 
 ---
 
-## Sobre / About
+## 🌍 Sobre / About
 
 Este repositório contém meu currículo em **3 versões** para diferentes públicos, cada uma em **Português (BR)** e **English (US)**.
 
@@ -13,7 +13,7 @@ This repository contains my resume in **3 versions** for different audiences, ea
 The projects described here total **~8M+ lines and growing** — across 1,227+ files, built over 10 years as a life project.
 
 <p align="center">
-  <em>Responsive design — iPhone SE · iPad Pro · Desktop</em><br/>
+  <em>📱 Responsive design — iPhone SE · iPad Pro · Desktop</em><br/>
   <img src="assets/hub-mobile.png" width="220" alt="Mobile - iPhone SE" />
   <img src="assets/hub-tablet.png" width="280" alt="Tablet - iPad Pro" />
   <img src="assets/hub-desktop.png" width="400" alt="Desktop" />
@@ -21,23 +21,23 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 
 ---
 
-## Versões / Versions
+## 📑 Versões / Versions
 
 ### 🇧🇷 Português
 
 | # | Versão | Público | Arquivo |
 |---|--------|---------|---------|
-| 1 | **Tech / Produto / Dados** | Startups, empresas de tecnologia, vagas em produto/dados/AI | [`pt-br/01-tech-produto-dados.md`](pt-br/01-tech-produto-dados.md) |
-| 2 | **Socioambiental-Tech** | ONGs, institutos de pesquisa, organismos internacionais, projetos de impacto | [`pt-br/02-socioambiental-tech.md`](pt-br/02-socioambiental-tech.md) |
-| 3 | **Sumænimá** | Aceleradoras, investidores, editais, parceiros | [`pt-br/03-sumaenima.md`](pt-br/03-sumaenima.md) |
+| 1 | **🖥️ Tech / Produto / Dados** | Startups, empresas de tecnologia, vagas em produto/dados/AI | [`pt-br/01-tech-produto-dados.md`](pt-br/01-tech-produto-dados.md) |
+| 2 | **🌳 Socioambiental-Tech** | ONGs, institutos de pesquisa, organismos internacionais, projetos de impacto | [`pt-br/02-socioambiental-tech.md`](pt-br/02-socioambiental-tech.md) |
+| 3 | **🚀 Sumænimá** | Aceleradoras, investidores, editais, parceiros | [`pt-br/03-sumaenima.md`](pt-br/03-sumaenima.md) |
 
 ### 🇺🇸 English
 
 | # | Version | Audience | File |
 |---|---------|----------|------|
-| 1 | **Tech / Product / Data** | Startups, tech companies, data/product/AI roles | [`en-us/01-tech-product-data.md`](en-us/01-tech-product-data.md) |
-| 2 | **Socioenvironmental-Tech** | NGOs, research institutes, international organizations, impact projects | [`en-us/02-socioenvironmental-tech.md`](en-us/02-socioenvironmental-tech.md) |
-| 3 | **Sumænimá** | Accelerators, investors, grants, partners | [`en-us/03-sumaenima.md`](en-us/03-sumaenima.md) |
+| 1 | **🖥️ Tech / Product / Data** | Startups, tech companies, data/product/AI roles | [`en-us/01-tech-product-data.md`](en-us/01-tech-product-data.md) |
+| 2 | **🌳 Socioenvironmental-Tech** | NGOs, research institutes, international organizations, impact projects | [`en-us/02-socioenvironmental-tech.md`](en-us/02-socioenvironmental-tech.md) |
+| 3 | **🚀 Sumænimá** | Accelerators, investors, grants, partners | [`en-us/03-sumaenima.md`](en-us/03-sumaenima.md) |
 
 ---
 
@@ -55,9 +55,9 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ---
 
 
-## Narrativa / Narrative
+## 📖 Narrativa / Narrative
 
-### O Fio da Meada
+### 🧵 O Fio da Meada
 
 Minha carreira parece não linear até que você percebe o padrão: **sempre usei tecnologia para aproximar mundos**.
 
@@ -75,7 +75,7 @@ Hoje sou um **híbrido**: arquiteto de dados e produtos com alma de antropólogo
 
 ---
 
-### The Thread
+### 🧵 The Thread
 
 My career looks nonlinear until you see the pattern: **I've always used technology to bridge worlds**.
 
@@ -93,15 +93,15 @@ Today I'm a **hybrid**: data and product architect with an anthropologist's soul
 
 ---
 
-## Contato / Contact
+## 📬 Contato / Contact
 
-- **Email:** [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com)
-- **Phone / WhatsApp:** +55 (61) 9-9803-3546
-- **LinkedIn:** [linkedin.com/in/c-eduardo-rodrigues](https://linkedin.com/in/c-eduardo-rodrigues)
-- **GitHub:** [github.com/ceduardorodrig](https://github.com/ceduardorodrig)
-- **Sumænimá:** [sumaenima.chimaera-heptatonic.ts.net](https://sumaenima.chimaera-heptatonic.ts.net)
-- **Location:** Brasília-DF, Brazil
+- 📧 **Email:** [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com)
+- 📱 **Phone / WhatsApp:** +55 (61) 9-9803-3546
+- 💼 **LinkedIn:** [linkedin.com/in/c-eduardo-rodrigues](https://linkedin.com/in/c-eduardo-rodrigues)
+- 🐙 **GitHub:** [github.com/ceduardorodrig](https://github.com/ceduardorodrig)
+- 🌐 **Sumænimá:** [sumaenima.chimaera-heptatonic.ts.net](https://sumaenima.chimaera-heptatonic.ts.net)
+- 📍 **Location:** Brasília-DF, Brazil
 
 ---
 
-*Última atualização / Last updated: junho 2026*
+🕐 *Última atualização / Last updated: junho 2026*

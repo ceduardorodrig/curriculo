@@ -45,42 +45,99 @@ There is no integrated, local, private, and accessible platform for AI-assisted 
 
 ## 💡 The Solution — StênioBOT
 
-### Modules
+### 🎙️ StênioREC — Real-Time Transcription
 
-#### StênioREC — Real-Time Transcription
 <p align="center">
-  <img src="../assets/hub-rec.png" width="600" alt="StênioREC" />
+  <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Transcription Cockpit" />
 </p>
 
-Real-time transcription via Whisper large-v3-turbo with VAD, Gemma 3 Neural Flow purification, collaborative Google Docs export.
+Real-time transcription cockpit with 100% local AI. Captures audio via AudioWorklet API, transcribes with Whisper large-v3-turbo (CTranslate2 + cuBLAS), and purifies with Gemma 3 1B IT in a parallel pipeline — all offline, zero data sent to the cloud. Writes directly to Google Docs with per-user OAuth authentication in collaborative mode.
 
-#### StênioPANEL — Workshop Scanner
+**✨ Highlights:**
+- 🧠 Dual-stage Neural Flow pipeline: Whisper draft sub-500ms + parallel Gemma 3 purification
+- 🔒 ~2h offline buffer (57MB RAM + 171MB IndexedDB), zero audio loss without network
+- 📝 Automatic Google Doc creation per user with own credentials
+- 🎛️ Real-time cockpit: GPU temp, VRAM, drift, entropy, network status
+- 📱 Wake Lock API — recording doesn't suspend on mobile
+- ⚡ Auto-unloads VRAM on context unlock
+
+**🎯 For:** Ethnographic reporting, qualitative interviews, public hearings, corporate minutes.
+
+### 🗂️ StênioPANEL — Workshop Scanner
+
 <p align="center">
-  <img src="../assets/hub-panel.png" width="600" alt="StênioPANEL" />
+  <img src="../assets/hub-panel.png" width="600" alt="StênioPANEL — Post-It Scanner" />
 </p>
 
-Physical workshop scanner with GroundingDINO + SAM 2 + PaddleOCR, generating Obsidian-compatible `.canvas` schemas.
+Transforms photos of physical panels (post-its, whiteboards, flip charts) into native Obsidian `.canvas` files — with 100% local computer vision. 4-stage pipeline: zero-shot detection (GroundingDINO + SAM 2), dual OCR with automatic fallback (PaddleOCR 93.5% / EasyOCR 89.2%), DBSCAN + edge organizer, and official Obsidian Canvas spec validator.
 
-#### StênioDIVE — Semantic Mining
+**✨ Highlights:**
+- 🎯 Zero-shot detection: no fine-tuning needed for any event
+- 🔍 Dual OCR with automatic fallback between PaddleOCR and EasyOCR
+- 🧩 Generates 100% Obsidian-compatible `.canvas` files
+- 📸 Processes up to 50MP photos with tiling algorithm
+- 🧠 Optional Gemma 3 semantic review pass
+- 🔄 VRAM Mutex: prioritizes GPU with StênioREC; smart Valkey queue if GPU busy
+- 🗑️ Source images shredded after processing — only metadata persists
+
+**🎯 For:** Workshop facilitators, design thinking practitioners, Agile coaches, ethnographers.
+
+### 🔍 StênioDIVE — Semantic Mining
+
 <p align="center">
-  <img src="../assets/hub-dive.png" width="600" alt="StênioDIVE" />
+  <img src="../assets/hub-dive.png" width="600" alt="StênioDIVE — Knowledge Graph" />
 </p>
 
-Cross-semantic mining of wikilinks, tags, and notes in an interactive graph; local embeddings and semantic search.
+Unified semantic search engine mining REC transcripts, PANEL boards, Obsidian notes, and public images into a single interactive graph. Combines BM25 lexical search with vector cosine similarity via 384-d ONNX embeddings (CPU, no GPU required), fused by Reciprocal Rank Fusion (RRF).
 
-#### DataVis — Climate Visualizations
+**✨ Highlights:**
+- 🔎 Hybrid BM25 + vector cosine search with RRF fusion
+- 📄 Indexes 4 simultaneous sources: Google Docs, Canvas Boards, Obsidian, images
+- 🧠 384-d ONNX embeddings 100% CPU, no GPU dependency
+- ⚙️ Async pipeline with SHA-256 cache and OCR cache
+- 🎛️ Source filters: transcripts, panels, notes
+- 🔗 Interactive graph of wikilinks, tags, and semantic connections
+
+**🎯 For:** Researchers, analysts, knowledge managers — anyone needing cross-dataset search across ethnographic data.
+
+### 🌡️ DataVis — Climate Visualizations
+
 <p align="center">
-  <img src="../assets/hub-datavis.png" width="600" alt="DataVis" />
+  <img src="../assets/hub-datavis.png" width="600" alt="DataVis — PM2.5 Particles" />
 </p>
 
-Real-time climate visualizations (PM2.5, energy matrix, floods) with particle physics.
+Generative climate visualizations in real time. Particles react to real air quality data (PM2.5), wind speed, and direction — turning numbers into interactive art. Particle color shifts by severity (amber to smoky red), turbulence follows real wind, and the mouse creates force fields on the canvas.
 
-#### Admin — Platform Management
+**✨ Highlights:**
+- 🎨 Generative canvas with up to 300 particles reacting to real data
+- 🌬️ Real wind speed and direction integrated: turbulence proportional to velocity
+- 🖱️ Particles interact with mouse cursor (120px force field)
+- 🏥 5-level WHO classification with dynamic gauge
+- 🔄 Dual data sources: WAQI and OpenAQ (swappable)
+- ⚡ Adaptive cache: 30s to 15min by popularity
+- 🧊 Microservice architecture — runs on ybyra edge node (Oracle, 1GB RAM)
+
+**🎯 For:** Environmental researchers, climate activists, data journalists, general public.
+
+### ⚙️ Admin — Platform Management
+
 <p align="center">
-  <img src="../assets/hub-admin.png" width="600" alt="Admin" />
+  <img src="../assets/hub-admin.png" width="600" alt="Admin — Dashboard" />
 </p>
 
-Administrative panel with organization, member, contract, and billing management. SaaS with Mercado Pago, OAuth, and integrated CMS.
+Central platform administration dashboard: metrics, users, contacts, images, and full ERP (organizations, leads, contracts, invoices, projects). 5-tab navigation with Material Design 3, glassmorphism, and LGPD compliance.
+
+**✨ Highlights:**
+- 📊 Live dashboard with 7 metrics: users, WS sessions, projects, revenue, characters, audio, tokens
+- 🗂️ Full ERP: organizations, Kanban leads, contracts, invoices, projects with task board
+- 👤 User management with admin badge protected by env var (single owner)
+- 🔒 LGPD compliance: email masking, IP audit logs, consent banner, terms versioning
+- 📈 Embedded Umami Analytics with dynamic CSP
+- 🖼️ Image library and CMS with TipTap WYSIWYG editor
+- 📬 Contact CRUD with 3 states: unread, read, archived
+- 🛡️ Protected route — only env-var-configured owner accesses admin
+
+**🎯 For:** Platform administrator, system operator, business manager.
 
 ### Cross-Cutting Features
 
