@@ -68,7 +68,7 @@ Trabalhei diretamente com **André Rodrigues de Aquino** (Lead Environmental Spe
 - Liderança digital de um dos principais institutos de pesquisa climática da Amazônia
 - Alcance consolidado de **2+ milhões** no gerenciamento de 5 redes sociais
 - **Prêmio Mercosul de Jornalismo e Divulgação Científica — 1º lugar em Redes Sociais** (2024)
-- Codiretor do documentário **"Manaus Extrema"** (estreia no INPA / PROTEJA Talks 2024)
+- Codiretor do documentário **"Manaus Extrema"** — publicado pelo IPAM. Estreia no INPA / PROTEJA Talks 2024
 - Implementação de Agile/Scrum como Scrum Master, melhorando previsibilidade e entrega de campanhas
 - Gestão de Google Ad Grants (US$ 10K/mês) e Meta Ads com segmentação baseada em dados
 - Presidi a CIPA por dois mandatos consecutivos
@@ -115,7 +115,7 @@ O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**: 4 servidores roda
 
 - **Coautor** — Moser, P.; de Castro Silva, I.; Benedetti Figueiredo, I.; Favilla, K.; Bustamante, M.; Macedo, M.N.; de Araújo, R.F.; Shimbo, J.Z.; Varela, V.; **Rodrigues, C.E.**; Alencar, A.A. *"Institutional Invisibility Threatens the Lands and Livelihoods of Traditional Communities in the Northern Brazilian Cerrado"* — Submetido a **Land Use Policy** (Elsevier, 2026). A pesquisa de campo foi realizada durante a graduação em Antropologia na UnB.
 - **Documentário** — *RUA PARA QUE(M)?* (85min, 2020) — Direção, fotografia, edição. Publicado pela Sumænimá.
-- **Documentário** — *Manaus Extrema* (2024) — Codireção.
+- **Documentário** — *Manaus Extrema* (2024) — Codireção. Publicado pelo IPAM.
 
 ---
 

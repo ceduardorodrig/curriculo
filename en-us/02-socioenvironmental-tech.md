@@ -68,7 +68,7 @@ Worked directly with **André Rodrigues de Aquino** (Lead Environmental Speciali
 - Led digital presence for one of the Amazon's leading climate research institutes
 - Combined **2+ million reach** across 5 social media networks
 - **Mercosur Scientific Journalism Award — 1st place, Social Networks** (2024)
-- Co-directed **"Manaus Extrema"** documentary (premiered at INPA / 2024 PROTEJA Talks)
+- Co-directed **"Manaus Extrema"** documentary — published by IPAM. Premiered at INPA / 2024 PROTEJA Talks
 - Implemented Agile/Scrum as Scrum Master, improving campaign predictability
 - Managed Google Ad Grants (US$ 10K/month) and Meta Ads with data-driven segmentation
 - Served as CIPA president for two consecutive terms
@@ -115,7 +115,7 @@ The **Mnemocine Homelab** is the **Sumænimá** infrastructure: 4 servers runnin
 
 - **Co-author** — Moser, P.; de Castro Silva, I.; Benedetti Figueiredo, I.; Favilla, K.; Bustamante, M.; Macedo, M.N.; de Araújo, R.F.; Shimbo, J.Z.; Varela, V.; **Rodrigues, C.E.**; Alencar, A.A. *"Institutional Invisibility Threatens the Lands and Livelihoods of Traditional Communities in the Northern Brazilian Cerrado"* — Submitted to **Land Use Policy** (Elsevier, 2026). Field research conducted during undergraduate studies in Anthropology at UnB.
 - **Documentary** — *RUA PARA QUE(M)?* (85min, 2020) — Direction, photography, editing. Published by Sumænimá.
-- **Documentary** — *Manaus Extrema* (2024) — Co-direction.
+- **Documentary** — *Manaus Extrema* (2024) — Co-direction. Published by IPAM.
 
 ---
 
