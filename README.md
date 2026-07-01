@@ -77,7 +77,7 @@ The projects described here total **~8M+ lines and growing** (includes source co
 - 🏛️ **Palácio do Planalto** (mar/2026) — transcrição em tempo real da devolutiva do **Decreto de Regularização Fundiária** do CNPCT, incluindo a fala de abertura da Ministra **Marina Silva**
 - 🌱 **Semana da Sociobiodiversidade** (2025) — relatoria do **3º Encontro Nacional da Juventude das Populações Extrativistas e Tradicionais** (IEB/CNS/MCM/CONFREM) com **Stênio v1**
 - 🏫 **FLONA de Tefé** (2025) — imersão de 39 lideranças no **Módulo II — "Formar Protagonistas"** (IEB/APAFE/Rainforest Trust)
-- 📊 **IPEA** (2026) — planejamento estratégico com relatoria e sistematização via StênioBOT
+- 📊 **IPEA** (jun/2026) — relatoria dos Movimentos 5 (Integração) e 7 (Gestão da Informação) no Encontro de Planejamento Estratégico do instituto, com StênioREC + observação etnográfica. Evento de 3 dias contratado via **Imagine Gestão Social**, resultando na agenda 2026–2027
 
 **🎯 Para:** Relatoria etnográfica, entrevistas qualitativas, audiências públicas, atas corporativas.
 
