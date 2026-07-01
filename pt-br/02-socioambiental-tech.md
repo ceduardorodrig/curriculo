@@ -26,9 +26,9 @@ Sumaenima é meu projeto de vida. Existe há quase 10 anos como entidade criativ
 Outras entregas: documentário etnográfico "RUA PARA QUE(M)?" (2020) e projetos independentes de design, vídeo e dados sob a marca Sumaenima.
 
 ### IPAM — Amazon Environmental Research Institute
-*2022 — presente · Brasília-DF*
+*2022 — 2025 · Brasília-DF*
 
-**Communication Analyst** (2024–presente) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
+**Communication Analyst** (2024–2025) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
 
 - Liderança digital de um dos principais institutos de pesquisa climática da Amazônia
 - Alcance consolidado de **2+ milhões de usuários** no gerenciamento de 5 redes sociais

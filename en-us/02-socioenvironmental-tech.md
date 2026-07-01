@@ -26,9 +26,9 @@ Sumaenima is my life project. It has existed for nearly 10 years as an independe
 Other deliveries: ethnographic documentary "RUA PARA QUE(M)?" (2020) and independent design, video, and data projects under the Sumaenima brand.
 
 ### IPAM — Amazon Environmental Research Institute
-*2022 — present · Brasília-DF, Brazil*
+*2022 — 2025 · Brasília-DF, Brazil*
 
-**Communication Analyst** (2024–present) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
+**Communication Analyst** (2024–2025) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
 
 - Led digital presence for one of the Amazon's premier climate research institutes
 - Combined reach of **2+ million users** across 5 social media networks

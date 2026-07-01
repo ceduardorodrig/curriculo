@@ -31,9 +31,9 @@ Sumaenima is my life project. It has existed for nearly 10 years as an independe
 Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nodes). SaaS with Mercado Pago billing, Google OAuth, and Grafana/Loki observability. Fully offline, private, LGPD-compliant.
 
 ### IPAM — Amazon Environmental Research Institute
-*2022 — present · Brasília-DF, Brazil*
+*2022 — 2025 · Brasília-DF, Brazil*
 
-**Communication Analyst** (2024–present) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
+**Communication Analyst** (2024–2025) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
 
 - Implemented Agile/Scrum as Scrum Master for the communications team, structuring sprints, ceremonies, and delivery metrics
 - Managed audience data and performance across 5 social networks, reaching **2+ million users** combined
