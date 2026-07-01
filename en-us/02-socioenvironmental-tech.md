@@ -10,7 +10,7 @@
 
 ## 👤 Profile
 
-Hybrid professional who combines local open-source technology, data, and anthropology to amplify socio-environmental causes. Nearly a decade building bridges between ethnographic research, strategic communication, and AI systems architecture — with results ranging from 2+ million people reached to national self-mapping platforms integrated with the Federal Public Ministry and academic papers submitted to international journals. Built the StênioKernel, a proprietary AI Agent Governance Kernel that ensures AI operates within strict ethical and security boundaries — critical for protecting vulnerable communities' data. I believe useful, accessible, and sovereign technology is a tool for social and environmental justice.
+Hybrid professional who combines local open-source technology, data, and anthropology to amplify socio-environmental causes. Nearly a decade building bridges between ethnographic research, strategic communication, and AI systems architecture — with results ranging from 2+ million reach to national self-mapping platforms integrated with the Federal Public Ministry and academic papers submitted to international journals. Built the StênioKernel, a proprietary AI Agent Governance Kernel designed to keep AI within ethical and security boundaries — critical for protecting vulnerable communities' data. I believe useful, accessible, and sovereign technology is a tool for social and environmental justice.
 
 ---
 
@@ -28,9 +28,9 @@ Sumænimá is my life project. It has existed for nearly 10 years as an independ
 - **StênioDIVE** 🔴: semantic mining — **concept**, awaiting resources
 - **DataVis** 🔴: climate visualizations — **concept**, early stage
 
-Stack: FastAPI + React + PostgreSQL + Docker Swarm. Fully offline, no data sent to cloud.
+Stack: FastAPI + React + PostgreSQL + Docker Swarm. Local processing, private.
 
-**StênioKernel — Agent Governance Kernel:** built a proprietary governance kernel (21.435 lines, 132 drivers, 22 kernel modules) that ensures AI agents handling sensitive community data follow strict, cryptographically-enforced rules. Total ecosystem: **~8M+ lines and growing**, 1,227+ files, 10 years. 10-layer anti-bypass architecture prevents data leaks; self-healing ensures continuous compliance; universal file jurisdiction ("A Teia") means no configuration or asset escapes audit. Designed to make AI sovereign, auditable, and accountable — not just powerful.
+**StênioKernel — Agent Governance Kernel:** built a proprietary governance kernel (21.435 lines, 132 drivers, 22 kernel modules) that enforces strict, cryptographically-verified rules for AI agents handling sensitive community data. Total ecosystem: **~8M+ lines and growing**, 1,227+ files, 10 years as life project (~2 active development). 10-layer anti-bypass architecture aims to prevent data leaks; automated correction seeks continuous compliance; universal file jurisdiction ("A Teia") means assets are monitored by audit. Designed to make AI sovereign, auditable, and accountable — not just powerful.
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - **3rd National Youth Meeting of Extractive and Traditional Populations** — Sociobiodiversity Week 2025 (IEB/CNS/MCM/CONFREM). Systematization of formulations from dozens of youth leaders from traditional communities across Brazil. Produced with **Stênio v1** — the first operational version of the platform in production.
@@ -45,7 +45,7 @@ Stack: FastAPI + React + PostgreSQL + Docker Swarm. Fully offline, no data sent 
 
 #### Tô no Mapa — Featured Project
 
-This project **defines who I am professionally**. I started as an ethnographic field researcher, conducting interviews and participant observation with traditional Cerrado communities to understand their territorial mapping needs. I helped transform a modest data-gathering initiative into the **Tô no Mapa Platform**, now integrated with Brazil's **Federal Public Ministry** (MPF), empowering thousands of communities to self-map their territories — strengthening the fight for human rights, land rights, and environmental protection. This is where my anthropology-tech hybrid was born.
+This project **defines who I am professionally**. I started as an ethnographic field researcher, conducting interviews and participant observation with traditional Cerrado communities to understand their territorial mapping needs. I helped transform a modest data-gathering initiative into the **Tô no Mapa Platform**, now integrated with Brazil's **Federal Public Ministry** (MPF), empowering traditional communities to self-map their territories — strengthening the fight for human rights, land rights, and environmental protection. This is where my anthropology-tech hybrid was born.
 
 Other contributions:
 - Created the Institute's first public-facing communications strategy in years
@@ -64,8 +64,8 @@ Worked directly with **André Rodrigues de Aquino** (Lead Environmental Speciali
 
 **Communication Analyst** (2024–2025) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
 
-- Led digital presence for one of the Amazon's premier climate research institutes
-- Combined reach of **2+ million users** across 5 social media networks
+- Led digital presence for one of the Amazon's leading climate research institutes
+- Combined **2+ million reach** across 5 social media networks
 - **Mercosur Scientific Journalism Award — 1st place, Social Networks** (2024)
 - Co-directed **"Manaus Extrema"** documentary (premiered at INPA / 2024 PROTEJA Talks)
 - Implemented Agile/Scrum as Scrum Master, improving campaign predictability
@@ -97,7 +97,7 @@ Two semesters completed. Chose to leave the program to dedicate myself fully to 
 
 ## 📡 Infrastructure — Sumænimá & Mnemocine
 
-The **Mnemocine Homelab** is the **Sumænimá** infrastructure: 4 servers running free software, designed for local processing of sensitive data with zero commercial cloud dependency.
+The **Mnemocine Homelab** is the **Sumænimá** infrastructure: 4 servers running free software, designed for local processing of sensitive data with minimal cloud dependency (non-sensitive edge services only).
 
 | Node | Hardware | Role |
 |------|----------|------|

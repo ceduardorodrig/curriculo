@@ -28,13 +28,13 @@ Sumænimá is my life project. It has existed for nearly 10 years as an independ
 - **StênioDIVE** 🔴: cross-semantic mining of wikilinks, tags, and notes in an interactive graph — **concept**, awaiting resources
 - **DataVis** 🔴: interactive climate visualizations with particle physics and real-time data — **concept**, early stage
 
-Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nodes). SaaS with Mercado Pago billing, Google OAuth, Grafana/Loki observability. Fully offline, private, LGPD-compliant.
+Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nodes). SaaS with Mercado Pago billing, Google OAuth, Grafana/Loki observability. Local processing with on-demand sync. Private, LGPD-compliant.
 
 **StênioKernel — Agent Governance Kernel:**
-- Proprietary kernel (21.435 lines, 22 kernel modules, 132 check drivers) governing every AI agent on the project. Total ecosystem: **~8M+ lines and growing**, 1,227+ files, 10 years of development
+- Proprietary kernel (21.435 lines, 22 kernel modules, 132 check drivers) governing every AI agent on the project. Total ecosystem: **~8M+ lines and growing**, 1,227+ files, 10 years as life project (~2 active development)
 - 10-layer anti-bypass architecture: pre-commit gates, bypass guard, scope guard, kernel immutability, cryptographically-signed agent laws, knowledge protocol, repetition→rule, universal file jurisdiction ("A Teia"), WARN→FAIL promotion, automated re-signing blockade
 - Self-healing with negative registry, Knowledge Graph, auto-commit on fix
-- Predictive governance: trend detection via linear regression, auto-suppress, flakiness detection, canary promotion
+- Trend analysis: detection via linear regression, auto-suppress, flakiness detection, canary promotion
 - Memory & learning: history persistence, continuous learning (`--learn`), curated bug patterns with auto-fix commands, proactive suggestions
 - Full documentation ecosystem: 185 files, DocBot
 - Living FMEA, Audio WAL, Neural Flow, adaptive circuit breaker
@@ -50,7 +50,7 @@ Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Do
 
 **Junior Technical Advisor** (2019–2021) · **Trainee** (2017–2019)
 
-- **Tô no Mapa**: the project that defined my hybrid career. Started as an ethnographic field researcher with traditional Cerrado communities and helped transform a data collection initiative into the **Tô no Mapa Platform** — now integrated with Brazil's **Federal Public Ministry**, empowering thousands of communities to self-map their territories
+- **Tô no Mapa**: the project that defined my hybrid career. Started as an ethnographic field researcher with traditional Cerrado communities and helped transform a data collection initiative into the **Tô no Mapa Platform** — now integrated with Brazil's **Federal Public Ministry**, empowering traditional communities to self-map their territories
 - Created the Institute's first public communications strategy in years
 - Produced maps (QGIS), reports, and photographic coverage during field expeditions
 - Provided technical support for large-scale events: Acampamento Terra Livre, Encontro e Feira dos Povos do Cerrado, Latin American Agroecology Congress
@@ -68,7 +68,7 @@ Worked directly with **André Rodrigues de Aquino** (Lead Environmental Speciali
 **Communication Analyst** (2024–2025) · **Communication Assistant** (2023–2024) · **Trainee** (2022–2023)
 
 - Implemented Agile/Scrum as Scrum Master for the communications team
-- Managed audience data across 5 social networks: **2+ million users** reached
+- Managed audience data across 5 social networks: **2+ million reach**
 - Administered Google Ad Grants (US$ 10K/month) and Meta Ads with A/B testing
 - Co-directed **"Manaus Extrema"** documentary (premiered at INPA / 2024 PROTEJA Talks)
 - **Mercosur Scientific Journalism Award — 1st place, Social Networks** (2024)

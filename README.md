@@ -39,7 +39,7 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 ## 🚀 Sumænimá — StênioBOT
 
 **Plataforma de Captura de Dados com IA Local, Privada e Open-Source**
-**~8M+ lines · 1.227+ files · 10 years · 22 kernel modules · 132 check drivers · 30+ containers · 4 nodes**
+**~8M+ lines · 1.227+ files · 22 kernel modules · 132 check drivers · 30+ containers · 4 nodes · 10 yr project · ~2 active dev**
 
 📱 **Responsive design** — iPhone SE · iPad Pro · Desktop
 
@@ -62,11 +62,11 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
   <img src="assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
 </p>
 
-**Conceito:** Cockpit de ata em tempo real. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — tudo offline, sem enviar dados para nuvem. Escreve diretamente em Google Docs com autenticação OAuth por usuário, em modo cooperativo.
+**Conceito:** Cockpit de ata em tempo real. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — processamento de IA 100% local; transcrições sincronizadas via Google Docs com autenticação OAuth por usuário, em modo cooperativo.
 
 **✨ Destaques:**
 - 🧠 Pipeline Neural Flow dual-stage: Whisper draft sub-500ms + Gemma 3 purificação paralela
-- 🔒 Buffer offline de ~2h (57MB RAM + 171MB IndexedDB), zero perda de áudio sem rede
+- 🔒 Buffer offline de ~2h (57MB RAM + 171MB IndexedDB), projetado para evitar perda de áudio sem rede
 - 📝 Criação automática de Google Doc por usuário com credenciais próprias
 - 🎛️ Cockpit em tempo real: GPU temp, VRAM, drift, entropia, status da rede
 - 📱 Wake Lock API — gravação não suspende no celular
@@ -170,7 +170,8 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 |---|---|
 | Linhas de código / Lines of code | **~8M+ e crescendo** |
 | Arquivos / Files | 1.227+ |
-| Anos de desenvolvimento / Years of development | 10 |
+| Projeto de vida / Life project | 10 anos / 10 years |
+| Desenvolvimento ativo / Active development | ~2 anos / ~2 years |
 | Módulos do Kernel / Kernel modules | 22 |
 | Drivers de verificação / Check drivers | 132 |
 | Containers em produção / Production containers | 30+ |
@@ -182,17 +183,17 @@ The projects described here total **~8M+ lines and growing** — across 1,227+ f
 
 ### 🧵 O Fio da Meada
 
-Minha carreira parece não linear até que você percebe o padrão: **sempre usei tecnologia para aproximar mundos**.
+Minha carreira parece não linear até que você percebe o padrão: **ao longo da minha carreira, usei tecnologia para aproximar mundos**.
 
 Comecei como estagiário no [**ISPN**](https://ispn.org.br/) (2017), onde fiz pesquisa etnográfica com comunidades tradicionais do Cerrado. O que eu aprendi em campo — que dados não são só números, mas territórios, memórias e lutas — me levou a co-criar a [**Plataforma Tô no Mapa**](https://tonomapa.org.br/), hoje integrada ao Ministério Público Federal.
 
-No [**IPAM**](https://ipam.org.br/pt/) (2022–2025), passei de estagiário a analista, implementei Agile/Scrum como Scrum Master, gerenciei dados de audiência que alcançaram **2+ milhões de pessoas**, codirigi um documentário sobre mudanças climáticas e ganhei um prêmio Mercosul de jornalismo científico. Mas também descobri o que **não** queria: comunicação institucional para terceiros. O burnout veio junto com a clareza.
+No [**IPAM**](https://ipam.org.br/pt/) (2022–2025), passei de estagiário a analista, implementei Agile/Scrum como Scrum Master, gerenciei dados de audiência que alcançaram **2+ milhões**, codirigi um documentário sobre mudanças climáticas e ganhei um prêmio Mercosul de jornalismo científico. Mas também descobri o que **não** queria: comunicação institucional para terceiros. O burnout veio junto com a clareza.
 
 A virada veio em 2024, quando comecei a construir o **StênioBOT** — a plataforma de captura de dados com IA local da [**Sumænimá**](https://sumaenima.chimaera-heptatonic.ts.net), meu projeto de vida que já existia como entidade criativa independente desde 2016. Juntei tudo que aprendi: antropologia, dados, tecnologia. Dados sensíveis de comunidades não deveriam depender de big tech. Essa é a tese.
 
-Em paralelo, construí o **Homelab Mnemocine**: 4 servidores (incluindo um Dell Frankenstein com Arch Linux (I Use Arch BTW) e RTX 5050 e um notebook velho reaproveitado), orquestrados em Docker Swarm com Tailscale, porque acredito que tecnologia útil não se descarta — e que é possível fazer IA de ponta sem depender de nuvem.
+Em paralelo, construí o **Homelab Mnemocine**: 4 servidores (incluindo um Dell Frankenstein com Arch Linux (I Use Arch BTW) e RTX 5050 e um notebook velho reaproveitado), orquestrados em Docker Swarm com Tailscale, porque acredito que tecnologia útil não se descarta — e que é possível fazer IA de ponta com dependência mínima de nuvem.
 
-Mas o trabalho mais profundo é invisível: o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 132 drivers, 10 camadas anti-bypass) que governa todos os agentes de IA trabalhando na Sumænimá. Ele aplica criptograficamente leis absolutas, autocorrige violações e garante que nenhum agente burle a governança. É o sistema operacional que torna a IA confiável, auditável e responsável.
+Mas o trabalho mais profundo é invisível: o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 132 drivers, 10 camadas anti-bypass) que governa todos os agentes de IA trabalhando na Sumænimá. Ele aplica criptograficamente regras de governança, tenta corrigir violações automaticamente e é projetado para impedir que agentes burlem a governança. É o sistema operacional que torna a IA confiável, auditável e responsável.
 
 Hoje sou um **híbrido**: arquiteto de dados e produtos com alma de antropólogo. Sei traduzir necessidades de pesquisa em requisitos de sistema, e arquitetura técnica em impacto socioambiental.
 
@@ -200,19 +201,25 @@ Hoje sou um **híbrido**: arquiteto de dados e produtos com alma de antropólogo
 
 ### 🧵 The Thread
 
-My career looks nonlinear until you see the pattern: **I've always used technology to bridge worlds**.
+My career looks nonlinear until you see the pattern: **Throughout my career, I've used technology to bridge worlds**.
 
 I started as an intern at [**ISPN**](https://ispn.org.br/) (2017), doing ethnographic research with traditional Cerrado communities. What I learned in the field — that data isn't just numbers, but territories, memories, and struggles — led me to co-create the [**Tô no Mapa Platform**](https://tonomapa.org.br/), now integrated with Brazil's Federal Public Ministry.
 
-At [**IPAM**](https://ipam.org.br/pt/) (2022–2025), I went from intern to analyst, implemented Agile/Scrum as Scrum Master, managed audience data reaching **2+ million people**, co-directed a climate change documentary, and won a Mercosur science journalism award. I also discovered what I **didn't** want: institutional communication for others. Burnout came with clarity.
+At [**IPAM**](https://ipam.org.br/pt/) (2022–2025), I went from intern to analyst, implemented Agile/Scrum as Scrum Master, managed audience data reaching **2+ million**, co-directed a climate change documentary, and won a Mercosur science journalism award. I also discovered what I **didn't** want: institutional communication for others. Burnout came with clarity.
 
 The turning point came in 2024, when I started building **StênioBOT** — the local-AI data capture platform under [**Sumænimá**](https://sumaenima.chimaera-heptatonic.ts.net), my life project that had already existed as an independent creative entity since 2016. I brought everything together: anthropology, data, technology. Sensitive community data shouldn't depend on big tech. That's the thesis.
 
-In parallel, I built the **Mnemocine Homelab**: 4 servers (including a Dell Frankenstein running Arch Linux (I Use Arch BTW) with an RTX 5050 and a repurposed old laptop), orchestrated with Docker Swarm and Tailscale — because useful technology shouldn't be discarded, and because cutting-edge AI shouldn't require cloud dependency.
+In parallel, I built the **Mnemocine Homelab**: 4 servers (including a Dell Frankenstein running Arch Linux (I Use Arch BTW) with an RTX 5050 and a repurposed old laptop), orchestrated with Docker Swarm and Tailscale — because useful technology shouldn't be discarded, and because cutting-edge AI can work with minimal cloud dependency.
 
-But my deepest work is invisible: the **StênioKernel** — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that governs every AI agent working on Sumænimá. It cryptographically enforces absolute laws, self-heals violations, and ensures no agent can bypass governance. It is the operating system that makes AI reliable, auditable, and accountable.
+But my deepest work is invisible: the **StênioKernel** — a proprietary AI Agent Governance Kernel (21.435 lines, 132 check drivers, 10 anti-bypass layers) that governs every AI agent working on Sumænimá. It cryptographically enforces governance rules, attempts automated violation repair, and is designed to prevent agents from bypassing governance. It is the operating system that makes AI reliable, auditable, and accountable.
 
 Today I'm a **hybrid**: data and product architect with an anthropologist's soul. I translate research needs into system requirements, and technical architecture into socio-environmental impact.
+
+---
+
+## 🔍 cvcheck — Miniatura do StênioKernel
+
+Este repositório inclui o **cvcheck**, uma versão reduzida e portátil do StênioKernel que valida e governa este currículo com checks automatizados, verificação de imutabilidade e integridade de dados. Uma demonstração funcional dos mesmos princípios que o StênioKernel aplica em escala no ecossistema Sumænimá.
 
 ---
 

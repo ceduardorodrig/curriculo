@@ -10,7 +10,7 @@
 
 ## 👤 Perfil
 
-Profissional híbrido que une tecnologia open-source local, dados e antropologia para amplificar causas socioambientais. Quase uma década construindo pontes entre pesquisa etnográfica, comunicação estratégica e arquitetura de sistemas de IA — com resultados que vão de 2+ milhões de pessoas alcançadas a plataformas nacionais de automapeamento integradas ao Ministério Público Federal e artigos científicos submetidos a periódicos internacionais. Construiu o StênioKernel, um Kernel proprietário de Governança para Agentes de IA que garante que a IA opere dentro de limites éticos e de segurança rigorosos — essencial para proteger dados de comunidades vulneráveis. Acredito que tecnologia útil, acessível e soberana é ferramenta de justiça social e ambiental.
+Profissional híbrido que une tecnologia open-source local, dados e antropologia para amplificar causas socioambientais. Quase uma década construindo pontes entre pesquisa etnográfica, comunicação estratégica e arquitetura de sistemas de IA — com resultados que vão de 2+ milhões de alcance a plataformas nacionais de automapeamento integradas ao Ministério Público Federal e artigos científicos submetidos a periódicos internacionais. Construiu o StênioKernel, um Kernel proprietário de Governança para Agentes de IA projetado para manter a IA dentro de limites éticos e de segurança — essencial para proteger dados de comunidades vulneráveis. Acredito que tecnologia útil, acessível e soberana é ferramenta de justiça social e ambiental.
 
 ---
 
@@ -28,9 +28,9 @@ Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criati
 - **StênioDIVE** 🔴: mineração semântica — **concepção**, aguardando recursos
 - **DataVis** 🔴: visualizações climáticas — **concepção**, em estágio inicial
 
-Stack: FastAPI + React + PostgreSQL + Docker Swarm. Tudo offline, sem envio de dados para cloud.
+Stack: FastAPI + React + PostgreSQL + Docker Swarm. Processamento local, privado.
 
-**StênioKernel — Kernel de Governança para Agentes de IA:** construiu um kernel proprietário de governança (21.435 linhas, 132 drivers, 22 módulos kernel) que garante que agentes de IA lidando com dados sensíveis de comunidades sigam regras estritas e com aplicação criptográfica. Ecossistema total: **~8M+ linhas e crescendo**, 1.227+ arquivos, 10 anos. Arquitetura anti-bypass em 10 camadas previne vazamentos; auto-healing garante conformidade contínua; jurisdição universal ("A Teia") significa que nenhuma configuração ou ativo escapa da auditoria. Projetado para tornar a IA soberana, auditável e responsável — não apenas poderosa.
+**StênioKernel — Kernel de Governança para Agentes de IA:** construiu um kernel proprietário de governança (21.435 linhas, 132 drivers, 22 módulos kernel) que aplica regras estritas e com verificação criptográfica para agentes de IA lidando com dados sensíveis de comunidades. Ecossistema total: **~8M+ linhas e crescendo**, 1.227+ arquivos, 10 anos como projeto de vida (~2 de desenvolvimento ativo). Arquitetura anti-bypass em 10 camadas visa prevenir vazamentos; correção automatizada busca conformidade contínua; jurisdição universal ("A Teia") significa que ativos são monitorados por auditoria. Projetado para tornar a IA soberana, auditável e responsável — não apenas poderosa.
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - **3º Encontro Nacional da Juventude das Populações Extrativistas e Tradicionais** — Semana da Sociobiodiversidade 2025 (IEB/CNS/MCM/CONFREM). Sistematização das formulações de dezenas de jovens de povos e comunidades tradicionais de todo o Brasil, resultando em diagnóstico estratégico para organizações do setor. Realizada com **Stênio v1** — primeira versão operacional da plataforma em produção.
@@ -45,7 +45,7 @@ Stack: FastAPI + React + PostgreSQL + Docker Swarm. Tudo offline, sem envio de d
 
 #### Tô no Mapa — Projeto de Destaque
 
-Este projeto **define quem sou profissionalmente**. Comecei como pesquisador etnográfico em campo, realizando entrevistas e observação participante com comunidades tradicionais do Cerrado para entender suas necessidades de mapeamento territorial. Contribuí para transformar uma modesta iniciativa de coleta de dados na **Plataforma Tô no Mapa**, hoje integrada ao **Ministério Público Federal**, empoderando milhares de comunidades a automapear seus territórios — fortalecendo a luta por direitos humanos, territoriais e proteção ambiental. Foi aqui que nasceu meu híbrido antropologia-tech.
+Este projeto **define quem sou profissionalmente**. Comecei como pesquisador etnográfico em campo, realizando entrevistas e observação participante com comunidades tradicionais do Cerrado para entender suas necessidades de mapeamento territorial. Contribuí para transformar uma modesta iniciativa de coleta de dados na **Plataforma Tô no Mapa**, hoje integrada ao **Ministério Público Federal**, empoderando comunidades tradicionais a automapear seus territórios — fortalecendo a luta por direitos humanos, territoriais e proteção ambiental. Foi aqui que nasceu meu híbrido antropologia-tech.
 
 Outras contribuições:
 - Criação da primeira estratégia de comunicação pública do Instituto em anos
@@ -65,7 +65,7 @@ Trabalhei diretamente com **André Rodrigues de Aquino** (Lead Environmental Spe
 **Analista de Comunicação** (2024–2025) · **Assistente de Comunicação** (2023–2024) · **Estagiário** (2022–2023)
 
 - Liderança digital de um dos principais institutos de pesquisa climática da Amazônia
-- Alcance consolidado de **2+ milhões de usuários** no gerenciamento de 5 redes sociais
+- Alcance consolidado de **2+ milhões** no gerenciamento de 5 redes sociais
 - **Prêmio Mercosul de Jornalismo e Divulgação Científica — 1º lugar em Redes Sociais** (2024)
 - Codiretor do documentário **"Manaus Extrema"** (estreia no INPA / PROTEJA Talks 2024)
 - Implementação de Agile/Scrum como Scrum Master, melhorando previsibilidade e entrega de campanhas
@@ -97,7 +97,7 @@ Dois semestres concluídos. Escolhi sair do mestrado para me dedicar integralmen
 
 ## 📡 Infraestrutura — Sumænimá & Mnemocine
 
-O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**: 4 servidores rodando software livre, projetados para processamento local de dados sensíveis com zero dependência de nuvem comercial.
+O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**: 4 servidores rodando software livre, projetados para processamento local de dados sensíveis com dependência mínima de nuvem (serviços de borda não-sensíveis).
 
 | Nó | Hardware | Papel |
 |----|----------|-------|

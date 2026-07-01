@@ -14,9 +14,9 @@ Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criati
 
 O sonho é captar recursos para ter equipe e construir um **Bureau de Dados** com alma antropológica: uma estrutura que produza projetos como o Tô no Mapa, visualizações de dados e pesquisa etnográfica em escala — unindo ciência, território e tecnologia de forma soberana.
 
-Mas a camada mais profunda e valiosa da Sumænimá é invisível: o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 22 módulos de kernel, 132 drivers automatizados, 10 camadas anti-bypass) que governa todos os agentes de IA trabalhando no projeto. Ele aplica criptograficamente leis absolutas, autocorrige violações, detecta tentativas de bypass e garante que nenhum agente escape da governança. É o sistema operacional que torna a IA confiável, auditável e responsável.
+Mas a camada mais profunda e valiosa da Sumænimá é invisível: o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA (21.435 linhas, 22 módulos de kernel, 132 drivers automatizados, 10 camadas anti-bypass) que governa todos os agentes de IA trabalhando no projeto. Ele aplica criptograficamente regras de governança, tenta corrigir violações automaticamente, detecta tentativas de bypass e é projetado para impedir que agentes burlem a governança. É o sistema operacional que torna a IA confiável, auditável e responsável.
 
-**StênioBOT** é uma plataforma de captura de dados assistida por IA que roda 100% offline, em hardware local, sem enviar dados para nuvem. Quatro módulos integrados que cobrem o ciclo completo da pesquisa qualitativa: da coleta em campo à análise e visualização.
+**StênioBOT** é uma plataforma de captura de dados assistida por IA com processamento local (inferência em hardware próprio); documentos são sincronizados via Google Docs quando necessário. Quatro módulos integrados que cobrem o ciclo completo da pesquisa qualitativa: da coleta em campo à análise e visualização.
 
 Ao todo, o ecossistema Sumænimá soma **~8M+ linhas e crescendo** — distribuídas em 1.227+ arquivos, ao longo de 10 anos como projeto de vida.
 
@@ -39,7 +39,7 @@ Pesquisadores, ONGs e instituições que trabalham com dados sensíveis enfrenta
 - Alternativas locais são fragmentadas, mal documentadas e exigem conhecimento técnico profundo
 - LGPD, GDPR e comitês de ética restringem cada vez mais o uso de soluções cloud para dados de pesquisa
 
-Não existe uma plataforma integrada, local, privada e acessível para pesquisa qualitativa assistida por IA.
+Não encontramos uma plataforma integrada que atendesse estas necessidades específicas de pesquisa qualitativa assistida por IA — local, privada e acessível.
 
 ---
 
@@ -52,11 +52,11 @@ Não existe uma plataforma integrada, local, privada e acessível para pesquisa 
   <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Cockpit de Transcrição" />
 </p>
 
-Cockpit de transcrição em tempo real com IA 100% local. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — tudo offline, sem enviar dados para nuvem. Escreve diretamente em Google Docs com autenticação OAuth por usuário, em modo colaborativo.
+Cockpit de transcrição em tempo real com IA 100% local. Captura áudio via AudioWorklet API, transcreve com Whisper large-v3-turbo (CTranslate2 + cuBLAS) e purifica com Gemma 3 1B IT em pipeline paralelo — processamento de IA 100% local; transcrições sincronizadas via Google Docs com autenticação OAuth por usuário, em modo colaborativo.
 
 **✨ Destaques:**
 - 🧠 Pipeline Neural Flow dual-stage: Whisper draft sub-500ms + Gemma 3 purificação paralela
-- 🔒 Buffer offline de ~2h (57MB RAM + 171MB IndexedDB), zero perda de áudio sem rede
+- 🔒 Buffer offline de ~2h (57MB RAM + 171MB IndexedDB), projetado para evitar perda de áudio sem rede
 - 📝 Criação automática de Google Doc por usuário com credenciais próprias
 - 🎛️ Cockpit em tempo real: GPU temp, VRAM, drift, entropia, status da rede
 - 📱 Wake Lock API — gravação não suspende no celular
@@ -169,7 +169,7 @@ Painel central de administração da plataforma: métricas, usuários, contatos,
 | **Analytics** | Umami (self-hosted, privacy-first) |
 | **Governança** | StênioKernel (21.435 linhas, 132 drivers, 22 módulos kernel) |
 | **Monitoramento** | Grafana · Loki · Promtail |
-| **Ecossistema** | **~8M+ linhas e crescendo** · 1.227+ arquivos · 10 anos |
+| **Ecossistema** | **~8M+ linhas e crescendo** · 1.227+ arquivos · 10 anos (projeto) · ~2 (ativo) |
 
 ---
 
@@ -209,9 +209,9 @@ O Healer não apenas reporta violações — ele as corrige autonomamente:
 6. Se passar: `git add + git commit` automático, adiciona ao registry permanente
 7. Se falhar: reverte, registra falha no negative registry, tenta próximo candidato
 
-### 📊 Governança Preditiva
+### 📊 Análise de Tendências
 
-O kernel não apenas reporta falhas atuais — ele prevê as futuras:
+O kernel não apenas reporta falhas atuais — ele identifica padrões nas execuções recentes:
 - **Detecção de tendências**: regressão linear sobre contagens de violações nas últimas 10 execuções
 - **Auto-suppress**: suprime warnings persistentes por N execuções consecutivas (limiar adaptativo)
 - **Comparação com baseline**: `.steniocheck-baseline.json` para redução de ruído
@@ -236,7 +236,7 @@ O kernel não apenas reporta falhas atuais — ele prevê as futuras:
 - **FMEA vivo**: nós de falha documentados com logging em tempo real e auditoria via LLM
 - **Audio WAL**: Write-Ahead Log com criptografia AES-GCM 256 + IndexedDB, detecção de falha em 3 camadas, resiliência silenciosa a quedas de rede
 - **Circuit breaker adaptativo** via Valkey para Google Docs, Mercado Pago, OAuth e Umami
-- **Neural Flow**: pipeline dual-stage Whisper (draft sub-500ms) + Gemma (refinamento) com política de tolerância zero a alucinações
+- **Neural Flow**: pipeline dual-stage Whisper (draft sub-500ms) + Gemma (refinamento) com mitigação de alucinações via verificação cruzada
 - **Cross-worker handoff**: sessão persistida em Valkey com TTL de 8h, qualquer worker pode retomar contexto
 
 ### 🔍 Autodiagnóstico
@@ -251,7 +251,7 @@ O kernel audita a si mesmo:
 
 ## 🖥️ Infraestrutura — Homelab Mnemocine
 
-O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**. São indistinguíveis — prova de conceito rodando em hardware real, sem dependência de cloud comercial para dados sensíveis.
+O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**. São indistinguíveis — prova de conceito rodando em hardware real, com dependência mínima de nuvem (serviços de borda não-sensíveis apenas).
 
 | Nó | Hardware | Função |
 |----|----------|--------|
@@ -277,7 +277,8 @@ O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**. São indistinguí
 |---------|-------|
 | Linhas de código totais | ~8M+ e crescendo |
 | Arquivos | 1.227+ |
-| Anos de desenvolvimento | 10 |
+| Anos como projeto de vida | 10 |
+| Desenvolvimento ativo | ~2 |
 | Módulos do StênioKernel | 22 |
 | Drivers de verificação | 132 |
 | Camadas anti-bypass | 10 |
@@ -291,7 +292,7 @@ O **Homelab Mnemocine** é a infraestrutura da **Sumænimá**. São indistinguí
 
 **Carlos Eduardo Rodrigues** · Antropólogo (UnB), founder, PO e arquiteto do StênioKernel.
 
-Há quase 10 anos combinando pesquisa etnográfica, tecnologia e dados — com a Sumænimá como fio condutor. Construiu a **Plataforma Tô no Mapa** (integrada ao MPF) enquanto estava no ISPN. Projetou o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA que governa todos os agentes de IA do projeto através de 10 camadas de segurança, auto-healing, integridade criptográfica e governança preditiva. Viveu na pele o potencial transformador da tecnologia no socioambiental — e também o burnout de usar comunicação a serviço de terceiros.
+Há quase 10 anos combinando pesquisa etnográfica, tecnologia e dados — com a Sumænimá como fio condutor. Construiu a **Plataforma Tô no Mapa** (integrada ao MPF) enquanto estava no ISPN. Projetou o **StênioKernel** — um Kernel proprietário de Governança para Agentes de IA que governa todos os agentes de IA do projeto através de 10 camadas de segurança, correção automatizada, integridade criptográfica e análise de tendências. Viveu na pele o potencial transformador da tecnologia no socioambiental — e também o burnout de usar comunicação a serviço de terceiros.
 
 Sua pesquisa de campo na **Fazenda Canadá** (Cavalcante-GO) o conectou com **André Aquino** (Lead Environmental Specialist, World Bank) e **Daniel Ferreira** (diplomata, Itamaraty), proprietários da **Reserva Natural Veredas dos Buritis** — dentro da área do seu TCC. Trabalhou com eles na **Rede de Monitoria Participativa da Fauna**. Essa experiência definiu seu olhar híbrido.
 

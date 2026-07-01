@@ -14,9 +14,9 @@ Sumænimá is my life project. It has existed for nearly 10 years as an independ
 
 The dream is to raise resources to build a team and create a **Data Bureau** with an anthropological soul: a structure that produces projects like Tô no Mapa, data visualizations, and ethnographic research at scale — uniting science, territory, and technology in a sovereign way.
 
-But the deepest and most valuable layer of Sumænimá is invisible: the **StênioKernel** — a proprietary AI Agent Governance Kernel (21.435 lines, 22 kernel modules, 132 automated check drivers, 10 anti-bypass layers) that governs every AI agent working on the project. It cryptographically enforces absolute laws, self-heals violations, detects bypass attempts, and ensures no agent can escape governance. It is the operating system that makes AI reliable, auditable, and accountable.
+But the deepest and most valuable layer of Sumænimá is invisible: the **StênioKernel** — a proprietary AI Agent Governance Kernel (21.435 lines, 22 kernel modules, 132 automated check drivers, 10 anti-bypass layers) that governs every AI agent working on the project. It cryptographically enforces governance rules, attempts automated violation repair, detects bypass attempts, and is designed to prevent agents from escaping governance. It is the operating system that makes AI reliable, auditable, and accountable.
 
-**StênioBOT** is an AI-assisted data capture platform running 100% offline on local hardware, with zero data sent to the cloud. Four integrated modules cover the complete qualitative research cycle: from field collection to analysis and visualization.
+**StênioBOT** is an AI-assisted data capture platform with local processing (inference on own hardware); transcripts sync to Google Docs when needed. Four integrated modules cover the complete qualitative research cycle: from field collection to analysis and visualization.
 
 The entire Sumænimá ecosystem totals **~8M+ lines and growing** — across 1,227+ files, built over 10 years as a life project.
 
@@ -39,7 +39,7 @@ Researchers, NGOs, and institutions working with sensitive data face a dilemma:
 - Local alternatives are fragmented, poorly documented, and require deep technical expertise
 - LGPD, GDPR, and ethics committees increasingly restrict cloud solutions for research data
 
-There is no integrated, local, private, and accessible platform for AI-assisted qualitative research.
+We found no integrated platform meeting these specific needs — local, private, accessible, and built for AI-assisted qualitative research.
 
 ---
 
@@ -52,11 +52,11 @@ There is no integrated, local, private, and accessible platform for AI-assisted 
   <img src="../assets/hub-rec.png" width="600" alt="StênioREC — Transcription Cockpit" />
 </p>
 
-Real-time transcription cockpit with 100% local AI. Captures audio via AudioWorklet API, transcribes with Whisper large-v3-turbo (CTranslate2 + cuBLAS), and purifies with Gemma 3 1B IT in a parallel pipeline — all offline, zero data sent to the cloud. Writes directly to Google Docs with per-user OAuth authentication in collaborative mode.
+Real-time transcription cockpit with 100% local AI. Captures audio via AudioWorklet API, transcribes with Whisper large-v3-turbo (CTranslate2 + cuBLAS), and purifies with Gemma 3 1B IT in a parallel pipeline — 100% local AI processing; transcripts synced to Google Docs with per-user OAuth authentication in collaborative mode.
 
 **✨ Highlights:**
 - 🧠 Dual-stage Neural Flow pipeline: Whisper draft sub-500ms + parallel Gemma 3 purification
-- 🔒 ~2h offline buffer (57MB RAM + 171MB IndexedDB), zero audio loss without network
+- 🔒 ~2h offline buffer (57MB RAM + 171MB IndexedDB), designed to prevent audio loss without network
 - 📝 Automatic Google Doc creation per user with own credentials
 - 🎛️ Real-time cockpit: GPU temp, VRAM, drift, entropy, network status
 - 📱 Wake Lock API — recording doesn't suspend on mobile
@@ -169,7 +169,7 @@ Central platform administration dashboard: metrics, users, contacts, images, and
 | **Analytics** | Umami (self-hosted, privacy-first) |
 | **Governance** | StênioKernel (21.435 lines, 132 drivers, 22 kernel modules) |
 | **Monitoring** | Grafana · Loki · Promtail |
-| **Ecosystem** | **~8M+ lines and growing** · 1,227+ files · 10 years |
+| **Ecosystem** | **~8M+ lines and growing** · 1,227+ files · 10 yr (project) · ~2 (active) |
 
 ---
 
@@ -209,9 +209,9 @@ The Healer doesn't just report violations — it autonomously fixes them:
 6. On pass: `git add + git commit` automatically, adds to permanent registry
 7. On fail: reverts, records failure in negative registry, tries next candidate
 
-### 📊 Predictive Governance
+### 📊 Trend Analysis
 
-The kernel doesn't just report current failures — it predicts future ones:
+The kernel doesn't just report current failures — it identifies patterns across recent runs:
 - **Trend detection**: linear regression on violation counts over the last 10 runs
 - **Auto-suppress**: suppresses warnings persisting for N consecutive runs (adaptive threshold)
 - **Baseline comparison**: `.steniocheck-baseline.json` for noise reduction
@@ -236,7 +236,7 @@ The kernel doesn't just report current failures — it predicts future ones:
 - **Living FMEA**: documented failure nodes with real-time logging and LLM auditing
 - **Audio WAL**: Write-Ahead Log with AES-GCM 256 encryption + IndexedDB, 3-layer failure detection, silent network resilience
 - **Adaptive circuit breaker** via Valkey for Google Docs, Mercado Pago, OAuth, and Umami
-- **Neural Flow**: dual-stage Whisper (sub-500ms draft) + Gemma (refinement) with zero-tolerance hallucination policy
+- **Neural Flow**: dual-stage Whisper (sub-500ms draft) + Gemma (refinement) with cross-verification hallucination mitigation
 - **Cross-worker handoff**: session state persisted in Valkey with 8h TTL, any worker can restore context
 
 ### 🔍 Self-Diagnosis
@@ -251,7 +251,7 @@ The kernel audits itself:
 
 ## 🖥️ Infrastructure — Mnemocine Homelab
 
-The **Mnemocine Homelab** is the **Sumænimá** infrastructure. They are indistinguishable — proof of concept running on real hardware with zero commercial cloud dependency for sensitive data.
+The **Mnemocine Homelab** is the **Sumænimá** infrastructure. They are indistinguishable — proof of concept running on real hardware with minimal cloud dependency (non-sensitive edge services only).
 
 | Node | Hardware | Role |
 |------|----------|------|
@@ -277,7 +277,8 @@ The **Mnemocine Homelab** is the **Sumænimá** infrastructure. They are indisti
 |--------|-------|
 | Total lines of code | ~8M+ and growing |
 | Files | 1,227+ |
-| Years of development | 10 |
+| Life project years | 10 |
+| Active development | ~2 |
 | StênioKernel modules | 22 |
 | Check drivers | 132 |
 | Anti-bypass layers | 10 |
@@ -291,7 +292,7 @@ The **Mnemocine Homelab** is the **Sumænimá** infrastructure. They are indisti
 
 **Carlos Eduardo Rodrigues** · Anthropologist (UnB), founder, PO, and StênioKernel architect.
 
-Nearly a decade combining ethnographic research, technology, and data — with Sumænimá as the thread running through everything he builds. Built the **Tô no Mapa Platform** (integrated with Brazil's Federal Public Ministry) while at ISPN. Designed the **StênioKernel** — a proprietary AI Agent Governance Kernel that governs every AI agent on the project through 10 security layers, self-healing, cryptographic integrity, and predictive governance. Experienced firsthand the transformative potential of technology in the socio-environmental space — and also the burnout of using communication in service of others.
+Nearly a decade combining ethnographic research, technology, and data — with Sumænimá as the thread running through everything he builds. Built the **Tô no Mapa Platform** (integrated with Brazil's Federal Public Ministry) while at ISPN. Designed the **StênioKernel** — a proprietary AI Agent Governance Kernel that governs every AI agent on the project through 10 security layers, automated repair, cryptographic integrity, and trend analysis. Experienced firsthand the transformative potential of technology in the socio-environmental space — and also the burnout of using communication in service of others.
 
 His fieldwork at **Fazenda Canadá** (Cavalcante-GO) connected him with **André Aquino** (Lead Environmental Specialist, World Bank) and **Daniel Ferreira** (Itamaraty diplomat), owners of the **Reserva Natural Veredas dos Buritis** — inside the thesis area. He worked with them on the **Participatory Fauna Monitoring Network**. This experience defined his hybrid perspective.
 

@@ -28,13 +28,13 @@ Sumænimá é meu projeto de vida. Existe há quase 10 anos como entidade criati
 - **StênioDIVE** 🔴: mineração semântica cruzada de wikilinks, tags e notas em grafo interativo — **concepção**, aguardando recursos
 - **DataVis** 🔴: visualizações climáticas com física de partículas e dados em tempo real — **concepção**, em estágio inicial
 
-Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nós). SaaS com Mercado Pago, Google OAuth, Grafana/Loki. 100% offline, privado, LGPD.
+Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Docker Swarm (3 nós). SaaS com Mercado Pago, Google OAuth, Grafana/Loki. Processamento local com sincronização sob demanda. Privado, LGPD.
 
 **StênioKernel — Kernel de Governança para Agentes de IA:**
-- Kernel proprietário (21.435 linhas, 22 módulos kernel, 132 drivers) governando todos os agentes de IA do projeto. Ecossistema total: **~8M+ linhas e crescendo**, 1.227+ arquivos, 10 anos de desenvolvimento
+- Kernel proprietário (21.435 linhas, 22 módulos kernel, 132 drivers) governando todos os agentes de IA do projeto. Ecossistema total: **~8M+ linhas e crescendo**, 1.227+ arquivos, 10 anos como projeto de vida (~2 de desenvolvimento ativo)
 - Arquitetura anti-bypass em 10 camadas: pre-commit gates, bypass guard, scope guard, imutabilidade do kernel, leis de agentes com assinatura criptográfica, protocolo de conhecimento, repetição→regra, jurisdição universal ("A Teia"), promoção WARN→FAIL, bloqueio de reassinatura automatizado
 - Auto-healing com negative registry, Knowledge Graph, auto-commit em correções bem-sucedidas
-- Governança preditiva: detecção de tendências via regressão linear, auto-suppress, detecção de flakiness, promoção de canary
+- Análise de tendências: detecção via regressão linear, auto-suppress, detecção de flakiness, promoção de canary
 - Memória e aprendizado: persistência de histórico, aprendizado contínuo (`--learn`), padrões de bug com auto-fix commands, sugestões proativas
 - Ecossistema de documentação: 185 arquivos, DocBot
 - FMEA vivo, Audio WAL, Neural Flow, circuit breaker adaptativo
@@ -50,7 +50,7 @@ Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Do
 
 **Assessor Técnico Júnior** (2019–2021) · **Estagiário** (2017–2019)
 
-- **Tô no Mapa**: o projeto que definiu minha trajetória híbrida. Comecei como pesquisador etnográfico em campo com comunidades tradicionais do Cerrado e ajudei a transformar uma iniciativa de coleta de dados na **Plataforma Tô no Mapa** — hoje integrada ao **Ministério Público Federal**, empoderando milhares de comunidades a automapear seus territórios
+- **Tô no Mapa**: o projeto que definiu minha trajetória híbrida. Comecei como pesquisador etnográfico em campo com comunidades tradicionais do Cerrado e ajudei a transformar uma iniciativa de coleta de dados na **Plataforma Tô no Mapa** — hoje integrada ao **Ministério Público Federal**, empoderando comunidades tradicionais a automapear seus territórios
 - Criei a primeira estratégia de comunicação pública do Instituto em anos
 - Produzi mapas (QGIS), relatórios e cobertura fotográfica em expedições de campo
 - Apoio técnico a eventos socioambientais de grande porte: Acampamento Terra Livre, Encontro e Feira dos Povos do Cerrado, Congresso Latino-Americano de Agroecologia
@@ -68,7 +68,7 @@ Trabalhei diretamente com **André Rodrigues de Aquino** (Lead Environmental Spe
 **Analista de Comunicação** (2024–2025) · **Assistente de Comunicação** (2023–2024) · **Estagiário** (2022–2023)
 
 - Implementei Agile/Scrum como Scrum Master na equipe de comunicação, estruturando sprints, rituais e métricas de entrega
-- Gerenciei dados de audiência de 5 redes sociais: **2+ milhões de usuários** alcançados
+- Gerenciei dados de audiência de 5 redes sociais: **alcance de 2+ milhões de usuários**
 - Administrei Google Ad Grants (US$ 10K/mês) e Meta Ads com segmentação, testes A/B e otimização contínua
 - Codiretor do documentário **"Manaus Extrema"** (estreia no INPA / PROTEJA Talks 2024)
 - **Prêmio Mercosul de Jornalismo e Divulgação Científica — 1º lugar, categoria Redes Sociais** (2024)
