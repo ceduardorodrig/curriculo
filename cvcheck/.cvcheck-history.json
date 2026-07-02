@@ -1,36 +1,6 @@
 {
   "gov_acronyms": [
     {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 60.9
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 102.7
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 184.8
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 79.4
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 56.2
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 76.0
-    },
-    {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
       "duration_ms": 54.7
@@ -99,39 +69,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 40.6
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 148.5
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 152.9
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 56.7
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 165.6
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 37.1
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 149.6
     }
   ],
   "dates": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 32.7
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 19.6
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 141.1
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 74.9
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 22.4
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 59.1
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -201,39 +171,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 122.0
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 161.5
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 112.1
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 172.3
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 104.4
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 19.5
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 86.6
     }
   ],
   "sec_scope_guard": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 0.1
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 0.0
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 0.0
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 0.0
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 0.0
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 0.0
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -303,39 +273,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 0.0
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 0.0
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 0.0
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 0.1
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 0.0
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 0.0
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 0.0
     }
   ],
   "parity": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 50.2
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 75.7
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 165.8
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 69.2
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 40.6
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 68.4
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -405,39 +375,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 27.5
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 95.1
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 106.3
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 184.0
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 101.1
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 45.3
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 35.2
     }
   ],
   "gov_bilingual": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 82.4
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 123.4
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 233.8
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 52.3
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 50.2
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 45.1
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -507,39 +477,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 60.2
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 124.4
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 72.7
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 146.3
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 160.1
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 60.6
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 66.3
     }
   ],
   "structure": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 63.2
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 129.2
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 116.0
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 70.9
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 29.4
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 35.7
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -609,39 +579,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 169.8
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 55.1
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 73.5
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 106.2
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 91.9
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 89.1
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 100.1
     }
   ],
   "spell_pt": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "SKIP",
-      "duration_ms": 45.9
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "SKIP",
-      "duration_ms": 71.5
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "WARN",
-      "duration_ms": 10258.3
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "WARN",
-      "duration_ms": 9782.2
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "WARN",
-      "duration_ms": 9215.3
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "WARN",
-      "duration_ms": 9488.7
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "WARN",
@@ -711,39 +681,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "WARN",
       "duration_ms": 10101.1
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "WARN",
+      "duration_ms": 11505.5
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "WARN",
+      "duration_ms": 9029.0
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "WARN",
+      "duration_ms": 11095.3
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "WARN",
+      "duration_ms": 11447.0
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "WARN",
+      "duration_ms": 11043.8
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "WARN",
+      "duration_ms": 11080.4
     }
   ],
   "spell_en": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "SKIP",
-      "duration_ms": 45.7
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "SKIP",
-      "duration_ms": 159.6
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "WARN",
-      "duration_ms": 448.5
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "WARN",
-      "duration_ms": 342.4
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "WARN",
-      "duration_ms": 320.6
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "WARN",
-      "duration_ms": 291.5
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "WARN",
@@ -813,39 +783,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "WARN",
       "duration_ms": 572.5
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "WARN",
+      "duration_ms": 494.5
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "WARN",
+      "duration_ms": 363.8
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "WARN",
+      "duration_ms": 585.4
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "WARN",
+      "duration_ms": 507.0
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "WARN",
+      "duration_ms": 547.5
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "WARN",
+      "duration_ms": 392.7
     }
   ],
   "sec_bypass_guard": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 85.6
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 187.7
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 227.8
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 84.8
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 64.6
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 66.9
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -915,39 +885,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 210.4
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 149.6
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 124.7
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 266.9
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 174.8
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 153.3
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 120.9
     }
   ],
   "gov_glossary": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 98.6
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 236.3
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 303.8
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 120.8
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 114.3
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 85.5
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -1017,44 +987,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 375.9
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 245.5
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 187.7
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 403.5
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 233.5
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 169.1
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 167.4
     }
   ],
   "links": [
-    {
-      "ts": "2026-07-01T22:45:06Z",
-      "result": "PASS",
-      "duration_ms": 3.5
-    },
-    {
-      "ts": "2026-07-01T22:45:16Z",
-      "result": "PASS",
-      "duration_ms": 73.0
-    },
-    {
-      "ts": "2026-07-01T23:46:13Z",
-      "result": "PASS",
-      "duration_ms": 220.5
-    },
-    {
-      "ts": "2026-07-01T23:46:21Z",
-      "result": "PASS",
-      "duration_ms": 4.9
-    },
-    {
-      "ts": "2026-07-01T23:46:33Z",
-      "result": "PASS",
-      "duration_ms": 177.6
-    },
-    {
-      "ts": "2026-07-01T23:53:58Z",
-      "result": "PASS",
-      "duration_ms": 198.4
-    },
-    {
-      "ts": "2026-07-01T23:54:05Z",
-      "result": "PASS",
-      "duration_ms": 4.8
-    },
     {
       "ts": "2026-07-01T23:54:17Z",
       "result": "PASS",
@@ -1119,39 +1084,44 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 256.2
+    },
+    {
+      "ts": "2026-07-02T00:44:54Z",
+      "result": "PASS",
+      "duration_ms": 3.6
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 216.1
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 130.3
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 350.6
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 207.8
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 178.1
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 147.3
     }
   ],
   "gov_immutability": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 102.2
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 227.1
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 304.5
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "FAIL",
-      "duration_ms": 123.0
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "FAIL",
-      "duration_ms": 49.8
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 93.4
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -1221,39 +1191,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 365.7
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 230.8
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "FAIL",
+      "duration_ms": 177.7
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "FAIL",
+      "duration_ms": 381.6
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "FAIL",
+      "duration_ms": 219.8
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "FAIL",
+      "duration_ms": 212.4
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 173.0
     }
   ],
   "gov_self_audit": [
-    {
-      "ts": "2026-07-01T05:44:19Z",
-      "result": "PASS",
-      "duration_ms": 100.6
-    },
-    {
-      "ts": "2026-07-01T05:44:59Z",
-      "result": "PASS",
-      "duration_ms": 235.5
-    },
-    {
-      "ts": "2026-07-01T19:27:10Z",
-      "result": "PASS",
-      "duration_ms": 291.6
-    },
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "FAIL",
-      "duration_ms": 122.6
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "FAIL",
-      "duration_ms": 96.9
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 93.7
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -1323,24 +1293,39 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 354.2
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 235.7
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "FAIL",
+      "duration_ms": 156.0
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "FAIL",
+      "duration_ms": 361.2
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 217.7
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 217.3
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 156.1
     }
   ],
   "gov_consistency": [
-    {
-      "ts": "2026-07-01T22:44:23Z",
-      "result": "PASS",
-      "duration_ms": 21.1
-    },
-    {
-      "ts": "2026-07-01T22:44:38Z",
-      "result": "PASS",
-      "duration_ms": 65.4
-    },
-    {
-      "ts": "2026-07-01T22:44:53Z",
-      "result": "PASS",
-      "duration_ms": 51.1
-    },
     {
       "ts": "2026-07-01T22:45:16Z",
       "result": "PASS",
@@ -1410,6 +1395,36 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 43.9
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 52.1
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 71.1
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 86.7
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 37.6
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 33.0
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 25.7
     }
   ],
   "gov_image_assets": [
@@ -1457,6 +1472,63 @@
       "ts": "2026-07-02T00:44:40Z",
       "result": "PASS",
       "duration_ms": 1740.7
+    },
+    {
+      "ts": "2026-07-02T00:45:07Z",
+      "result": "PASS",
+      "duration_ms": 2203.5
+    },
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "PASS",
+      "duration_ms": 1640.4
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "PASS",
+      "duration_ms": 1743.7
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 1672.9
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 1741.7
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 1719.0
+    }
+  ],
+  "gov_orphan_lines": [
+    {
+      "ts": "2026-07-02T00:46:54Z",
+      "result": "WARN",
+      "duration_ms": 148.8
+    },
+    {
+      "ts": "2026-07-02T00:47:26Z",
+      "result": "WARN",
+      "duration_ms": 218.2
+    },
+    {
+      "ts": "2026-07-02T00:48:15Z",
+      "result": "PASS",
+      "duration_ms": 138.2
+    },
+    {
+      "ts": "2026-07-02T00:48:31Z",
+      "result": "PASS",
+      "duration_ms": 144.1
+    },
+    {
+      "ts": "2026-07-02T00:48:48Z",
+      "result": "PASS",
+      "duration_ms": 119.6
     }
   ]
 }
