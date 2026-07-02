@@ -18,14 +18,10 @@ def _github_anchor(text: str) -> str:
     text = text.lower()
     result = []
     for ch in text:
-        if ch.isalnum() or ch == " ":
+        if ch.isalnum() or ch == " " or ch == "-":
             result.append(ch)
-        else:
-            result.append("-")
     text = "".join(result)
     text = text.replace(" ", "-")
-    while "---" in text:
-        text = text.replace("---", "--")
     return text
 
 

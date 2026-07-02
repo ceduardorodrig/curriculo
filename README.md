@@ -6,16 +6,16 @@
 
 ## 📑 Sumário / Table of Contents
 
-- 🌍 [Sobre / About](#--sobre--about)
-- 📑 [Versões / Versions](#--versões--versions)
-- 🚀 [Sumænimá — StênioBOT](#--sumænimá--stêniobot)
-- 📊 [Em Números / By the Numbers](#--em-números--by-the-numbers)
-- 📖 [Narrativa / Narrative](#--narrativa--narrative)
-- 📸 [Registros / Field Photos](#--registros--field-photos)
-- 📚 [Publicações / Publications](#--publicações--publications)
-- 🔍 [cvcheck — Miniatura do StênioKernel](#--cvcheck--miniatura-do-stêniokernel)
-- 📜 [License](#--license)
-- 📬 [Contato / Contact](#--contato--contact)
+- 🌍 [Sobre / About](#-sobre--about)
+- 📑 [Versões / Versions](#-versões--versions)
+- 🚀 [Sumænimá — StênioBOT](#-sumænimá--stêniobot)
+- 📊 [Em Números / By the Numbers](#-em-números--by-the-numbers)
+- 📖 [Narrativa / Narrative](#-narrativa--narrative)
+- 📸 [Registros / Field Photos](#-registros--field-photos)
+- 📚 [Publicações / Publications](#-publicações--publications)
+- 🔍 [cvcheck — Miniatura do StênioKernel](#-cvcheck--miniatura-do-stêniokernel)
+- 📜 [License](#-license)
+- 📬 [Contato / Contact](#-contato--contact)
 
 ---
 

@@ -19,6 +19,7 @@ FILES = [
     "pt-br/03-sumaenima.md",
     "en-us/01-tech-product-data.md",
     "en-us/02-socioenvironmental-tech.md",
+    "en-us/02-socioenvironmental-nichado.md",
     "en-us/03-sumaenima.md",
     "README.md",
 ]

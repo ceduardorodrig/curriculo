@@ -12,8 +12,6 @@ CHECK_METADATA = {
 
 CVROOT = Path(__file__).resolve().parents[2]
 
-SOLO_PATTERNS = ("nichado",)
-
 HEADING_RE = re.compile(r"^##\s+(.+)$", re.MULTILINE)
 
 KNOWN_MAPPINGS = {
@@ -35,6 +33,7 @@ KNOWN_MAPPINGS = {
     "Próximos Passos": "Next Steps",
     "Stack Tecnológica": "Tech Stack",
     "StênioKernel — Kernel de Governança para Agentes de IA": "StênioKernel — AI Agent Governance Kernel",
+    "Idiomas": "Languages",
 }
 
 
@@ -42,38 +41,55 @@ def _strip_emoji(name: str) -> str:
     return re.sub(r"[^\w\s/–—\-&\u00C0-\u024F]", "", name).strip()
 
 
+FILE_MAPPINGS = {
+    "socioambiental-tech": "socioenvironmental-tech",
+    "socioambiental-nichado": "socioenvironmental-nichado",
+    "tech-produto-dados": "tech-product-data",
+    "sumaenima": "sumaenima",
+}
+
+
+def _file_suffix(name: str) -> str:
+    m = re.match(r"\d{2}-(.+)\.md$", name)
+    return m.group(1) if m else ""
+
+
 def _find_pairs(pt_dir: Path, en_dir: Path) -> tuple[list, list, list]:
     pt_files = sorted(pt_dir.glob("*.md"))
     en_files = sorted(en_dir.glob("*.md"))
 
-    en_by_prefix: dict[str, Path] = {}
+    en_map: dict[str, Path] = {}
     for f in en_files:
-        m = re.match(r"(\d{2})-", f.name)
-        if m:
-            en_by_prefix[m.group(1)] = f
+        suffix = _file_suffix(f.name)
+        if suffix:
+            en_map[suffix] = f
 
     pairs = []
     pt_orphans = []
 
     for pt_f in pt_files:
-        if any(p in pt_f.name for p in SOLO_PATTERNS):
+        pt_suffix = _file_suffix(pt_f.name)
+        if not pt_suffix:
             continue
-        m = re.match(r"(\d{2})-", pt_f.name)
-        if m:
-            prefix = m.group(1)
-            if prefix in en_by_prefix:
-                pairs.append((pt_f, en_by_prefix[prefix]))
-            else:
-                pt_orphans.append(pt_f)
+        en_suffix = FILE_MAPPINGS.get(pt_suffix, pt_suffix)
+        if en_suffix in en_map:
+            pairs.append((pt_f, en_map[en_suffix]))
+        else:
+            pt_orphans.append(pt_f)
 
     en_orphans = []
     for en_f in en_files:
-        m = re.match(r"(\d{2})-", en_f.name)
-        if m:
-            prefix = m.group(1)
-            pt_matches = [p for p in pt_files if p.name.startswith(prefix)]
-            if not pt_matches and not any(p in en_f.name for p in SOLO_PATTERNS):
-                en_orphans.append(en_f)
+        en_suffix = _file_suffix(en_f.name)
+        if not en_suffix:
+            continue
+        # Check if any PT file maps to this EN suffix
+        pt_has = False
+        for pt_s, en_s in FILE_MAPPINGS.items():
+            if en_s == en_suffix:
+                pt_has = True
+                break
+        if not pt_has:
+            en_orphans.append(en_f)
 
     return pairs, pt_orphans, en_orphans
 
