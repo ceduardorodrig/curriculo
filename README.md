@@ -236,14 +236,20 @@ Today I'm a **hybrid**: data and product architect with an anthropologist's soul
 
 ## 📸 Registros / Field Photos
 
-| | | |
-|:-:|:-:|:-:|
-| <img src="assets/foto-oficina-tonomapa-2019.jpg" width="280" /> | <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="280" /> | <img src="assets/foto-cnpct-planalto.jpg" width="280" /> |
-| Oficina Tô no Mapa — UFT 2019 | Encontro dos Povos do Cerrado — 2019 | CNPCT — Palácio do Planalto |
-| <img src="assets/foto-fazenda-canada-portao.jpg" width="280" /> | <img src="assets/foto-atl-2018-indigena.jpg" width="280" /> | <img src="assets/foto-sertao-mg-quilombola.jpg" width="280" /> |
-| Porteira da Fazenda Canadá — Chapada dos Veadeiros | Acampamento Terra Livre — 2018 | Sertão MG — Comunidade Quilombola |
-| <img src="assets/foto-ispn-maranhao-2017.jpg" width="280" /> | | |
-| ISPN MA-TO — Maranhão 2017 | | |
+| | |
+|:-:|:-:|
+| <img src="assets/foto-sertao-mg-quilombola.jpg" width="370" /> | <img src="assets/foto-ispn-maranhao-2017.jpg" width="370" /> |
+| **2017** · Sertão MG — Comunidade Quilombola | **2017** · ISPN MA-TO — Maranhão |
+| <img src="assets/foto-atl-2018-indigena.jpg" width="370" /> | <img src="assets/foto-oficina-tonomapa-2019.jpg" width="370" /> |
+| **2018** · Acampamento Terra Livre — Brasília | **2019** · Oficina Tô no Mapa — UFT |
+| <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="370" /> | <img src="assets/foto-fazenda-canada-portao.jpg" width="370" /> |
+| **2019** · Encontro dos Povos do Cerrado | **2021** · Porteira da Fazenda Canadá — Chapada dos Veadeiros |
+| <img src="assets/foto-visita-tanguro-2024.jpg" width="370" /> | <img src="assets/foto-experimento-seca-tanguro-2024.jpg" width="370" /> |
+| **2024** · Visita Estação Tanguro — IPAM, MT | **2024** · Experimento Seca Limite — Fazenda Tanguro |
+| <img src="assets/foto-oficina-florestas-santarem-2025.jpg" width="370" /> | <img src="assets/foto-formar-protagonistas-congresso-2025.jpg" width="370" /> |
+| **2025** · Oficina Florestas Públicas — IPAM, Santarém | **2025** · Formar Protagonistas — FLONA no Congresso Nacional |
+| <img src="assets/foto-formar-protagonistas-flona-grupo-2025.jpg" width="370" /> | <img src="assets/foto-cnpct-planalto.jpg" width="370" /> |
+| **2025** · Formar Protagonistas — FLONA de Tefé (grupo) | **2026** · CNPCT — Palácio do Planalto |
 
 ---
 
