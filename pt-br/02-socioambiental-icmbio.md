@@ -10,7 +10,7 @@
 
 ## 👤 Perfil
 
-Antropólogo pela Universidade de Brasília, com trajetória construída na interface entre pesquisa etnográfica com povos e comunidades tradicionais, políticas de regularização fundiária e gestão de dados. Experiência em relatoria de colegiados governamentais (CNPCT/Planalto), articulação multi-stakeholder para conservação (ICMBio, UnB, proprietários rurais, comunidades Kalunga) e coordenação de sistemas de dados territoriais (Tô no Mapa/MPF). Todas as experiências atravessadas por um eixo central: territórios tradicionais, questão fundiária e justiça socioambiental.
+Antropólogo pela Universidade de Brasília, com trajetória construída na interface entre pesquisa etnográfica com povos e comunidades tradicionais, políticas de regularização fundiária e gestão de dados. Toda a trajetória — da pesquisa de campo no Cerrado à relatoria de políticas PCT no Planalto — foi construída na interface entre povos e comunidades tradicionais, Unidades de Conservação e o tensionamento entre desenvolvimento, conservação e direitos territoriais. Experiência em relatoria de colegiados governamentais (CNPCT/Planalto), articulação multi-stakeholder para conservação (ICMBio, UnB, proprietários rurais, comunidades Kalunga) e coordenação de sistemas de dados territoriais (Tô no Mapa/MPF).
 
 ---
 
@@ -22,9 +22,10 @@ Antropólogo pela Universidade de Brasília, com trajetória construída na inte
 Consultor independente especializado em relatoria, sistematização de dados qualitativos e planejamento estratégico para instituições do setor socioambiental. Atuação contínua com:
 
 - **CNPCT (Conselho Nacional dos Povos e Comunidades Tradicionais):** Acompanhamento e relatoria das reuniões ordinárias desde 2025, incluindo a 22ª Reunião no Palácio do Planalto com devolutiva do Decreto de Regularização Fundiária e fala de abertura da Ministra Marina Silva. Transcrição em tempo real via sistema próprio de captura de dados com IA local
-- **IPEA (jun/2026):** Relatoria dos Movimentos 5 (Integração) e 7 (Gestão da Informação) no Encontro de Planejamento Estratégico. Evento de 3 dias contratado via Imagine Gestão Social, com sistematização etnográfica e suporte de ferramentas próprias de IA. Resultou na agenda estratégica 2026–2027 do instituto
-- **3º Encontro Nacional da Juventude PCT (2025):** Sistematização das formulações de dezenas de jovens de povos e comunidades tradicionais de todo o Brasil durante a Semana da Sociobiodiversidade (IEB/CNS/MCM/CONFREM), resultando em diagnóstico estratégico
+- **IPEA (2026):** Relatoria dos Movimentos 5 (Integração) e 7 (Gestão da Informação) no Encontro de Planejamento Estratégico. Evento de 3 dias contratado via Imagine Gestão Social, com sistematização etnográfica e suporte de ferramentas próprias de IA. Resultou na agenda estratégica 2026–2027 do instituto
+- **Semana da Sociobiodiversidade (2025):** Sistematização das formulações de dezenas de jovens de povos e comunidades tradicionais de todo o Brasil durante o **3º Encontro Nacional da Juventude PCT** (IEB/CNS/MCM/CONFREM), resultando em diagnóstico estratégico
 - **Módulo II — "Formar Protagonistas" (IEB/APAFE/Rainforest Trust):** Relatoria etnográfica de imersão de 39 lideranças da FLONA de Tefé em Brasília, com observação participante, análise de fontes primárias e produção de relatório de incidência política
+- **III Encontro do Coletivo da Castanha (OCA) (mai/2026):** Relatoria com transcrição em tempo real via StênioREC. Evento do IEB sobre fortalecimento da cadeia da castanha e mobilização de comunidades extrativistas na Amazônia
 
 ### 🗺️ ISPN — Tô no Mapa
 *2017 — 2021 · Brasília-DF*
@@ -33,16 +34,17 @@ Consultor independente especializado em relatoria, sistematização de dados qua
 
 Plataforma de automapeamento territorial de comunidades tradicionais do Cerrado, hoje integrada ao Ministério Público Federal. Dados oficiais representavam apenas **28%** das comunidades — lacuna crítica que as tornava invisíveis para políticas públicas e vulneráveis a conflitos fundiários.
 
-- Pesquisa etnográfica de campo com comunidades tradicionais do Cerrado para entender suas necessidades de mapeamento territorial
+Pesquisa etnográfica de campo com comunidades que vivem em territórios sobrepostos a Unidades de Conservação de uso sustentável e áreas de preservação, para entender suas necessidades de mapeamento territorial e regularização fundiária.
+
 - Tradução de achados etnográficos em requisitos funcionais na fase de discovery do produto
 - Criação da primeira estratégia de comunicação pública do Instituto
 - Produção de mapas temáticos (QGIS), relatórios e cobertura fotográfica em campo
 - Apoio a eventos de grande porte: Acampamento Terra Livre, Feira dos Povos do Cerrado, Congresso Latino-Americano de Agroecologia
 
-### Articulação com o ICMBio e Unidades de Conservação
+### 🦎 Rede de Monitoria Participativa da Fauna — Corredor Ecológico Chapada-Kalunga
+*2020 — 2022 · Cavalcante-GO*
 
-- **Rede de Monitoria Participativa da Fauna** (2020–2022): Articulação entre ICMBio, UnB, proprietários rurais e comunidades Kalunga na Chapada dos Veadeiros, buscando criar um corredor ecológico entre o Parque Nacional da Chapada dos Veadeiros e o Sítio Histórico Kalunga. Facilitação da reunião inaugural e produção de relatório executivo completo. Trabalho direto com André Aquino (Lead Environmental Specialist, World Bank) e Daniel Ferreira (diplomata, Itamaraty)
-- **Evento SOMUC/UFAC** (2024): Apoio à organização e comunicação institucional de evento sobre monitoramento de Unidades de Conservação na Amazônia, com participação de servidores do ICMBio e pesquisadores. SOMUC = Sistema de Observação e Monitoramento de Unidades de Conservação (plataforma do IPAM)
+Articulação entre ICMBio, UnB, proprietários rurais e comunidades Kalunga na Chapada dos Veadeiros, buscando criar um corredor ecológico entre o Parque Nacional da Chapada dos Veadeiros e o Sítio Histórico Kalunga. Facilitação da reunião inaugural e produção de relatório executivo completo. Trabalho direto com **André Aquino** (Lead Environmental Specialist, World Bank) e **Daniel Ferreira** (diplomata, Itamaraty), proprietários da **Reserva Natural Veredas dos Buritis** — dentro da área do TCC.
 
 ### 🌳 IPAM — Instituto de Pesquisa Ambiental da Amazônia
 *2022 — 2025 · Brasília-DF*
@@ -53,6 +55,7 @@ Liderança digital de um dos principais institutos de pesquisa climática do Bra
 - **+143,3%** Facebook, **+100%** Instagram, **2+ milhões** de alcance, **66,7K** interações
 - Prêmio Mercosul de Jornalismo e Divulgação Científica — **1º lugar, Redes Sociais** (2024)
 - Codiretor do documentário **"Manaus Extrema"** — publicado pelo IPAM
+- **SOMUC** (Sistema de Observação e Monitoramento de Unidades de Conservação): apoio à organização e comunicação institucional de evento na UFAC sobre monitoramento de UCs na Amazônia, com servidores do ICMBio e pesquisadores
 - Implementação de Agile/Scrum como Scrum Master
 - Gestão de Google Ad Grants (US$ 10K/mês) e Meta Ads
 

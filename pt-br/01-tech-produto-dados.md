@@ -41,10 +41,11 @@ Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Do
 
 **Relatoria & Sistematização de Dados** (paralelo à StênioBOT):
 - Consultor independente em relatoria, sistematização de dados e planejamento estratégico
-- Relatoria do **3º Encontro Nacional da Juventude das Populações Extrativistas e Tradicionais** — Semana da Sociobiodiversidade 2025 (IEB/CNS/MCM/CONFREM). Realizada com **Stênio v1** — primeira versão operacional da plataforma em produção
+- Relatoria da **Semana da Sociobiodiversidade (2025)** — **3º Encontro Nacional da Juventude das Populações Extrativistas e Tradicionais** (IEB/CNS/MCM/CONFREM). Realizada com **Stênio v1** — primeira versão operacional da plataforma em produção
 - Relatoria do **Módulo II — "Formar Protagonistas"** (IEB/APAFE/Rainforest Trust): imersão de 39 lideranças da FLONA de Tefé em Brasília
-- **Encontro de Planejamento Estratégico do IPEA** (jun/2026) — relatoria dos Movimentos 5 (Integração, comunidade e colaboração) e 7 (Gestão da Informação) com transcrição em tempo real via StênioREC e observação etnográfica. Evento de 3 dias no ParlaMundi da LBV e sede do IPEA, contratado via **Imagine Gestão Social**, resultando na agenda estratégica 2026–2027 do instituto
+- **Encontro de Planejamento Estratégico do IPEA** (2026) — relatoria dos Movimentos 5 (Integração, comunidade e colaboração) e 7 (Gestão da Informação) com transcrição em tempo real via StênioREC e observação etnográfica. Evento de 3 dias no ParlaMundi da LBV e sede do IPEA, contratado via **Imagine Gestão Social**, resultando na agenda estratégica 2026–2027 do instituto
 - **CNPCT (Conselho Nacional dos Povos e Comunidades Tradicionais):** Acompanhamento e relatoria das reuniões desde 2025, incluindo a 22ª Reunião Ordinária (mar/2026) com devolutiva do Decreto de Regularização Fundiária no Palácio do Planalto e fala de abertura da Ministra Marina Silva — transcrição em tempo real via StênioREC
+- **III Encontro do Coletivo da Castanha (OCA)** (mai/2026) — Relatoria com transcrição em tempo real via StênioREC. Evento do IEB sobre fortalecimento da cadeia da castanha e mobilização de comunidades extrativistas na Amazônia
 
 ### 🗺️ ISPN — Instituto Sociedade, População e Natureza
 *2017 — 2021 · Brasília-DF*

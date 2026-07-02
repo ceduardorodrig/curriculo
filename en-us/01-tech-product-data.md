@@ -41,10 +41,11 @@ Stack: FastAPI (async) + React 19 + TypeScript 6 + PostgreSQL 16 + Valkey 8 + Do
 
 **Reporting & Data Systematization** (alongside StênioBOT):
 - Independent consultant for reporting, data systematization, and strategic planning
-- **3rd National Youth Meeting of Extractive and Traditional Populations** — Sociobiodiversity Week 2025 (IEB/CNS/MCM/CONFREM). Produced with **Stênio v1** — the first operational version of the platform in production
+- **Sociobiodiversity Week (2025)** — **3rd National Youth Meeting of Extractive and Traditional Populations** (IEB/CNS/MCM/CONFREM). Produced with **Stênio v1** — the first operational version of the platform in production
 - **Module II — "Formar Protagonistas"** (IEB/APAFE/Rainforest Trust): 39 leadership members from FLONA de Tefé in Brasília
-- **IPEA Strategic Planning Meeting** (jun/2026) — reporting for Movements 5 (Integration, Community & Collaboration) and 7 (Information Management) with real-time transcription via StênioREC and ethnographic observation. 3-day event at ParlaMundi da LBV and IPEA headquarters, contracted through **Imagine Gestão Social**, resulting in the institute's 2026–2027 strategic agenda
+- **IPEA Strategic Planning Meeting** (2026) — reporting for Movements 5 (Integration, Community & Collaboration) and 7 (Information Management) with real-time transcription via StênioREC and ethnographic observation. 3-day event at ParlaMundi da LBV and IPEA headquarters, contracted through **Imagine Gestão Social**, resulting in the institute's 2026–2027 strategic agenda
 - **CNPCT (National Council of Traditional Peoples and Communities):** Monitoring and reporting of council meetings since 2025, including the 22nd Ordinary Meeting (mar/2026) with the Land Regularization Decree hearing at the Palácio do Planalto and opening speech by Minister Marina Silva — real-time transcription via StênioREC
+- **3rd Castanha Collective Meeting (OCA)** (May 2026) — Real-time reporting via StênioREC. IEB event focused on strengthening the Brazil nut production chain and mobilizing extractive communities in the Amazon
 
 ### 🗺️ ISPN — Institute for Society, Population and Nature
 *2017 — 2021 · Brasília-DF, Brazil*
