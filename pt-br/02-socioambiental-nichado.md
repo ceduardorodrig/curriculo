@@ -10,7 +10,7 @@
 
 ## 👤 Perfil
 
-Antropólogo pela Universidade de Brasília, com trajetória construída na interface entre pesquisa etnográfica com povos e comunidades tradicionais, políticas de regularização fundiária e gestão de dados. Toda a trajetória — da pesquisa de campo no Cerrado à relatoria de políticas PCT no Planalto — foi construída na interface entre povos e comunidades tradicionais, Unidades de Conservação e o tensionamento entre desenvolvimento, conservação e direitos territoriais. Experiência em relatoria de colegiados governamentais (CNPCT/Planalto), articulação multi-stakeholder para conservação (ICMBio, UnB, proprietários rurais, comunidades Kalunga) e coordenação de sistemas de dados territoriais (Tô no Mapa/MPF).
+Antropólogo pela Universidade de Brasília, com trajetória construída na interface entre pesquisa etnográfica com povos e comunidades tradicionais, políticas de regularização fundiária e gestão de dados. Toda a trajetória — da pesquisa de campo no Cerrado à relatoria de políticas PCT no Planalto — foi construída na interface entre povos e comunidades tradicionais, Unidades de Conservação e o tensionamento entre desenvolvimento, conservação e direitos territoriais. Experiência em relatoria de colegiados governamentais (CNPCT/Planalto), articulação multi-stakeholder para conservação entre órgão gestor, universidade, proprietários rurais e comunidades tradicionais, e coordenação de sistemas de dados territoriais (Tô no Mapa/MPF).
 
 ---
 
@@ -44,7 +44,7 @@ Pesquisa etnográfica de campo com comunidades que vivem em territórios sobrepo
 ### 🦎 Rede de Monitoria Participativa da Fauna — Corredor Ecológico Chapada-Kalunga
 *2020 — 2022 · Cavalcante-GO*
 
-Articulação entre ICMBio, UnB, proprietários rurais e comunidades Kalunga na Chapada dos Veadeiros, buscando criar um corredor ecológico entre o Parque Nacional da Chapada dos Veadeiros e o Sítio Histórico Kalunga. Facilitação da reunião inaugural e produção de relatório executivo completo. Trabalho direto com **André Aquino** (Lead Environmental Specialist, World Bank) e **Daniel Ferreira** (diplomata, Itamaraty), proprietários da **Reserva Natural Veredas dos Buritis** — dentro da área do TCC.
+Articulação multi-institucional na Chapada dos Veadeiros para criação de um corredor ecológico entre o Parque Nacional da Chapada dos Veadeiros e o Sítio Histórico Kalunga, reunindo órgão gestor de UC, universidade, proprietários rurais e comunidades tradicionais. Facilitação da reunião inaugural e produção de relatório executivo completo. Trabalho direto com **André Aquino** (Lead Environmental Specialist, World Bank) e **Daniel Ferreira** (diplomata, Itamaraty), proprietários da **Reserva Natural Veredas dos Buritis** — dentro da área do TCC.
 
 ### 🌳 IPAM — Instituto de Pesquisa Ambiental da Amazônia
 *2022 — 2025 · Brasília-DF*
@@ -55,7 +55,7 @@ Liderança digital de um dos principais institutos de pesquisa climática do Bra
 - **+143,3%** Facebook, **+100%** Instagram, **2+ milhões** de alcance, **66,7K** interações
 - Prêmio Mercosul de Jornalismo e Divulgação Científica — **1º lugar, Redes Sociais** (2024)
 - Codiretor do documentário **"Manaus Extrema"** — publicado pelo IPAM
-- **SOMUC** (Sistema de Observação e Monitoramento de Unidades de Conservação): apoio à organização e comunicação institucional de evento na UFAC sobre monitoramento de UCs na Amazônia, com servidores do ICMBio e pesquisadores
+- **SOMUC** (Sistema de Observação e Monitoramento de Unidades de Conservação): apoio à organização e comunicação institucional de evento na UFAC sobre monitoramento de UCs na Amazônia, com servidores do órgão gestor de UC e pesquisadores
 - Implementação de Agile/Scrum como Scrum Master
 - Gestão de Google Ad Grants (US$ 10K/mês) e Meta Ads
 
@@ -75,7 +75,7 @@ Projeto de vida que integra antropologia, tecnologia e dados para apoiar relator
 
 **Universidade de Brasília (UnB)** — Bacharelado em Ciências Sociais / Antropologia (2016–2023)
 
-- **Monografia:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Etnografia sobre fracionamento de terras, memória e projetos de vida na Chapada dos Veadeiros — mesma região onde atuou junto ao ICMBio e à Rede de Monitoria. Pesquisa de campo sobre regularização fundiária e territorialidade, com interação direta com políticas fundiárias da região.
+- **Monografia:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Etnografia sobre fracionamento de terras, memória e projetos de vida na Chapada dos Veadeiros — mesma região onde atuou em articulação multi-institucional para conservação e monitoria participativa. Pesquisa de campo sobre regularização fundiária e territorialidade, com interação direta com políticas fundiárias da região.
 
 **Mestrado em Antropologia** — Universidade de Brasília (2024–2025)
 Dois semestres concluídos. Escolhi sair para me dedicar a dados, gestão de projetos e arquitetura de sistemas.
