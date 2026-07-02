@@ -239,17 +239,17 @@ Today I'm a **hybrid**: data and product architect with an anthropologist's soul
 | | |
 |:-:|:-:|
 | <img src="assets/foto-sertao-mg-quilombola.jpg" width="370" /> | <img src="assets/foto-ispn-maranhao-2017.jpg" width="370" /> |
-| **2017** · Sertão MG — Comunidade Quilombola | **2017** · ISPN MA-TO — Maranhão |
+| **2017** · Comunidade Quilombola, Pesqueira e Vazanteira de Caraíbas [Pedras de Maria da Cruz \| MG] | **2017** · Visita Técnica de Projetos do ISPN PPP-ECOS [Rosário \| MA] |
 | <img src="assets/foto-atl-2018-indigena.jpg" width="370" /> | <img src="assets/foto-oficina-tonomapa-2019.jpg" width="370" /> |
-| **2018** · Acampamento Terra Livre — Brasília | **2019** · Oficina Tô no Mapa — UFT |
+| **2018** · Acampamento Terra Livre [Brasília \| DF] | **2019** · Oficina Tô no Mapa na Universidade Federal do Tocantins [Arraias \| TO] |
 | <img src="assets/foto-encontro-povos-cerrado-2019.jpg" width="370" /> | <img src="assets/foto-fazenda-canada-portao.jpg" width="370" /> |
-| **2019** · Encontro dos Povos do Cerrado | **2021** · Porteira da Fazenda Canadá — Chapada dos Veadeiros |
+| **2019** · Encontro dos Povos do Cerrado — Tô no Mapa [Brasília \| DF] | **2021** · Porteira da Fazenda Canadá e ao fundo, Parque Nacional da Chapada dos Veadeiros [Cavalcante \| GO] |
 | <img src="assets/foto-visita-tanguro-2024.jpg" width="370" /> | <img src="assets/foto-experimento-seca-tanguro-2024.jpg" width="370" /> |
-| **2024** · Visita Estação Tanguro — IPAM, MT | **2024** · Experimento Seca Limite — Fazenda Tanguro |
+| **2024** · Visita Estação Tanguro com IPAM e Woodwell [Querência \| MT] | **2024** · Experimento Seca Limite na Fazenda Tanguro [Querência \| MT] |
 | <img src="assets/foto-oficina-florestas-santarem-2025.jpg" width="370" /> | <img src="assets/foto-formar-protagonistas-congresso-2025.jpg" width="370" /> |
-| **2025** · Oficina Florestas Públicas — IPAM, Santarém | **2025** · Formar Protagonistas — FLONA no Congresso Nacional |
+| **2025** · Oficina Florestas Públicas com IPAM [Santarém \| PA] | **2025** · Formar Protagonistas da FLONA de Tefé no Congresso Nacional [Brasília \| DF] |
 | <img src="assets/foto-formar-protagonistas-flona-grupo-2025.jpg" width="370" /> | <img src="assets/foto-cnpct-planalto.jpg" width="370" /> |
-| **2025** · Formar Protagonistas — FLONA de Tefé (grupo) | **2026** · CNPCT — Palácio do Planalto |
+| **2025** · Cursistas do Formar Protagonistas da FLONA de Tefé [Brasília \| DF] | **2026** · Reunião do Conselho Nacional dos Povos e Comunidades Tradicionais com a Casa Civil do Governo Federal — Palácio do Planalto [Brasília \| DF] |
 
 ---
 
