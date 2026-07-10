@@ -1,6 +1,6 @@
 # AGENTS.md — Regras de Governança para Agentes de IA
 
-Este repositório contém **3 versões de currículo em PT e EN** (tech, socioambiental, sumænimá), uma **sub-versão específica para contexto institucional** (`02-socioambiental-nichado.md`), um **README narrativo**, e um sistema de validação (cvcheck) que é uma miniatura funcional do StênioKernel.
+Este repositório contém **3 versões de currículo em PT e EN** (tech, socioambiental, sumænimá), **duas sub-versões** (`02-socioambiental-nichado.md` para contexto institucional e `01-tech-dados-negocios.md` para consultoria em dados de negócios), um **README narrativo**, e um sistema de validação (cvcheck) que é uma miniatura funcional do StênioKernel.
 
 Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriamente:
 
