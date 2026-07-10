@@ -1,6 +1,6 @@
 # 👤 Carlos Eduardo Rodrigues
 
-**Arquiteto de Dados & Diagnóstico de Processos**
+**Consultor de Dados & Auditoria de Processos**
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF
 
@@ -10,60 +10,53 @@
 
 ## 👤 Perfil
 
-Arquiteto de dados com formação em Antropologia, especializado em diagnosticar sistemas de informação desorganizados e transformá-los em dados confiáveis e processos estruturados. Minha abordagem é fazer "fieldwork nos dados": observo os fluxos reais, mapeio gargalos e entendo o contexto antes de propor soluções — esteja falando de planilhas de estoque, registros de pagamento, inventário ou qualquer sistema de informação bagunçado. Experiência em projetar pipelines de dados completos da coleta à visualização, orquestrar infraestrutura própria multi-nó (Docker Swarm) e implementar sistemas de governança com verificações automatizadas. Projetou o StênioKernel (21.435 linhas, 132 drivers) — um sistema proprietário de governança de dados que garante integridade, rastreabilidade e qualidade. Formação em Antropologia pela UnB como base para entender contextos complexos antes de desenhar sistemas.
+Consultor de dados especializado em **auditoria e organização de dados para o setor de cultura e entretenimento**. Faço um pente-fino completo nos dados do seu negócio — estoque, pagamentos, planilhas, sistemas — e entrego um diagnóstico claro do que está errado, onde está vazando dinheiro e o que fazer para resolver. Minha formação em Antropologia me dá uma vantagem que consultor tradicional não tem: aprendi a entrar em contextos complexos, observar sem viés, mapear fluxos reais e traduzir tudo em solução prática. Já apliquei essa abordagem em projetos que foram do Palácio do Planalto a comunidades na Amazônia, passando por eventos culturais de grande porte. Construí o StênioKernel, um sistema de governança que garante que cada dado seja íntegro, rastreável e auditável.
 
 ---
 
 ## 💼 Experiência
 
-### 🚀 Sumænimá — Fundador & Arquiteto de Dados
+### 🚀 Sumænimá — Fundador & Consultor de Dados
 *2016 — presente · Brasília-DF / Remoto*
 
-Sumænimá é meu projeto de vida — quase 10 anos como entidade criativa independente que integra tecnologia, dados e pesquisa para resolver problemas complexos de informação. O sonho é construir um **Bureau de Dados** que atenda negócios, instituições e comunidades com diagnósticos precisos e soluções sob medida.
+Sumænimá é meu projeto de vida — quase 10 anos integrando tecnologia, dados e pesquisa para resolver problemas complexos de informação. O sonho é construir um **Bureau de Dados** que atenda negócios, instituições e comunidades com auditorias precisas e soluções sob medida.
 
-**StênioBOT** (2024–presente): plataforma de captura, processamento e sistematização de dados com inferência 100% local. Quatro módulos que cobrem o ciclo completo dos dados — da coleta à análise e visualização:
+**StênioBOT** (2024–presente): plataforma própria de captura, processamento e auditoria de dados com IA 100% local. Em produção, validada em campo — do IPEA e CNPCT/Planalto a eventos culturais multi-stakeholder.
 
-- **StênioREC** 🟢: pipeline de captura e transcrição em tempo real — **em produção**, validado em campo
-- **StênioPANEL** 🔴: scanner de painéis físicos com visão computacional — **concepção**
-- **StênioDIVE** 🔴: busca semântica unificada em múltiplas fontes — **concepção**
-- **DataVis** 🔴: visualizações interativas de dados em tempo real — **estágio inicial**
+**StênioKernel:** sistema proprietário de governança e auditoria de dados (21.435 linhas, 132 verificações automatizadas) que garante integridade, rastreabilidade e conformidade em todo fluxo de informação. O mesmo kernel usado para governar agentes de IA pode auditar e validar dados empresariais.
 
-Stack: FastAPI + React + PostgreSQL + Docker Swarm. Processamento local, privado e com soberania de dados.
-
-**StênioKernel:** sistema proprietário de governança e qualidade de dados (21.435 linhas, 132 drivers, 22 módulos) que aplica verificações automatizadas em todos os processos — garantindo integridade, rastreabilidade e conformidade. O mesmo kernel que governa agentes de IA também pode auditar e validar fluxos de dados empresariais.
-
-**Sistematização de Dados** (paralelo ao StênioBOT):
-- Sistematização de dados qualitativos em eventos multi-stakeholder: **Semana da Sociobiodiversidade (2025)** — 3º Encontro Nacional da Juventude PCT (IEB/CNS/MCM/CONFREM), **Módulo II — "Formar Protagonistas"** (IEB/APAFE/Rainforest Trust)
-- **Encontro de Planejamento Estratégico do IPEA** (2026) — relatoria e sistematização de dados com transcrição em tempo real. Evento de 3 dias contratado via **Imagine Gestão Social**, resultando na agenda 2026–2027 do instituto
-- **CNPCT (Conselho Nacional dos Povos e Comunidades Tradicionais):** relatoria e captura de dados desde 2025, incluindo a 22ª Reunião Ordinária (mar/2026) no **Palácio do Planalto** com transcrição em tempo real via StênioREC
-- **III Encontro do Coletivo da Castanha (OCA)** (mai/2026) — relatoria e sistematização com transcrição em tempo real
+**Projetos de Sistematização de Dados** (realizados com StênioBOT):
+- **Semana da Sociobiodiversidade (2025)** — 3º Encontro Nacional da Juventude PCT: captura e sistematização de dados com dezenas de jovens de todo o Brasil
+- **Encontro de Planejamento Estratégico do IPEA (2026)** — 3 dias de relatoria e dados em tempo real, contratado via Imagine Gestão Social, resultando na agenda 2026–2027 do instituto
+- **CNPCT — Palácio do Planalto (2026)** — captura e auditoria de dados da 22ª Reunião Ordinária do Conselho Nacional dos Povos e Comunidades Tradicionais, com transcrição em tempo real
+- **III Encontro do Coletivo da Castanha (OCA) — IEB (2026)** — relatoria e sistematização com transcrição em tempo real
 
 ### 🗺️ ISPN — Instituto Sociedade, População e Natureza
 *2017 — 2021 · Brasília-DF*
 
 **Assessor Técnico Júnior** (2019–2021) · **Estagiário** (2017–2019)
 
-#### Tô no Mapa — Case de Diagnóstico de Dados
+#### Tô no Mapa — Case de Auditoria de Dados
 
-O problema: dados oficiais do governo representavam apenas **28%** das comunidades tradicionais no Cerrado — uma lacuna crítica que as tornava invisíveis para políticas públicas. Mesmo tipo de situação que encontramos em empresas onde os dados de estoque, vendas ou pagamentos não refletem a realidade.
+O problema: dados oficiais do governo representavam apenas **28%** das comunidades tradicionais no Cerrado — uma lacuna crítica que as tornava invisíveis. É o mesmo tipo de situação de uma casa noturna onde o estoque registrado não bate com o real, ou os pagamentos não conferem com as vendas.
 
-A abordagem: pesquisa etnográfica em campo com as comunidades para entender suas necessidades reais de mapeamento e regularização fundiária. Participei da fase de discovery do produto, traduzindo achados etnográficos em requisitos funcionais.
+A abordagem: pesquisa etnográfica em campo com as comunidades para entender as necessidades reais de mapeamento. Participei da fase de discovery do produto, traduzindo achados de campo em requisitos funcionais.
 
-O resultado: a **Plataforma Tô no Mapa** — um sistema de automapeamento hoje integrado ao **Ministério Público Federal**, empoderando milhares de comunidades a colocar seus próprios dados no mapa.
+O resultado: a **Plataforma Tô no Mapa** — um sistema de automapeamento hoje integrado ao **Ministério Público Federal**, empoderando milhares de comunidades.
 
-**Este projeto define minha abordagem profissional:** identificar uma lacuna crítica de dados, ir a campo entender o problema real, e construir uma solução que organiza e resolve.
+**Essa é minha abordagem profissional:** identificar uma lacuna crítica de dados, ir a campo entender o problema real, e construir uma solução que organiza e resolve.
 
 Outras contribuições:
 - Criação da primeira estratégia de comunicação pública do Instituto
-- Produção de mapas temáticos (QGIS), relatórios e cobertura fotográfica em expedições de campo
-- Apoio técnico a eventos de grande porte: Acampamento Terra Livre, Feira dos Povos do Cerrado
+- Produção de mapas temáticos (QGIS), relatórios e cobertura fotográfica em campo
+- Apoio técnico a eventos culturais de grande porte: Acampamento Terra Livre, Feira dos Povos do Cerrado
 
 ### 🦎 Rede de Monitoria Participativa da Fauna
 *2020 — 2022 · Cavalcante-GO*
 
 **Especialista em Comunicação**
 
-Articulação multi-institucional na Chapada dos Veadeiros reunindo órgão gestor de UC (ICMBio), universidade (UnB), proprietários rurais e comunidades tradicionais. Facilitação da reunião inaugural e produção de relatório executivo completo. Trabalho direto com **André Rodrigues de Aquino** (Lead Environmental Specialist, World Bank) e **Daniel Ferreira** (diplomata, Itamaraty).
+Articulação multi-institucional na Chapada dos Veadeiros reunindo ICMBio, UnB, proprietários rurais e comunidades. Facilitação da reunião inaugural e produção de relatório executivo completo. Trabalho direto com **André Rodrigues de Aquino** (Lead Environmental Specialist, World Bank) e **Daniel Ferreira** (diplomata, Itamaraty).
 
 ### 🌳 IPAM — Instituto de Pesquisa Ambiental da Amazônia
 *2022 — 2025 · Brasília-DF*
@@ -72,18 +65,16 @@ Articulação multi-institucional na Chapada dos Veadeiros reunindo órgão gest
 
 **Case: Estratégia Data-Driven — +143% de crescimento com base em métricas**
 
-Tratei canais digitais como produtos de dados: segmentei audiências, testei formatos, integrei campanhas orgânicas e pagas com otimização contínua baseada em métricas.
+Tratei canais digitais como produtos de dados: segmentei audiências, testei formatos, integrei campanhas orgânicas e pagas com otimização contínua baseada em métricas. Mesma lógica de uma auditoria de dados de negócio — diagnostica, mede, otimiza.
 
 **📈 Resultados:**
-- **+143,3%** Facebook, **+100%** Instagram
-- **2+ milhões** de alcance consolidado
-- **66,7K** interações no Instagram
-- **Prêmio Mercosul de Jornalismo Científico — 1º lugar, Redes Sociais** (2024)
+- **+143,3%** Facebook, **+100%** Instagram, **2+ milhões** de alcance
+- **66,7K** interações, **Prêmio Mercosul de Jornalismo Científico — 1º lugar** (2024)
 
 Outras entregas:
-- Implementei Agile/Scrum como Scrum Master, estruturando sprints e métricas de entrega
-- Gerenciei Google Ad Grants (US$ 10K/mês) e Meta Ads com segmentação e otimização baseada em dados
-- Codiretor do documentário **"Manaus Extrema"** — publicado pelo IPAM, estreia no INPA / PROTEJA Talks 2024
+- Agile/Scrum como Scrum Master — sprints e métricas de entrega
+- Google Ad Grants (US$ 10K/mês) e Meta Ads com otimização contínua
+- Codiretor do documentário **"Manaus Extrema"** — publicado pelo IPAM
 
 ---
 
@@ -91,7 +82,7 @@ Outras entregas:
 
 **Universidade de Brasília (UnB)** — Bacharelado em Ciências Sociais / Antropologia (2016–2023)
 
-- **Monografia:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Etnografia sobre fracionamento de terras, memória e projetos de vida. Pesquisa de campo sobre regularização fundiária e territorialidade.
+- **Monografia:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Etnografia sobre fracionamento de terras, memória e projetos de vida.
 
 **Mestrado em Antropologia** — Universidade de Brasília (2024–2025)
 Dois semestres concluídos. Escolhi sair para me dedicar integralmente a dados, design de produto e arquitetura de sistemas.
@@ -100,7 +91,7 @@ Dois semestres concluídos. Escolhi sair para me dedicar integralmente a dados, 
 
 ## 📡 Infraestrutura
 
-Infraestrutura própria para processamento e armazenamento de dados: cluster multi-nó orquestrado via **Docker Swarm** com serviços de banco (PostgreSQL), cache, DNS, monitoramento (Grafana/Loki) e borda web. Dados processados localmente com soberania garantida — sem dependência de nuvem de terceiros para informações sensíveis. Rede mesh **Tailscale** como backbone. **30+ containers** em produção.
+Infraestrutura própria para processamento e armazenamento de dados: cluster multi-nó orquestrado via **Docker Swarm** com banco (PostgreSQL), cache, DNS, monitoramento (Grafana/Loki) e borda web. Dados processados localmente com soberania garantida. Rede mesh **Tailscale** como backbone. **30+ containers** em produção.
 
 ---
 
@@ -117,11 +108,11 @@ Infraestrutura própria para processamento e armazenamento de dados: cluster mul
 
 | Categoria | Competências |
 |-----------|-------------|
-| **Diagnóstico de Dados** | Mapeamento de processos, auditoria de dados, discovery, modelagem de fluxos de informação |
-| **Banco de Dados** | PostgreSQL, SQL, modelagem de dados, consultas analíticas |
+| **Auditoria de Dados** | Pente-fino em sistemas de informação, mapeamento de processos, discovery, modelagem de fluxos |
+| **Banco de Dados** | PostgreSQL, SQL, modelagem, consultas analíticas |
 | **Pipeline de Dados** | Coleta, processamento, sistematização, análise e visualização |
 | **Infraestrutura** | Docker Swarm, Linux, Tailscale, redes, servidores, soberania de dados |
-| **Governança de Dados** | StênioKernel, verificações automatizadas, integridade, rastreabilidade |
+| **Governança** | StênioKernel, verificações automatizadas, integridade, rastreabilidade |
 | **Análise de Negócios** | Google Analytics, métricas de audiência, otimização de processos, OKRs |
 | **Métodos** | Agile/Scrum (Scrum Master), pesquisa etnográfica, discovery de produto |
 | **Ferramentas** | Git, Python, QGIS, Adobe Creative Suite, planilhas avançadas |

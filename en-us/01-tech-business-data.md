@@ -1,6 +1,6 @@
 # 👤 Carlos Eduardo Rodrigues
 
-**Data Architect & Process Diagnostics**
+**Data Consultant & Process Audit**
 
 [ceduardorodrig@gmail.com](mailto:ceduardorodrig@gmail.com) | +55 (61) 9-9803-3546 | Brasília-DF, Brazil
 
@@ -10,60 +10,53 @@
 
 ## 👤 Profile
 
-Data architect with an Anthropology background, specialized in diagnosing disorganized information systems and turning them into reliable data and structured processes. My approach is "fieldwork for data": I observe real-world flows, map bottlenecks, and understand the context before proposing solutions — whether dealing with inventory spreadsheets, payment records, or any messy information system. Experience designing complete data pipelines from collection to visualization, orchestrating multi-node infrastructure (Docker Swarm), and implementing governance systems with automated verification. Designed the StênioKernel (21,435 lines, 132 drivers) — a proprietary data governance system that ensures integrity, traceability, and quality. Anthropology degree from UnB as the foundation for understanding complex contexts before designing systems.
+Data consultant specialized in **data auditing and organization for the culture and entertainment sector**. I run a full deep-dive on your business data — inventory, payments, spreadsheets, systems — and deliver a clear diagnosis of what's wrong, where money is leaking, and what to do about it. My Anthropology background gives me an edge that traditional consultants don't have: I'm trained to enter complex environments, observe without bias, map real-world flows, and translate everything into practical solutions. I've applied this approach from the Planalto Palace to Amazonian communities and large-scale cultural events. I built the StênioKernel, a governance system that ensures every piece of data is whole, traceable, and auditable.
 
 ---
 
 ## 💼 Experience
 
-### 🚀 Sumænimá — Founder & Data Architect
+### 🚀 Sumænimá — Founder & Data Consultant
 *2016 — present · Brasília-DF / Remote*
 
-Sumænimá is my life project — nearly 10 years as an independent creative entity integrating technology, data, and research to solve complex information problems. The dream is to build a **Data Bureau** serving businesses, institutions, and communities with precise diagnostics and tailored solutions.
+Sumænimá is my life project — nearly 10 years integrating technology, data, and research to solve complex information problems. The dream is to build a **Data Bureau** serving businesses, institutions, and communities with precise audits and tailored solutions.
 
-**StênioBOT** (2024–present): a data capture, processing, and systematization platform running 100% local inference. Four modules covering the complete data cycle — from collection to analysis and visualization:
+**StênioBOT** (2024–present): proprietary data capture, processing, and auditing platform running 100% local AI. In production, field-validated — from IPEA and CNPCT/Planalto to multi-stakeholder cultural events.
 
-- **StênioREC** 🟢: real-time capture and transcription pipeline — **in production**, field-validated
-- **StênioPANEL** 🔴: physical workshop scanner with computer vision — **concept**
-- **StênioDIVE** 🔴: unified semantic search across multiple sources — **concept**
-- **DataVis** 🔴: real-time interactive data visualizations — **early stage**
+**StênioKernel:** proprietary data governance and auditing system (21,435 lines, 132 automated checks) ensuring integrity, traceability, and compliance across every information flow. The same kernel governing AI agents can audit and validate business data.
 
-Stack: FastAPI + React + PostgreSQL + Docker Swarm. Local, private processing with data sovereignty.
-
-**StênioKernel:** proprietary data governance and quality system (21,435 lines, 132 drivers, 22 modules) applying automated verification across all processes — ensuring integrity, traceability, and compliance. The same kernel governing AI agents can also audit and validate business data flows.
-
-**Data Systematization** (alongside StênioBOT):
-- Qualitative data systematization at multi-stakeholder events: **Sociobiodiversity Week (2025)** — 3rd National Youth PCT Meeting (IEB/CNS/MCM/CONFREM), **Module II — "Formar Protagonistas"** (IEB/APAFE/Rainforest Trust)
-- **IPEA Strategic Planning Meeting** (2026) — reporting and data systematization with real-time transcription. 3-day event contracted through **Imagine Gestão Social**, resulting in the institute's 2026–2027 agenda
-- **CNPCT (National Council of Traditional Peoples and Communities):** data capture and reporting since 2025, including the 22nd Ordinary Meeting (Mar/2026) at the **Palácio do Planalto** with real-time transcription via StênioREC
-- **3rd Castanha Collective Meeting (OCA)** (May 2026) — reporting and systematization with real-time transcription
+**Data Systematization Projects** (delivered with StênioBOT):
+- **Sociobiodiversity Week (2025)** — 3rd National Youth PCT Meeting: data capture and systematization with dozens of youth leaders from across Brazil
+- **IPEA Strategic Planning Meeting (2026)** — 3 days of real-time reporting and data, contracted through Imagine Gestão Social, resulting in the institute's 2026–2027 agenda
+- **CNPCT — Planalto Palace (2026)** — data capture and audit of the 22nd Ordinary Meeting of the National Council of Traditional Peoples and Communities, with real-time transcription
+- **3rd Castanha Collective Meeting — OCA/IEB (2026)** — reporting and systematization with real-time transcription
 
 ### 🗺️ ISPN — Institute for Society, Population and Nature
 *2017 — 2021 · Brasília-DF, Brazil*
 
 **Junior Technical Advisor** (2019–2021) · **Trainee** (2017–2019)
 
-#### Tô no Mapa — Data Diagnostics Case Study
+#### Tô no Mapa — Data Audit Case Study
 
-The problem: official government data represented only **28%** of traditional communities in the Cerrado — a critical gap rendering entire communities invisible to public policy. The same type of situation found in businesses where inventory, sales, or payment data doesn't reflect reality.
+The problem: official government data represented only **28%** of traditional communities in the Cerrado — a critical gap rendering them invisible. The same type of situation as a venue where registered inventory doesn't match reality, or payments don't reconcile with sales.
 
-The approach: ethnographic fieldwork with communities to understand their real mapping and land regularization needs. I contributed to the product discovery phase, translating ethnographic findings into functional requirements.
+The approach: ethnographic fieldwork with communities to understand their real mapping needs. I contributed to the product discovery phase, translating field findings into functional requirements.
 
-The result: the **Tô no Mapa Platform** — a self-mapping system now integrated with Brazil's **Federal Public Ministry**, empowering thousands of communities to put their own data on the map.
+The result: the **Tô no Mapa Platform** — a self-mapping system now integrated with Brazil's **Federal Public Ministry**, empowering thousands of communities.
 
-**This project defines my professional approach:** identify a critical data gap, go to the field to understand the real problem, and build a solution that organizes and solves.
+**This is my professional approach:** identify a critical data gap, go to the field to understand the real problem, and build a solution that organizes and solves.
 
 Other contributions:
 - Created the Institute's first public communications strategy
-- Produced thematic maps (QGIS), reports, and photographic coverage during field expeditions
-- Technical support for large-scale events: Acampamento Terra Livre, Feira dos Povos do Cerrado
+- Produced thematic maps (QGIS), reports, and photographic coverage in the field
+- Technical support for large-scale cultural events: Acampamento Terra Livre, Feira dos Povos do Cerrado
 
 ### 🦎 Participatory Fauna Monitoring Network
 *2020 — 2022 · Cavalcante-GO, Brazil*
 
 **Communications Specialist**
 
-Multi-institutional articulation in Chapada dos Veadeiros bringing together the Protected Areas management agency (ICMBio), university (UnB), landowners, and traditional communities. Facilitated the inaugural meeting and produced the complete executive report. Direct work with **André Rodrigues de Aquino** (Lead Environmental Specialist, World Bank) and **Daniel Ferreira** (Itamaraty diplomat).
+Multi-institutional articulation in Chapada dos Veadeiros bringing together ICMBio, UnB, landowners, and communities. Facilitated the inaugural meeting and produced the complete executive report. Direct work with **André Rodrigues de Aquino** (Lead Environmental Specialist, World Bank) and **Daniel Ferreira** (Itamaraty diplomat).
 
 ### 🌳 IPAM — Amazon Environmental Research Institute
 *2022 — 2025 · Brasília-DF, Brazil*
@@ -72,18 +65,16 @@ Multi-institutional articulation in Chapada dos Veadeiros bringing together the 
 
 **Case: Data-Driven Strategy — 143% Growth Through Metrics**
 
-Treated digital channels as data products: segmented audiences, tested formats, ran integrated organic and paid campaigns with continuous metric-based optimization.
+Treated digital channels as data products: segmented audiences, tested formats, ran integrated organic and paid campaigns with continuous metric-based optimization. Same logic as a business data audit — diagnose, measure, optimize.
 
 **📈 Results:**
-- **+143.3%** Facebook, **+100%** Instagram
-- **2+ million** consolidated reach
-- **66.7K** interactions on Instagram
-- **Mercosur Scientific Journalism Award — 1st place, Social Networks** (2024)
+- **+143.3%** Facebook, **+100%** Instagram, **2+ million** reach
+- **66.7K** interactions, **Mercosur Scientific Journalism Award — 1st place** (2024)
 
 Other contributions:
-- Implemented Agile/Scrum as Scrum Master, structuring sprints and delivery metrics
-- Managed Google Ad Grants (US$ 10K/month) and Meta Ads with data-driven optimization
-- Co-directed **"Manaus Extrema"** documentary — published by IPAM, premiered at INPA / PROTEJA Talks 2024
+- Agile/Scrum as Scrum Master — sprints and delivery metrics
+- Google Ad Grants (US$ 10K/month) and Meta Ads with continuous optimization
+- Co-directed **"Manaus Extrema"** documentary — published by IPAM
 
 ---
 
@@ -91,7 +82,7 @@ Other contributions:
 
 **University of Brasília (UnB)** — Bachelor's Degree in Social Sciences / Anthropology (2016–2023)
 
-- **Thesis:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Ethnography on land subdivision, memory, and life projects. Field research on land regularization and territoriality.
+- **Thesis:** *"Uma Assemblage de Projetos de Vida: mudanças organizacionais na Fazenda Canadá, Cavalcante-GO"* (2023). Ethnography on land subdivision, memory, and life projects.
 
 **Master's in Anthropology** — University of Brasília (2024–2025)
 Two semesters completed. Chose to leave to dedicate myself fully to data, product design, and systems architecture.
@@ -100,7 +91,7 @@ Two semesters completed. Chose to leave to dedicate myself fully to data, produc
 
 ## 📡 Infrastructure
 
-Own infrastructure for data processing and storage: multi-node cluster orchestrated via **Docker Swarm** with database (PostgreSQL), cache, DNS, monitoring (Grafana/Loki), and web edge services. Data processed locally with guaranteed sovereignty — no third-party cloud dependency for sensitive information. **Tailscale** mesh network as backbone. **30+ containers** in production.
+Own infrastructure for data processing and storage: multi-node cluster orchestrated via **Docker Swarm** with database (PostgreSQL), cache, DNS, monitoring (Grafana/Loki), and web edge services. Data processed locally with guaranteed sovereignty. **Tailscale** mesh network as backbone. **30+ containers** in production.
 
 ---
 
@@ -117,11 +108,11 @@ Own infrastructure for data processing and storage: multi-node cluster orchestra
 
 | Category | Competencies |
 |----------|-------------|
-| **Data Diagnostics** | Process mapping, data auditing, discovery, information flow modeling |
+| **Data Audit** | Deep-dive on information systems, process mapping, discovery, flow modeling |
 | **Database** | PostgreSQL, SQL, data modeling, analytical queries |
 | **Data Pipeline** | Collection, processing, systematization, analysis, and visualization |
 | **Infrastructure** | Docker Swarm, Linux, Tailscale, networking, servers, data sovereignty |
-| **Data Governance** | StênioKernel, automated verification, integrity, traceability |
+| **Governance** | StênioKernel, automated verification, integrity, traceability |
 | **Business Analysis** | Google Analytics, audience metrics, process optimization, OKRs |
 | **Methods** | Agile/Scrum (Scrum Master), ethnographic research, product discovery |
 | **Tools** | Git, Python, QGIS, Adobe Creative Suite, advanced spreadsheets |
