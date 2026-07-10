@@ -12,6 +12,7 @@ jobs:
         with:
           repository: ceduardorodrig/SUMAENIMA-HUB
           path: sumaenima-hub
+          ssh-key: ${{ secrets.STENIOCHECK_SSH_KEY }}
 
       - name: Rodar steniocheck (perfil resume)
         working-directory: curriculum-vitae
