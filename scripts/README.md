@@ -29,3 +29,21 @@ O perfil `resume` inclui 10 drivers que validam:
 - Conteúdo solto
 - Sumário (TOC)
 - Tom consistente
+
+## CI (GitHub Actions)
+
+O workflow `.github/workflows/ci.yml` roda a mesma validação em todo push. Ele faz checkout
+do **SUMAENIMA-HUB** (repositório privado do kernel) via SSH deploy key e executa:
+
+```bash
+PYTHONPATH=<sumaenima-hub>/scripts \
+  python3 -m steniocheck --tag resume --scope static --format github
+```
+
+O mesmo código do kernel roda localmente e no CI — governança unificada.
+
+### Segurança do CI
+
+O acesso ao SUMAENIMA-HUB usa **SSH deploy key read-only**, sem expor credenciais da conta
+do usuário. A chave privada está armazenada como secret criptografado do GitHub Actions
+(`STENIOCHECK_SSH_KEY`) e nunca aparece em logs ou no código fonte.

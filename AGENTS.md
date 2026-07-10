@@ -23,3 +23,9 @@ Ao modificar qualquer arquivo deste repositório, siga estas regras obrigatoriam
 7. **O cvcheck foi substituído** — o diretório `cvcheck/` foi removido. O kernel unificado está em `/mnt/NVME_PCI/sumaenimahub/SUMAENIMA-HUB/scripts/steniocheck/`. Use `./scripts/stenio_check` que chama o kernel com o perfil `resume`. Não edite drivers do steniocheck sem seguir o onboarding (Lei 16 do AGENTS.md do kernel).
 
 8. **README como fonte da verdade narrativa** — a seção "Narrativa" é o único lugar onde a história é contada de forma contínua. Os CVs são versões recortadas para públicos específicos. Se uma informação nova for adicionada a um CV, verifique se ela merece um lugar na narrativa do README.
+
+## 🤖 CI e Deploy Key
+
+9. **O CI roda o mesmo kernel unificado** — o workflow `.github/workflows/ci.yml` faz checkout do SUMAENIMA-HUB (repositório privado do StênioKernel) via SSH deploy key e executa `steniocheck --tag resume --scope static --format github`. Agentes **nunca** devem modificar, remover ou contornar as verificações do CI.
+
+10. **O segredo `STENIOCHECK_SSH_KEY` é intocável** — a chave SSH privada está armazenada como secret do GitHub Actions e é usada exclusivamente pelo `actions/checkout` para acessar o SUMAENIMA-HUB. Agentes **não** devem ler, alterar, remover ou expor este segredo de nenhuma forma. A chave pública correspondente está registrada como deploy key read-only no SUMAENIMA-HUB.
