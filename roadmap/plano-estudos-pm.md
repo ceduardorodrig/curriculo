@@ -25,6 +25,7 @@
 | **Gantt / Timeline Planning** | Vários projetos (sistematização de processos) | Já está no CV |
 | **Budget Management** | IPAM: US$ 10K/mês em Google Ad Grants | Já está no CV |
 | **Cross-functional Team Leadership** | IPAM + Sumænimá | Já está no CV |
+| **AARRR (Pirate Metrics)** | IPAM: análise de funil (aquisição → ativação → retenção → receita → referência) nas campanhas digitais, segmentando audiências por canal e medindo conversão em cada etapa | Já usei de forma implícita. Formalizar no CV |
 
 ### 🔴 Prioridade Máxima — Estudar e Adicionar ao CV
 
@@ -37,6 +38,7 @@
 | **Feature Flags** | 30 min | LaunchDarkly docs, Martin Fowler post |
 | **Definition of Done (DoD)** | 15 min | Scrum Guide |
 | **Acceptance Criteria** | 15 min | Mountain Goat Software |
+| **AARRR / Pirate Metrics** | 30 min | Dave McClure original (Slideshare) + "Pirate Metrics" no ProductPlan |
 
 ### 🟡 Prioridade Média
 
@@ -99,6 +101,9 @@ Sand + Pebbles, T-shirt sizes, Risk Management, Gantt, Agile/Scrum.
 > ~~"Liderou time multifuncional..."~~ →
 > **Definiu** **Definition of Done** e **Acceptance Criteria** para campanhas digitais como Scrum Master, reduzindo retrabalho e aumentando previsibilidade de entrega do time
 
+> ~~"Analisei métricas..."~~ →
+> **Aplicou** framework **AARRR (Pirate Metrics)** para diagnosticar gargalos no funil digital, identificando que retenção era o ponto crítico — direcionou orçamento para campanhas de reengajamento, aumentando lifetime value por usuário
+
 ---
 
 ## 5. STAR Stories — Para Entrevista (Fase 3)
@@ -120,7 +125,7 @@ Histórias completas no formato **S**ituação → **T**arefa → **A**ção →
 |---|---|
 | **S** | Canais digitais do IPAM estagnados, sem métricas claras ou processo de entrega |
 | **T** | Alcançar +100% de crescimento e estruturar processo de trabalho do time |
-| **A** | Implementei Agile/Scrum como Scrum Master; defini KPIs e OKRs; segmentei audiências por canal; geri orçamento de US$ 10K/mês com testes A/B contínuos; liderei time multifuncional (designers, redatores, analistas) |
+| **A** | Implementei Agile/Scrum como Scrum Master; defini KPIs e OKRs; analisei o funil completo com framework **AARRR (Pirate Metrics)** — de aquisição a referência; segmentei audiências por canal; geri orçamento de US$ 10K/mês com testes A/B contínuos; liderei time multifuncional (designers, redatores, analistas) |
 | **R** | +143,3% Facebook, +100% Instagram, 2M+ alcance, 66,7K interações, Prêmio Mercosul de Jornalismo Científico — 1º lugar |
 
 ### Story 3: StênioBOT (Product Ownership)
@@ -147,7 +152,7 @@ Histórias completas no formato **S**ituação → **T**arefa → **A**ção →
 
 | Fase | Duração | O que faz |
 |---|---|---|
-| **Fase 1 — Estudar** | 1 semana | ICE/RICE, OKR, PRD, DoD, Acceptance Criteria, Feature Flags, podcasts |
+| **Fase 1 — Estudar** | 1 semana | ICE/RICE, OKR, PRD, DoD, Acceptance Criteria, Feature Flags, **AARRR**, podcasts |
 | **Fase 2 — Atualizar CV** | 1 dia | Skills table + bullets reformulados + STAR stories |
 | **Fase 3 — Entrevista** | Contínuo | Pitch verbal 30s/60s/120s + simulação de perguntas PM |
 
